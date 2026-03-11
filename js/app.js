@@ -214,6 +214,9 @@ function setupEventListeners() {
         }
     });
 
+    // Swap item button (uses swap token)
+    document.getElementById('swap-item-btn').addEventListener('click', swapCurrentItem);
+
     // Results buttons
     document.getElementById('share-btn').addEventListener('click', shareResults);
     document.getElementById('play-again-btn').addEventListener('click', playAgain);
@@ -282,7 +285,7 @@ function setupEventListeners() {
 function renderCategories() {
     const filtered = categoryManager.getFilteredCategories(state.settings.rating);
     const container = document.getElementById('category-grid');
-    ui.renderCategoryGrid(filtered, container, (cat) => startGame(cat, false), state.player.unlockedAll);
+    ui.renderCategoryGrid(filtered, container, (cat) => startGame(cat, false));
 }
 
 // Load and render community categories
@@ -341,17 +344,24 @@ async function startGame(categoryMeta, isCommunity = false) {
     state.game.swapMode = null;
     state.game.swapFirst = null;
 
+    // Keep track of unused items for random swap feature
+    const usedIds = new Set(state.game.items.map(item => item.id));
+    state.game.swapPool = category.items.filter(item => !usedIds.has(item.id));
+
     // Setup UI
     ui.setCategoryName(category.name, categoryMeta.emoji || category.emoji || '🎯');
 
-    // Show GOAT notification if this is a GOAT game
+    // Show GOAT notification if this is a GOAT game (subtle)
     if (hasGoat) {
-        ui.showToast('🐐 GOAT Round! Pick your #1 of all time!');
+        ui.showToast('🐐 Special round!');
     }
 
     ui.renderRankingSlots(state.game.size, handleSlotClick, hasGoat);
     ui.updateProgress(1, totalSlots);
     ui.updateCurrentItem(state.game.items[0], category.id);
+
+    // Show swap button if player has tokens and there are items to swap in
+    ui.updateSwapButton(state.player.swapTokens, state.game.swapPool.length);
 
     // Show game screen
     ui.showScreen('game');
@@ -384,7 +394,45 @@ function handleSlotClick(rank) {
     } else {
         ui.updateProgress(state.game.currentIndex + 1, state.game.totalSlots);
         ui.updateCurrentItem(state.game.items[state.game.currentIndex], state.game.category.id);
+        // Update swap button visibility
+        ui.updateSwapButton(state.player.swapTokens, state.game.swapPool.length);
     }
+}
+
+// Swap current item for a random one (costs 1 swap token)
+function swapCurrentItem() {
+    // Check if player has tokens and there are items to swap
+    if (state.player.swapTokens <= 0) {
+        ui.showToast('No swap tokens! Earn one every 20 games.');
+        return;
+    }
+    if (state.game.swapPool.length === 0) {
+        ui.showToast('No more items to swap in!');
+        return;
+    }
+
+    // Use a token
+    state.player.swapTokens--;
+    const stats = JSON.parse(localStorage.getItem(STORAGE_KEYS.stats) || '{}');
+    stats.swapTokens = state.player.swapTokens;
+    localStorage.setItem(STORAGE_KEYS.stats, JSON.stringify(stats));
+
+    // Get random item from pool
+    const randomIndex = Math.floor(Math.random() * state.game.swapPool.length);
+    const newItem = state.game.swapPool.splice(randomIndex, 1)[0];
+
+    // Put current item back in pool
+    const currentItem = state.game.items[state.game.currentIndex];
+    state.game.swapPool.push(currentItem);
+
+    // Replace current item
+    state.game.items[state.game.currentIndex] = newItem;
+
+    // Update UI
+    ui.updateCurrentItem(newItem, state.game.category.id);
+    ui.updateSwapButton(state.player.swapTokens, state.game.swapPool.length);
+    ui.updatePlayerStats(state.player);
+    ui.showToast(`🔄 Swapped! Now rank: ${newItem.name}`);
 }
 
 // End blind phase - go to re-rank screen

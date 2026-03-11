@@ -65,12 +65,26 @@ class UIManager {
         const statsEl = document.getElementById('player-stats');
         if (!statsEl) return;
 
-        const gamesText = `🎮 ${player.gamesPlayed} games`;
-        const tokensText = player.swapTokens > 0 ? ` | 🎁 ${player.swapTokens} swap tokens` : '';
-        const lockedText = player.gamesPlayed < 15 ? ` | 🔒 ${15 - player.gamesPlayed} to unlock` : ' | 🔓 All unlocked';
+        const gamesText = `🎮 ${player.gamesPlayed} games played`;
+        const tokensText = player.swapTokens > 0 ? ` | 🎁 ${player.swapTokens} swap token${player.swapTokens > 1 ? 's' : ''}` : '';
+        const nextToken = 20 - (player.gamesPlayed % 20);
+        const nextTokenText = nextToken < 20 ? ` | ${nextToken} to next 🎁` : '';
 
-        statsEl.innerHTML = `<span class="stats-text">${gamesText}${tokensText}${lockedText}</span>`;
+        statsEl.innerHTML = `<span class="stats-text">${gamesText}${tokensText}${nextTokenText}</span>`;
         statsEl.style.display = 'block';
+    }
+
+    // Swap Button on Game screen (for swapping current item)
+    updateSwapButton(tokens, poolSize) {
+        const btn = document.getElementById('swap-item-btn');
+        if (!btn) return;
+
+        if (tokens > 0 && poolSize > 0) {
+            btn.textContent = `🎁 Swap for random (${tokens} left)`;
+            btn.style.display = 'block';
+        } else {
+            btn.style.display = 'none';
+        }
     }
 
     // Swap Token Display on Rerank screen
@@ -78,22 +92,12 @@ class UIManager {
         const displayEl = document.getElementById('swap-token-display');
         if (!displayEl) return;
 
-        if (tokens > 0) {
-            displayEl.innerHTML = `
-                <div class="swap-token-badge">
-                    <span class="token-icon">🎁</span>
-                    <span class="token-count">${tokens} Swap Token${tokens > 1 ? 's' : ''}</span>
-                    <span class="token-hint">Tap two items to swap!</span>
-                </div>
-            `;
-            displayEl.style.display = 'block';
-        } else {
-            displayEl.style.display = 'none';
-        }
+        // Hide on rerank screen - swaps are during gameplay now
+        displayEl.style.display = 'none';
     }
 
-    // Category Grid - with optional locking
-    renderCategoryGrid(categories, container, onSelect, unlockedAll = true) {
+    // Category Grid
+    renderCategoryGrid(categories, container, onSelect) {
         container.innerHTML = '';
 
         if (categories.length === 0) {
@@ -106,35 +110,17 @@ class UIManager {
             return;
         }
 
-        // Lock the last ~20% of categories per tier if not unlocked
-        const lockCount = unlockedAll ? 0 : Math.ceil(categories.length * 0.2);
-        const lockedStartIndex = categories.length - lockCount;
-
-        categories.forEach((category, index) => {
-            const isLocked = !unlockedAll && index >= lockedStartIndex;
+        categories.forEach((category) => {
             const card = document.createElement('div');
-            card.className = 'category-card' + (isLocked ? ' locked' : '');
+            card.className = 'category-card';
             card.dataset.id = category.id;
-
-            if (isLocked) {
-                card.innerHTML = `
-                    <div class="category-emoji">🔒</div>
-                    <div class="category-title">${category.name}</div>
-                    <div class="category-count">Play 15 games to unlock!</div>
-                    <span class="category-rating ${category.rating}">${category.rating}</span>
-                `;
-                card.addEventListener('click', () => {
-                    this.showToast('🔒 Play 15 games to unlock this category!');
-                });
-            } else {
-                card.innerHTML = `
-                    <div class="category-emoji">${category.emoji}</div>
-                    <div class="category-title">${category.name}</div>
-                    <div class="category-count">${category.itemCount} items</div>
-                    <span class="category-rating ${category.rating}">${category.rating}</span>
-                `;
-                card.addEventListener('click', () => onSelect(category));
-            }
+            card.innerHTML = `
+                <div class="category-emoji">${category.emoji}</div>
+                <div class="category-title">${category.name}</div>
+                <div class="category-count">${category.itemCount} items</div>
+                <span class="category-rating ${category.rating}">${category.rating}</span>
+            `;
+            card.addEventListener('click', () => onSelect(category));
             container.appendChild(card);
         });
     }

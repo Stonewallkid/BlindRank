@@ -469,6 +469,30 @@ button {
     font-weight: 500;
 }
 
+/* Swap Item Button */
+.swap-item-btn {
+    margin-top: 12px;
+    padding: 10px 16px;
+    background: linear-gradient(135deg, #ffd700, #ffaa00);
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
+}
+
+.swap-item-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.5);
+}
+
+.swap-item-btn:active {
+    transform: scale(0.98);
+}
+
 /* Ranking Panel (Right) */
 .ranking-panel {
     display: flex;
