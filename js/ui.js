@@ -70,8 +70,25 @@ class UIManager {
         const nextToken = 20 - (player.gamesPlayed % 20);
         const nextTokenText = nextToken < 20 ? ` | ${nextToken} to next 🎁` : '';
 
-        statsEl.innerHTML = `<span class="stats-text">${gamesText}${tokensText}${nextTokenText}</span>`;
+        // Show Top 15 unlock progress or unlocked status
+        let unlockText = '';
+        if (player.gamesPlayed < 15) {
+            unlockText = ` | 🔒 ${15 - player.gamesPlayed} to unlock Top 15`;
+        }
+
+        statsEl.innerHTML = `<span class="stats-text">${gamesText}${tokensText}${nextTokenText}${unlockText}</span>`;
         statsEl.style.display = 'block';
+
+        // Show/hide Top 15 button
+        const top15Btn = document.getElementById('size-15-btn');
+        if (top15Btn) {
+            if (player.gamesPlayed >= 15) {
+                top15Btn.style.display = 'inline-block';
+                top15Btn.classList.remove('size-btn-locked');
+            } else {
+                top15Btn.style.display = 'none';
+            }
+        }
     }
 
     // Swap Button on Game screen (for swapping current item)
@@ -220,11 +237,15 @@ class UIManager {
         const container = document.getElementById('rerank-list');
         container.innerHTML = '';
 
-        // Add two-column class for 7+ items
+        // Add two-column class for 7+ items with proper row count
         if (items.length >= 7) {
             container.classList.add('two-column');
+            // Calculate rows needed (items flow down first column, then second)
+            const rows = Math.ceil(items.length / 2);
+            container.setAttribute('data-rows', rows);
         } else {
             container.classList.remove('two-column');
+            container.removeAttribute('data-rows');
         }
 
         let selectedIndex = null;
