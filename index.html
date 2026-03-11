@@ -70,13 +70,16 @@
                 </div>
 
                 <div class="size-selector">
-                    <label>Ranking Size: <span class="size-hint">(🐐 GOAT + your picks)</span></label>
+                    <label>Ranking Size: <span class="size-hint">(🐐 GOAT appears every 5th game!)</span></label>
                     <div class="size-options">
-                        <button class="size-btn active" data-size="3">🐐+3</button>
-                        <button class="size-btn" data-size="5">🐐+5</button>
-                        <button class="size-btn" data-size="10">🐐+10</button>
+                        <button class="size-btn active" data-size="3">Top 3</button>
+                        <button class="size-btn" data-size="5">Top 5</button>
+                        <button class="size-btn" data-size="10">Top 10</button>
                     </div>
                 </div>
+
+                <!-- Player Stats -->
+                <div id="player-stats" class="player-stats" style="display: none;"></div>
 
                 <!-- Official Categories -->
                 <div id="official-section" class="category-section">
@@ -220,6 +223,9 @@
             <div class="rerank-content">
                 <h2>Now Re-Rank Them!</h2>
                 <p class="rerank-subtitle">You've seen all the options. Drag to reorder how you'd actually rank them.</p>
+
+                <!-- Swap Token Display -->
+                <div id="swap-token-display" class="swap-token-display" style="display: none;"></div>
 
                 <div id="rerank-list" class="rerank-list">
                     <!-- Draggable items here -->

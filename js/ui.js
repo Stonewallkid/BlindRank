@@ -60,8 +60,40 @@ class UIManager {
         }, duration);
     }
 
-    // Category Grid
-    renderCategoryGrid(categories, container, onSelect) {
+    // Player Stats Display
+    updatePlayerStats(player) {
+        const statsEl = document.getElementById('player-stats');
+        if (!statsEl) return;
+
+        const gamesText = `🎮 ${player.gamesPlayed} games`;
+        const tokensText = player.swapTokens > 0 ? ` | 🎁 ${player.swapTokens} swap tokens` : '';
+        const lockedText = player.gamesPlayed < 15 ? ` | 🔒 ${15 - player.gamesPlayed} to unlock` : ' | 🔓 All unlocked';
+
+        statsEl.innerHTML = `<span class="stats-text">${gamesText}${tokensText}${lockedText}</span>`;
+        statsEl.style.display = 'block';
+    }
+
+    // Swap Token Display on Rerank screen
+    updateSwapTokenDisplay(tokens) {
+        const displayEl = document.getElementById('swap-token-display');
+        if (!displayEl) return;
+
+        if (tokens > 0) {
+            displayEl.innerHTML = `
+                <div class="swap-token-badge">
+                    <span class="token-icon">🎁</span>
+                    <span class="token-count">${tokens} Swap Token${tokens > 1 ? 's' : ''}</span>
+                    <span class="token-hint">Tap two items to swap!</span>
+                </div>
+            `;
+            displayEl.style.display = 'block';
+        } else {
+            displayEl.style.display = 'none';
+        }
+    }
+
+    // Category Grid - with optional locking
+    renderCategoryGrid(categories, container, onSelect, unlockedAll = true) {
         container.innerHTML = '';
 
         if (categories.length === 0) {
@@ -74,57 +106,75 @@ class UIManager {
             return;
         }
 
-        categories.forEach(category => {
+        // Lock the last ~20% of categories per tier if not unlocked
+        const lockCount = unlockedAll ? 0 : Math.ceil(categories.length * 0.2);
+        const lockedStartIndex = categories.length - lockCount;
+
+        categories.forEach((category, index) => {
+            const isLocked = !unlockedAll && index >= lockedStartIndex;
             const card = document.createElement('div');
-            card.className = 'category-card';
+            card.className = 'category-card' + (isLocked ? ' locked' : '');
             card.dataset.id = category.id;
-            card.innerHTML = `
-                <div class="category-emoji">${category.emoji}</div>
-                <div class="category-title">${category.name}</div>
-                <div class="category-count">${category.itemCount} items</div>
-                <span class="category-rating ${category.rating}">${category.rating}</span>
-            `;
-            card.addEventListener('click', () => onSelect(category));
+
+            if (isLocked) {
+                card.innerHTML = `
+                    <div class="category-emoji">🔒</div>
+                    <div class="category-title">${category.name}</div>
+                    <div class="category-count">Play 15 games to unlock!</div>
+                    <span class="category-rating ${category.rating}">${category.rating}</span>
+                `;
+                card.addEventListener('click', () => {
+                    this.showToast('🔒 Play 15 games to unlock this category!');
+                });
+            } else {
+                card.innerHTML = `
+                    <div class="category-emoji">${category.emoji}</div>
+                    <div class="category-title">${category.name}</div>
+                    <div class="category-count">${category.itemCount} items</div>
+                    <span class="category-rating ${category.rating}">${category.rating}</span>
+                `;
+                card.addEventListener('click', () => onSelect(category));
+            }
             container.appendChild(card);
         });
     }
 
-    // Game UI
-    renderRankingSlots(count, onSlotClick) {
+    // Game UI - render ranking slots
+    // hasGoat: if true, first slot is GOAT (index 0), then 1,2,3...
+    // if false, slots are just 1,2,3... (index 0,1,2...)
+    renderRankingSlots(count, onSlotClick, hasGoat = false) {
         const container = document.getElementById('ranking-slots');
         container.innerHTML = '';
 
-        // GOAT slot first (rank 0)
-        const goatSlot = document.createElement('div');
-        goatSlot.className = 'rank-slot goat-slot';
-        goatSlot.dataset.rank = 0;
-        goatSlot.innerHTML = `
-            <div class="rank-number goat-icon">🐐</div>
-            <div class="slot-content">
-                <span class="slot-placeholder">The GOAT goes here</span>
-            </div>
-        `;
-        goatSlot.addEventListener('click', () => {
-            if (!goatSlot.classList.contains('filled')) {
-                onSlotClick(0);
-            }
-        });
-        container.appendChild(goatSlot);
+        const totalSlots = hasGoat ? count + 1 : count;
 
-        // Regular numbered slots (1 through count)
-        for (let i = 1; i <= count; i++) {
+        for (let slotIndex = 0; slotIndex < totalSlots; slotIndex++) {
             const slot = document.createElement('div');
-            slot.className = 'rank-slot';
-            slot.dataset.rank = i;
-            slot.innerHTML = `
-                <div class="rank-number">${i}</div>
-                <div class="slot-content">
-                    <span class="slot-placeholder">Click to place item here</span>
-                </div>
-            `;
+            const isGoatSlot = hasGoat && slotIndex === 0;
+
+            slot.className = 'rank-slot' + (isGoatSlot ? ' goat-slot' : '');
+            slot.dataset.rank = slotIndex;
+
+            if (isGoatSlot) {
+                slot.innerHTML = `
+                    <div class="rank-number goat-icon">🐐</div>
+                    <div class="slot-content">
+                        <span class="slot-placeholder">The GOAT goes here</span>
+                    </div>
+                `;
+            } else {
+                const displayNum = hasGoat ? slotIndex : slotIndex + 1;
+                slot.innerHTML = `
+                    <div class="rank-number">${displayNum}</div>
+                    <div class="slot-content">
+                        <span class="slot-placeholder">Click to place item here</span>
+                    </div>
+                `;
+            }
+
             slot.addEventListener('click', () => {
                 if (!slot.classList.contains('filled')) {
-                    onSlotClick(i);
+                    onSlotClick(slotIndex);
                 }
             });
             container.appendChild(slot);
@@ -150,7 +200,7 @@ class UIManager {
         hintEl.textContent = item.hint || '';
     }
 
-    fillSlot(rank, item, categoryId) {
+    fillSlot(rank, item, categoryId, hasGoat = false) {
         const slot = document.querySelector(`.rank-slot[data-rank="${rank}"]`);
         if (slot) {
             slot.classList.add('filled');
@@ -160,7 +210,7 @@ class UIManager {
                 <span class="slot-item-name">${item.name}</span>
             `;
             // Add GOAT crown effect when filling the GOAT slot
-            if (rank === 0) {
+            if (hasGoat && rank === 0) {
                 slot.classList.add('goat-filled');
             }
         }
@@ -180,9 +230,16 @@ class UIManager {
     }
 
     // Re-rank UI
-    renderRerankList(items, onReorder) {
+    renderRerankList(items, onReorder, hasGoat = false) {
         const container = document.getElementById('rerank-list');
         container.innerHTML = '';
+
+        // Add two-column class for 7+ items
+        if (items.length >= 7) {
+            container.classList.add('two-column');
+        } else {
+            container.classList.remove('two-column');
+        }
 
         let selectedIndex = null;
 
@@ -190,11 +247,16 @@ class UIManager {
             container.innerHTML = '';
             items.forEach((item, index) => {
                 const el = document.createElement('div');
-                el.className = 'rerank-item';
+                const isGoat = hasGoat && index === 0;
+                el.className = 'rerank-item' + (isGoat ? ' goat-item' : '');
                 el.draggable = true;
                 el.dataset.index = index;
+
+                // Display: GOAT for first if hasGoat, otherwise numbered
+                const rankDisplay = isGoat ? '🐐' : (hasGoat ? index : index + 1);
+
                 el.innerHTML = `
-                    <div class="rerank-rank">${index + 1}</div>
+                    <div class="rerank-rank${isGoat ? ' goat-rank' : ''}">${rankDisplay}</div>
                     <span class="rerank-emoji">${item.emoji}</span>
                     <span class="rerank-name">${item.name}</span>
                     <span class="rerank-handle">⋮⋮</span>
@@ -260,7 +322,7 @@ class UIManager {
     }
 
     // Results UI - Compare blind vs true ranking
-    renderResultsComparison(blindRanking, trueRanking) {
+    renderResultsComparison(blindRanking, trueRanking, hasGoat = false) {
         const blindContainer = document.getElementById('blind-ranking');
         const trueContainer = document.getElementById('true-ranking');
 
@@ -275,9 +337,9 @@ class UIManager {
             if (diff === 0) matchClass = 'match';
             else if (diff === 1) matchClass = 'close';
 
-            // GOAT for position 0, numbers for rest
-            const rankDisplay = index === 0 ? '🐐' : index;
-            const isGoat = index === 0;
+            // GOAT for position 0 only if hasGoat, otherwise numbered 1,2,3...
+            const isGoat = hasGoat && index === 0;
+            const rankDisplay = isGoat ? '🐐' : (hasGoat ? index : index + 1);
 
             const el = document.createElement('div');
             el.className = `mini-rank-item ${matchClass}${isGoat ? ' goat-result' : ''}`;
@@ -290,9 +352,9 @@ class UIManager {
         });
 
         trueRanking.forEach((item, index) => {
-            // GOAT for position 0, numbers for rest
-            const rankDisplay = index === 0 ? '🐐' : index;
-            const isGoat = index === 0;
+            // GOAT for position 0 only if hasGoat
+            const isGoat = hasGoat && index === 0;
+            const rankDisplay = isGoat ? '🐐' : (hasGoat ? index : index + 1);
 
             const el = document.createElement('div');
             el.className = `mini-rank-item${isGoat ? ' goat-result' : ''}`;

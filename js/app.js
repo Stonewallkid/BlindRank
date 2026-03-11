@@ -20,12 +20,20 @@ const state = {
         size: 5,
         isCommunity: false,
         blindRanking: [],  // The ranking made during blind phase
-        trueRanking: []    // The re-ranked "true preference" ranking
+        trueRanking: [],   // The re-ranked "true preference" ranking
+        hasGoat: false,    // Whether this game has GOAT slot
+        swapMode: null,    // 'swap' or 'replace' during re-rank
+        swapFirst: null    // First item selected for swap
     },
     source: 'official', // 'official', 'community', 'create'
     create: {
         items: [],
         editingDraftId: null
+    },
+    player: {
+        gamesPlayed: 0,
+        swapTokens: 0,
+        unlockedAll: false
     }
 };
 
@@ -36,9 +44,29 @@ const STORAGE_KEYS = {
     stats: 'blindrank_stats'
 };
 
+// Load player stats from localStorage
+function loadPlayerStats() {
+    const stats = JSON.parse(localStorage.getItem(STORAGE_KEYS.stats) || '{}');
+    state.player.gamesPlayed = stats.gamesPlayed || 0;
+    state.player.swapTokens = stats.swapTokens || 0;
+    state.player.unlockedAll = state.player.gamesPlayed >= 15;
+}
+
+// Check if GOAT should appear this game (every 5th game)
+function shouldShowGoat() {
+    const nextGame = state.player.gamesPlayed + 1;
+    return nextGame % 5 === 0; // Every 5th game
+}
+
+// Get number of swap tokens
+function getSwapTokens() {
+    return state.player.swapTokens;
+}
+
 // Initialize Application
 async function init() {
     loadSettings();
+    loadPlayerStats();
     applySettings();
     setupEventListeners();
 
@@ -52,6 +80,9 @@ async function init() {
     await categoryManager.loadCategories();
     renderCategories();
     renderDrafts();
+
+    // Update UI with player stats
+    ui.updatePlayerStats(state.player);
 }
 
 // Settings Management
@@ -251,7 +282,7 @@ function setupEventListeners() {
 function renderCategories() {
     const filtered = categoryManager.getFilteredCategories(state.settings.rating);
     const container = document.getElementById('category-grid');
-    ui.renderCategoryGrid(filtered, container, (cat) => startGame(cat, false));
+    ui.renderCategoryGrid(filtered, container, (cat) => startGame(cat, false), state.player.unlockedAll);
 }
 
 // Load and render community categories
@@ -289,8 +320,9 @@ async function startGame(categoryMeta, isCommunity = false) {
         }
     }
 
-    // Total slots = user size + 1 for GOAT
-    const totalSlots = state.game.size + 1;
+    // Check if GOAT slot should appear (every 5th game)
+    const hasGoat = shouldShowGoat();
+    const totalSlots = hasGoat ? state.game.size + 1 : state.game.size;
 
     if (category.items.length < totalSlots) {
         ui.showToast(`This category only has ${category.items.length} items. Try a smaller ranking size.`);
@@ -304,11 +336,20 @@ async function startGame(categoryMeta, isCommunity = false) {
     state.game.ranking = [];
     state.game.slots = new Array(totalSlots).fill(null);
     state.game.totalSlots = totalSlots;
+    state.game.hasGoat = hasGoat;
     state.game.isCommunity = isCommunity;
+    state.game.swapMode = null;
+    state.game.swapFirst = null;
 
     // Setup UI
     ui.setCategoryName(category.name, categoryMeta.emoji || category.emoji || '🎯');
-    ui.renderRankingSlots(state.game.size, handleSlotClick); // Pass original size, GOAT is added automatically
+
+    // Show GOAT notification if this is a GOAT game
+    if (hasGoat) {
+        ui.showToast('🐐 GOAT Round! Pick your #1 of all time!');
+    }
+
+    ui.renderRankingSlots(state.game.size, handleSlotClick, hasGoat);
     ui.updateProgress(1, totalSlots);
     ui.updateCurrentItem(state.game.items[0], category.id);
 
@@ -328,12 +369,12 @@ async function startCommunityGame(categoryData) {
 function handleSlotClick(rank) {
     const currentItem = state.game.items[state.game.currentIndex];
 
-    // Place item in slot (rank 0 = GOAT, rank 1 = #1, etc.)
+    // Place item in slot (rank 0 = GOAT if hasGoat, otherwise #1)
     state.game.slots[rank] = currentItem;
     state.game.ranking.push({ item: currentItem, rank });
 
     // Update UI
-    ui.fillSlot(rank, currentItem, state.game.category.id);
+    ui.fillSlot(rank, currentItem, state.game.category.id, state.game.hasGoat);
 
     // Move to next item or end game
     state.game.currentIndex++;
@@ -354,10 +395,13 @@ function endGame() {
     // Start true ranking as a copy of blind ranking (user will reorder)
     state.game.trueRanking = [...state.game.blindRanking];
 
-    // Render re-rank screen
+    // Render re-rank screen with hasGoat flag
     ui.renderRerankList(state.game.trueRanking, (reorderedItems) => {
         state.game.trueRanking = reorderedItems;
-    });
+    }, state.game.hasGoat);
+
+    // Show swap token info if player has tokens
+    ui.updateSwapTokenDisplay(state.player.swapTokens);
 
     ui.showScreen('rerank');
 }
@@ -371,8 +415,8 @@ async function confirmRerank() {
     const vibeScore = calculateVibeScore(blindRanking, trueRanking);
     const message = getVibeMessage(vibeScore);
 
-    // Render comparison
-    ui.renderResultsComparison(blindRanking, trueRanking);
+    // Render comparison with hasGoat flag
+    ui.renderResultsComparison(blindRanking, trueRanking, state.game.hasGoat);
     ui.setScore(vibeScore, message);
     ui.hideSharePreview();
 
@@ -448,12 +492,18 @@ function getVibeMessage(score) {
 function shareResults() {
     const category = state.game.category;
     const finalRanking = state.game.slots.filter(item => item !== null);
-    // GOAT first, then medals for 1-3, then numbers
-    const rankEmojis = ['🐐', '🥇', '🥈', '🥉', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣', '🔟'];
 
-    let shareText = `BlindRank: ${category.name}\n\n`;
+    // Choose rank emojis based on whether this was a GOAT game
+    const rankEmojis = state.game.hasGoat
+        ? ['🐐', '🥇', '🥈', '🥉', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣', '🔟', '11']
+        : ['🥇', '🥈', '🥉', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣', '🔟'];
+
+    let shareText = `BlindRank: ${category.name}`;
+    if (state.game.hasGoat) shareText += ' 🐐';
+    shareText += '\n\n';
+
     finalRanking.forEach((item, index) => {
-        shareText += `${rankEmojis[index] || index} ${item.emoji} ${item.name}\n`;
+        shareText += `${rankEmojis[index] || (index + 1)} ${item.emoji} ${item.name}\n`;
     });
     shareText += `\nVibe Check: ${document.getElementById('score').textContent}`;
     shareText += `\n\n🎮 BlindRank`;
@@ -483,13 +533,35 @@ async function playAgain() {
 // Save stats
 function saveGameStats(score) {
     const stats = JSON.parse(localStorage.getItem(STORAGE_KEYS.stats) || '{}');
-    stats.gamesPlayed = (stats.gamesPlayed || 0) + 1;
+    const prevGamesPlayed = stats.gamesPlayed || 0;
+    stats.gamesPlayed = prevGamesPlayed + 1;
     stats.totalScore = (stats.totalScore || 0) + score;
     stats.avgScore = Math.round(stats.totalScore / stats.gamesPlayed);
     if (!stats.highScore || score > stats.highScore) {
         stats.highScore = score;
     }
+
+    // Award swap token every 20 games
+    stats.swapTokens = stats.swapTokens || 0;
+    if (stats.gamesPlayed % 20 === 0) {
+        stats.swapTokens += 1;
+        ui.showToast('🎁 You earned a Swap Token! Use it to swap items during re-rank.');
+    }
+
+    // Check for unlock milestone (15 games)
+    if (prevGamesPlayed < 15 && stats.gamesPlayed >= 15) {
+        ui.showToast('🔓 You unlocked 15 bonus categories!');
+    }
+
     localStorage.setItem(STORAGE_KEYS.stats, JSON.stringify(stats));
+
+    // Update local state
+    state.player.gamesPlayed = stats.gamesPlayed;
+    state.player.swapTokens = stats.swapTokens;
+    state.player.unlockedAll = stats.gamesPlayed >= 15;
+
+    // Update UI
+    ui.updatePlayerStats(state.player);
 }
 
 // Flag handling

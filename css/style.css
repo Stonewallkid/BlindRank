@@ -241,6 +241,29 @@ button {
     border-color: var(--accent);
 }
 
+/* Locked categories */
+.category-card.locked {
+    opacity: 0.6;
+    background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-secondary) 100%);
+    border: 2px dashed var(--text-secondary);
+    cursor: not-allowed;
+}
+
+.category-card.locked:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: var(--text-secondary);
+}
+
+.category-card.locked .category-emoji {
+    filter: grayscale(100%);
+}
+
+.category-card.locked .category-count {
+    color: var(--accent);
+    font-weight: 500;
+}
+
 .category-emoji {
     font-size: 2.5rem;
     margin-bottom: 8px;
@@ -1564,6 +1587,85 @@ button {
     font-size: 0.85rem;
     color: var(--text-secondary);
     margin-bottom: 24px;
+}
+
+/* Two-column layout for 7+ items */
+.rerank-list.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 16px;
+}
+
+.rerank-list.two-column .rerank-item {
+    padding: 10px 12px;
+}
+
+.rerank-list.two-column .rerank-name {
+    font-size: 0.9rem;
+}
+
+/* GOAT item in rerank */
+.rerank-item.goat-item {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border: 2px solid #ffd700;
+}
+
+.rerank-item.goat-item .rerank-rank {
+    background: linear-gradient(135deg, #ffd700, #ffed4a);
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+}
+
+.goat-rank {
+    background: linear-gradient(135deg, #ffd700, #ffed4a) !important;
+}
+
+/* Swap Token Display */
+.swap-token-display {
+    margin-bottom: 16px;
+}
+
+.swap-token-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #ffd700, #ffaa00);
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.token-icon {
+    font-size: 1.2rem;
+}
+
+.token-hint {
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+/* Player Stats */
+.player-stats {
+    text-align: center;
+    padding: 12px;
+    background: var(--bg-card);
+    border-radius: var(--border-radius);
+    margin-bottom: 16px;
+}
+
+.stats-text {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* Responsive: stack columns on mobile */
+@media (max-width: 600px) {
+    .rerank-list.two-column {
+        grid-template-columns: 1fr;
+    }
 }
 
 #confirm-rerank-btn {
