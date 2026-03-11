@@ -1,0 +1,33 @@
+{
+  "id": "board-games",
+  "name": "Best Board Games",
+  "description": "Rank these tabletop classics!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Monopoly", "emoji": "🎩", "hint": "Destroys friendships since 1935"},
+    {"id": 2, "name": "Scrabble", "emoji": "📝", "hint": "Words with friends IRL"},
+    {"id": 3, "name": "Chess", "emoji": "♟️", "hint": "The OG strategy game"},
+    {"id": 4, "name": "Uno", "emoji": "🃏", "hint": "Draw 4, friendship over"},
+    {"id": 5, "name": "Clue", "emoji": "🔍", "hint": "Colonel Mustard in the library"},
+    {"id": 6, "name": "Settlers of Catan", "emoji": "🏝️", "hint": "I'll trade you sheep for wheat"},
+    {"id": 7, "name": "Jenga", "emoji": "🧱", "hint": "Careful... careful... CRASH"},
+    {"id": 8, "name": "Risk", "emoji": "🌍", "hint": "World domination takes hours"},
+    {"id": 9, "name": "Candy Land", "emoji": "🍭", "hint": "First game everyone learns"},
+    {"id": 10, "name": "Connect Four", "emoji": "🔴", "hint": "Pretty sneaky, sis"},
+    {"id": 11, "name": "Ticket to Ride", "emoji": "🚂", "hint": "Trains across the country"},
+    {"id": 12, "name": "Battleship", "emoji": "🚢", "hint": "You sunk my battleship!"},
+    {"id": 13, "name": "Sorry!", "emoji": "😅", "hint": "Not sorry at all"},
+    {"id": 14, "name": "Chutes and Ladders", "emoji": "🪜", "hint": "Up the ladder, down the chute"},
+    {"id": 15, "name": "Operation", "emoji": "🔔", "hint": "BZZZT! Don't touch the sides"},
+    {"id": 16, "name": "Guess Who?", "emoji": "🤔", "hint": "Does your person have glasses?"},
+    {"id": 17, "name": "Pictionary", "emoji": "🎨", "hint": "Draw fast, guess faster"},
+    {"id": 18, "name": "Trivial Pursuit", "emoji": "🧠", "hint": "Collect all the pie pieces"},
+    {"id": 19, "name": "Life", "emoji": "🚗", "hint": "Spin the wheel of life"},
+    {"id": 20, "name": "Cranium", "emoji": "🧠", "hint": "Draw, act, sculpt, answer"},
+    {"id": 21, "name": "Codenames", "emoji": "🕵️", "hint": "One word clue, multiple guesses"},
+    {"id": 22, "name": "Pandemic", "emoji": "🦠", "hint": "Too real after 2020"},
+    {"id": 23, "name": "Azul", "emoji": "🔷", "hint": "Pretty tile-laying strategy"},
+    {"id": 24, "name": "Carcassonne", "emoji": "🏰", "hint": "Build medieval landscapes"},
+    {"id": 25, "name": "Exploding Kittens", "emoji": "🐱", "hint": "Don't draw the boom cat"}
+  ]
+}

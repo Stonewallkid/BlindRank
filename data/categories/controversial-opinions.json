@@ -1,0 +1,33 @@
+{
+  "id": "controversial-opinions",
+  "name": "Hottest Takes",
+  "description": "Rank these opinions by how hard you agree!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Pineapple belongs on pizza", "emoji": "🍍", "hint": "Hawaiian pizza is valid, fight me"},
+    {"id": 2, "name": "The book is always better", "emoji": "📖", "hint": "Movies ruined it (every time)"},
+    {"id": 3, "name": "Breakfast for dinner is superior", "emoji": "🥞", "hint": "Brinner >>> dinner"},
+    {"id": 4, "name": "Cats are better than dogs", "emoji": "🐱", "hint": "Low maintenance supremacy"},
+    {"id": 5, "name": "Cold pizza hits different", "emoji": "🍕", "hint": "Fridge pizza is peak pizza"},
+    {"id": 6, "name": "Water is wet", "emoji": "💧", "hint": "Or is it? Think about it."},
+    {"id": 7, "name": "Die Hard is a Christmas movie", "emoji": "🎄", "hint": "Ho ho ho, now I have a gun"},
+    {"id": 8, "name": "Cereal is soup", "emoji": "🥣", "hint": "Bowl + liquid + solids = soup"},
+    {"id": 9, "name": "GIF is pronounced 'jif'", "emoji": "🖼️", "hint": "Creator said so, die mad"},
+    {"id": 10, "name": "Toilet paper: over not under", "emoji": "🧻", "hint": "Patent proves it"},
+    {"id": 11, "name": "Ketchup on eggs is fine", "emoji": "🍳", "hint": "Don't yuck my yum"},
+    {"id": 12, "name": "Nickelback isn't that bad", "emoji": "🎸", "hint": "Hating them is the bandwagon"},
+    {"id": 13, "name": "Mint chocolate tastes like toothpaste", "emoji": "🍫", "hint": "Sorry not sorry"},
+    {"id": 14, "name": "Hot dogs are sandwiches", "emoji": "🌭", "hint": "Bread + filling = sandwich"},
+    {"id": 15, "name": "New York pizza is overrated", "emoji": "🗽", "hint": "Chicago deep dish supremacy"},
+    {"id": 16, "name": "Marvel > DC (or vice versa)", "emoji": "🦸", "hint": "Pick a side forever"},
+    {"id": 17, "name": "Watching alone is better than theaters", "emoji": "📺", "hint": "Pause button + no people"},
+    {"id": 18, "name": "The Star Wars prequels are good", "emoji": "⚔️", "hint": "Memes made them better"},
+    {"id": 19, "name": "Thanksgiving turkey is mid", "emoji": "🦃", "hint": "Dry bird, overrated tradition"},
+    {"id": 20, "name": "Tipping culture is toxic", "emoji": "💵", "hint": "Just pay workers more"},
+    {"id": 21, "name": "Office temperature is always wrong", "emoji": "🌡️", "hint": "It's too cold. No, too hot."},
+    {"id": 22, "name": "Reply All should be removed", "emoji": "📧", "hint": "Nobody needs to see this"},
+    {"id": 23, "name": "Standing desks are a scam", "emoji": "🧍", "hint": "Just let me sit"},
+    {"id": 24, "name": "Open offices are terrible", "emoji": "🏢", "hint": "I can hear you breathe"},
+    {"id": 25, "name": "Sleep is more important than socializing", "emoji": "😴", "hint": "Bed > friends tonight"}
+  ]
+}

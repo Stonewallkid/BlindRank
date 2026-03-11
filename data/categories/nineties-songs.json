@@ -1,0 +1,33 @@
+{
+  "id": "nineties-songs",
+  "name": "Best 90s Songs",
+  "description": "Rank these throwback bangers!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Smells Like Teen Spirit", "emoji": "🎸", "hint": "Nirvana grunge anthem"},
+    {"id": 2, "name": "Wannabe", "emoji": "👯", "hint": "Tell me what you want"},
+    {"id": 3, "name": "Baby One More Time", "emoji": "🎀", "hint": "Hit me baby"},
+    {"id": 4, "name": "I Want It That Way", "emoji": "💔", "hint": "Tell me why"},
+    {"id": 5, "name": "No Diggity", "emoji": "🎤", "hint": "Bag it up"},
+    {"id": 6, "name": "Waterfalls", "emoji": "💧", "hint": "TLC life lessons"},
+    {"id": 7, "name": "MMMBop", "emoji": "🎵", "hint": "Hanson brothers"},
+    {"id": 8, "name": "Gangsta's Paradise", "emoji": "🌴", "hint": "Been spending most our lives"},
+    {"id": 9, "name": "Losing My Religion", "emoji": "🎻", "hint": "That's me in the corner"},
+    {"id": 10, "name": "Ice Ice Baby", "emoji": "🧊", "hint": "Stop, collaborate, listen"},
+    {"id": 11, "name": "Genie in a Bottle", "emoji": "🧞", "hint": "Rub me the right way"},
+    {"id": 12, "name": "Livin' La Vida Loca", "emoji": "💃", "hint": "Ricky Martin madness"},
+    {"id": 13, "name": "Creep", "emoji": "👽", "hint": "Radiohead's weirdo anthem"},
+    {"id": 14, "name": "Wonderwall", "emoji": "🧱", "hint": "Anyway, here's..."},
+    {"id": 15, "name": "Believe", "emoji": "✨", "hint": "Cher auto-tune pioneer"},
+    {"id": 16, "name": "U Can't Touch This", "emoji": "🔨", "hint": "Hammer time"},
+    {"id": 17, "name": "Black or White", "emoji": "⬛", "hint": "MJ morphing faces"},
+    {"id": 18, "name": "Iris", "emoji": "👁️", "hint": "I just want you to know who I am"},
+    {"id": 19, "name": "Bitter Sweet Symphony", "emoji": "🎻", "hint": "The Verve strings"},
+    {"id": 20, "name": "...Baby One More Time", "emoji": "📚", "hint": "Schoolgirl outfit video"},
+    {"id": 21, "name": "Jump Around", "emoji": "⬆️", "hint": "House of Pain party starter"},
+    {"id": 22, "name": "Torn", "emoji": "💔", "hint": "Natalie Imbruglia cover"},
+    {"id": 23, "name": "Tubthumping", "emoji": "🍺", "hint": "I get knocked down"},
+    {"id": 24, "name": "Semi-Charmed Life", "emoji": "☀️", "hint": "Doo doo doo"},
+    {"id": 25, "name": "My Heart Will Go On", "emoji": "🚢", "hint": "Titanic flute memes"}
+  ]
+}

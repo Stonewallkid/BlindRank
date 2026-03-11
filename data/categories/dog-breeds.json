@@ -1,0 +1,33 @@
+{
+  "id": "dog-breeds",
+  "name": "Cutest Dog Breeds",
+  "description": "Rank these good boys and girls!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Golden Retriever", "emoji": "🦮", "hint": "Fluffy, friendly, perfect family dog"},
+    {"id": 2, "name": "Corgi", "emoji": "🐕", "hint": "Short legs, big butt, royal favorite"},
+    {"id": 3, "name": "Pomeranian", "emoji": "🐩", "hint": "Tiny floof ball, big bark"},
+    {"id": 4, "name": "Husky", "emoji": "🐺", "hint": "Wolf-like, dramatic howler"},
+    {"id": 5, "name": "Labrador", "emoji": "🐶", "hint": "America's favorite, loves water"},
+    {"id": 6, "name": "French Bulldog", "emoji": "🐶", "hint": "Bat ears, snorts a lot"},
+    {"id": 7, "name": "Shiba Inu", "emoji": "🐕", "hint": "Much wow, very doge"},
+    {"id": 8, "name": "Beagle", "emoji": "🐕", "hint": "Snoopy's breed, follows nose"},
+    {"id": 9, "name": "Pug", "emoji": "🐶", "hint": "Wrinkly face, breathes weird"},
+    {"id": 10, "name": "German Shepherd", "emoji": "🐕‍🦺", "hint": "Smart, protective, police dog"},
+    {"id": 11, "name": "Dachshund", "emoji": "🌭", "hint": "Hot dog shape, feisty"},
+    {"id": 12, "name": "Border Collie", "emoji": "🐑", "hint": "Smartest breed, needs a job"},
+    {"id": 13, "name": "Samoyed", "emoji": "☁️", "hint": "Fluffy white cloud, always smiling"},
+    {"id": 14, "name": "Bernese Mountain Dog", "emoji": "🏔️", "hint": "Gentle giant, tricolor floof"},
+    {"id": 15, "name": "Shih Tzu", "emoji": "👑", "hint": "Lion dog, needs constant grooming"},
+    {"id": 16, "name": "Australian Shepherd", "emoji": "🐕", "hint": "Merle coat, crazy energy"},
+    {"id": 17, "name": "Cavalier King Charles", "emoji": "👑", "hint": "Lap dog royalty"},
+    {"id": 18, "name": "Maltese", "emoji": "🤍", "hint": "Tiny white cotton ball"},
+    {"id": 19, "name": "Boston Terrier", "emoji": "🐕", "hint": "Tuxedo markings, gentleman"},
+    {"id": 20, "name": "Akita", "emoji": "🐕", "hint": "Japanese, loyal like Hachiko"},
+    {"id": 21, "name": "Dalmatian", "emoji": "🔵", "hint": "Spotted, firehouse mascot"},
+    {"id": 22, "name": "Greyhound", "emoji": "🏃", "hint": "Fast but actually lazy couch potato"},
+    {"id": 23, "name": "Newfoundland", "emoji": "🐻", "hint": "Bear-sized water rescue dog"},
+    {"id": 24, "name": "Chihuahua", "emoji": "🐕", "hint": "Tiny body, huge attitude"},
+    {"id": 25, "name": "Great Dane", "emoji": "🦒", "hint": "Horse-sized, thinks it's a lap dog"}
+  ]
+}

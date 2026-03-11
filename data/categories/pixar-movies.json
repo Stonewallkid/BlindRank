@@ -1,0 +1,33 @@
+{
+  "id": "pixar-movies",
+  "name": "Best Pixar Movies",
+  "description": "Rank these animated masterpieces!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Toy Story", "emoji": "🤠", "hint": "You've got a friend in me"},
+    {"id": 2, "name": "Finding Nemo", "emoji": "🐠", "hint": "Just keep swimming"},
+    {"id": 3, "name": "The Incredibles", "emoji": "🦸", "hint": "No capes!"},
+    {"id": 4, "name": "Up", "emoji": "🎈", "hint": "First 10 minutes destroy you"},
+    {"id": 5, "name": "Inside Out", "emoji": "😊", "hint": "Emotions running the show"},
+    {"id": 6, "name": "Coco", "emoji": "🎸", "hint": "Remember me, crying forever"},
+    {"id": 7, "name": "WALL-E", "emoji": "🤖", "hint": "Robot love story, environmental message"},
+    {"id": 8, "name": "Monsters, Inc.", "emoji": "👹", "hint": "Kitty! Boo!"},
+    {"id": 9, "name": "Ratatouille", "emoji": "🐀", "hint": "Anyone can cook"},
+    {"id": 10, "name": "Toy Story 3", "emoji": "🧸", "hint": "The incinerator scene"},
+    {"id": 11, "name": "Finding Dory", "emoji": "🐟", "hint": "She finally found her family"},
+    {"id": 12, "name": "The Incredibles 2", "emoji": "👶", "hint": "Jack-Jack steals the show"},
+    {"id": 13, "name": "Toy Story 2", "emoji": "🤠", "hint": "When She Loved Me tears"},
+    {"id": 14, "name": "A Bug's Life", "emoji": "🐜", "hint": "Circus bugs save the day"},
+    {"id": 15, "name": "Monsters University", "emoji": "🎓", "hint": "Prequel that worked"},
+    {"id": 16, "name": "Brave", "emoji": "🏹", "hint": "Scottish princess, bear mom"},
+    {"id": 17, "name": "Soul", "emoji": "🎹", "hint": "Jazz and the meaning of life"},
+    {"id": 18, "name": "Luca", "emoji": "🌊", "hint": "Italian sea monsters, friendship"},
+    {"id": 19, "name": "Turning Red", "emoji": "🐼", "hint": "Panda puberty metaphor"},
+    {"id": 20, "name": "Onward", "emoji": "🧙", "hint": "Half a dad, full emotions"},
+    {"id": 21, "name": "Elemental", "emoji": "🔥", "hint": "Fire and water love story"},
+    {"id": 22, "name": "Lightyear", "emoji": "🚀", "hint": "To infinity... wait, different Buzz"},
+    {"id": 23, "name": "Cars", "emoji": "🏎️", "hint": "Kachow! Life is a highway"},
+    {"id": 24, "name": "The Good Dinosaur", "emoji": "🦕", "hint": "Underrated tearjerker"},
+    {"id": 25, "name": "Cars 2", "emoji": "🚗", "hint": "Mater becomes a spy, somehow"}
+  ]
+}

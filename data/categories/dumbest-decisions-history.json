@@ -1,0 +1,33 @@
+{
+  "id": "dumbest-decisions-history",
+  "name": "Dumbest Decisions in History",
+  "description": "Rank these catastrophically stupid choices!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Invading Russia in Winter", "emoji": "❄️", "hint": "Napoleon and Hitler both tried it"},
+    {"id": 2, "name": "Titanic's Lifeboat Math", "emoji": "🚢", "hint": "2,200 people, 1,178 lifeboat spots"},
+    {"id": 3, "name": "Rejecting The Beatles", "emoji": "🎸", "hint": "Decca Records: 'Guitar groups are on the way out'"},
+    {"id": 4, "name": "Selling Apple Shares (1976)", "emoji": "🍎", "hint": "Ronald Wayne sold 10% for $800"},
+    {"id": 5, "name": "Blockbuster Passing on Netflix", "emoji": "📼", "hint": "Could've bought them for $50M"},
+    {"id": 6, "name": "New Coke", "emoji": "🥤", "hint": "Nobody asked for this"},
+    {"id": 7, "name": "Trojan Horse Trust", "emoji": "🐴", "hint": "It's a gift! Let it in!"},
+    {"id": 8, "name": "Yahoo Rejecting Google", "emoji": "🔍", "hint": "Could've bought for $1M in 1998"},
+    {"id": 9, "name": "Kodak Ignoring Digital", "emoji": "📷", "hint": "Invented it, then buried it"},
+    {"id": 10, "name": "Austria-Hungary's One Bullet", "emoji": "🔫", "hint": "Archduke assassination started WW1"},
+    {"id": 11, "name": "Excite Rejecting Google", "emoji": "🔍", "hint": "Said no to buying for $750K"},
+    {"id": 12, "name": "Signing Away Beatles Rights", "emoji": "📝", "hint": "Michael Jackson bought them instead"},
+    {"id": 13, "name": "Chernobyl Safety Test", "emoji": "☢️", "hint": "'What could go wrong?'"},
+    {"id": 14, "name": "Challenger Launch Decision", "emoji": "🚀", "hint": "Engineers warned about O-rings"},
+    {"id": 15, "name": "MySpace Selling to News Corp", "emoji": "📱", "hint": "$580M, then became worthless"},
+    {"id": 16, "name": "HP Passing on Wozniak", "emoji": "💻", "hint": "Said no to Apple computer 5 times"},
+    {"id": 17, "name": "Quibi's Entire Existence", "emoji": "📱", "hint": "$1.75B for 10-minute shows"},
+    {"id": 18, "name": "Theranos Investment", "emoji": "🩸", "hint": "Billion-dollar blood test fraud"},
+    {"id": 19, "name": "Burning Library of Alexandria", "emoji": "📚", "hint": "Centuries of knowledge, gone"},
+    {"id": 20, "name": "Pets.com Super Bowl Ads", "emoji": "🐕", "hint": "Spent all money on ads, no profit"},
+    {"id": 21, "name": "Ross Perot Selling EDS", "emoji": "💻", "hint": "To GM for way too little"},
+    {"id": 22, "name": "Maginot Line Strategy", "emoji": "🏰", "hint": "Germans just went around it"},
+    {"id": 23, "name": "Netflix Qwikster Split", "emoji": "📀", "hint": "Reversed in 23 days"},
+    {"id": 24, "name": "Firing Steve Jobs", "emoji": "🍎", "hint": "Apple nearly died without him"},
+    {"id": 25, "name": "Bitcoin Pizza Purchase", "emoji": "🍕", "hint": "10,000 BTC for two pizzas ($800M+ now)"}
+  ]
+}

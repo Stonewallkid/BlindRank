@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlindRank - The Blind Ranking Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Age Verification Modal -->
+    <div id="age-modal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome to BlindRank!</h2>
+            <p>Please select your content preference:</p>
+            <div class="age-options">
+                <button class="age-btn" data-rating="kids">
+                    <span class="age-icon">🌟</span>
+                    <span class="age-label">Kids</span>
+                    <span class="age-desc">All ages welcome</span>
+                </button>
+                <button class="age-btn" data-rating="teen">
+                    <span class="age-icon">🎮</span>
+                    <span class="age-label">Teen</span>
+                    <span class="age-desc">13+ content</span>
+                </button>
+                <button class="age-btn" data-rating="mature">
+                    <span class="age-icon">🔥</span>
+                    <span class="age-label">Mature</span>
+                    <span class="age-desc">17+ content</span>
+                </button>
+                <button class="age-btn" data-rating="explicit">
+                    <span class="age-icon">💀</span>
+                    <span class="age-label">Explicit</span>
+                    <span class="age-desc">18+ only</span>
+                </button>
+            </div>
+            <p class="age-note">You can change this later in settings</p>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="logo" id="logo-btn">BlindRank</h1>
+            <div class="header-actions">
+                <button id="theme-toggle" class="icon-btn" title="Toggle theme">🌙</button>
+                <button id="settings-btn" class="icon-btn" title="Settings">⚙️</button>
+            </div>
+        </header>
+
+        <!-- Start Screen -->
+        <section id="start-screen" class="screen active">
+            <div class="start-content">
+                <!-- Source Tabs: Official vs Community -->
+                <div class="source-tabs">
+                    <button class="source-tab active" data-source="official">Official</button>
+                    <button class="source-tab" data-source="community">Community</button>
+                    <button class="source-tab" data-source="create">+ Create</button>
+                </div>
+
+                <div class="rating-filter">
+                    <label>Content Level:</label>
+                    <div class="rating-tabs">
+                        <button class="rating-tab active" data-rating="kids">Kids</button>
+                        <button class="rating-tab" data-rating="teen">Teen</button>
+                        <button class="rating-tab" data-rating="mature">Mature</button>
+                        <button class="rating-tab" data-rating="explicit">18+</button>
+                    </div>
+                </div>
+
+                <div class="size-selector">
+                    <label>Ranking Size: <span class="size-hint">(🐐 GOAT + your picks)</span></label>
+                    <div class="size-options">
+                        <button class="size-btn active" data-size="3">🐐+3</button>
+                        <button class="size-btn" data-size="5">🐐+5</button>
+                        <button class="size-btn" data-size="10">🐐+10</button>
+                    </div>
+                </div>
+
+                <!-- Official Categories -->
+                <div id="official-section" class="category-section">
+                    <div class="category-header">
+                        <h2>Choose a Category</h2>
+                        <button id="shuffle-btn" class="shuffle-btn" title="Random category">🎲 Surprise Me</button>
+                    </div>
+                    <div id="category-grid" class="category-grid">
+                        <!-- Categories loaded dynamically -->
+                    </div>
+                </div>
+
+                <!-- Community Categories -->
+                <div id="community-section" class="category-section" style="display: none;">
+                    <div class="category-header">
+                        <h2>Community Categories</h2>
+                        <div class="sort-options">
+                            <select id="community-sort">
+                                <option value="newest">Newest</option>
+                                <option value="popular">Most Played</option>
+                                <option value="top-rated">Top Rated</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="community-grid" class="category-grid">
+                        <!-- Community categories loaded dynamically -->
+                    </div>
+                </div>
+
+                <!-- Create Category -->
+                <div id="create-section" class="category-section" style="display: none;">
+                    <div class="create-form">
+                        <h2>Create a Category</h2>
+                        <p class="create-subtitle">Make your own ranking challenge for others to play!</p>
+
+                        <div class="form-group">
+                            <label for="create-name">Category Name *</label>
+                            <input type="text" id="create-name" placeholder="e.g., Best 90s Cartoons" maxlength="50">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="create-emoji">Emoji</label>
+                                <input type="text" id="create-emoji" placeholder="📺" maxlength="2">
+                            </div>
+                            <div class="form-group">
+                                <label for="create-rating">Rating *</label>
+                                <select id="create-rating">
+                                    <option value="kids">Kids (All ages)</option>
+                                    <option value="teen">Teen (13+)</option>
+                                    <option value="mature">Mature (17+)</option>
+                                    <option value="explicit">Explicit (18+)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="create-description">Description</label>
+                            <input type="text" id="create-description" placeholder="Rank these nostalgic shows!" maxlength="100">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Items (minimum 10) *</label>
+                            <div id="items-list" class="items-list">
+                                <!-- Items added dynamically -->
+                            </div>
+                            <div class="add-item-row">
+                                <input type="text" id="new-item-emoji" placeholder="🎬" maxlength="2" class="item-emoji-input">
+                                <input type="text" id="new-item-name" placeholder="Item name" maxlength="50" class="item-name-input">
+                                <input type="text" id="new-item-hint" placeholder="Hint (optional)" maxlength="60" class="item-hint-input">
+                                <button id="add-item-btn" class="add-item-btn">+</button>
+                            </div>
+                            <p class="items-count"><span id="item-count">0</span>/10 minimum items</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="create-author">Your Name (optional)</label>
+                            <input type="text" id="create-author" placeholder="Anonymous" maxlength="30">
+                        </div>
+
+                        <div class="form-actions">
+                            <button id="save-draft-btn" class="secondary-btn">Save Draft</button>
+                            <button id="submit-category-btn" class="primary-btn">Submit to Community</button>
+                        </div>
+
+                        <div id="drafts-section" class="drafts-section">
+                            <h3>Your Drafts</h3>
+                            <div id="drafts-list" class="drafts-list">
+                                <!-- Drafts loaded dynamically -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Screen -->
+        <section id="game-screen" class="screen">
+            <div class="game-header">
+                <button id="back-btn" class="back-btn">← Back</button>
+                <span id="progress" class="progress">1/5</span>
+            </div>
+
+            <!-- Prominent Category Title -->
+            <div class="category-banner">
+                <span id="category-emoji-display" class="category-emoji-large"></span>
+                <h2 id="category-name" class="category-name-large"></h2>
+            </div>
+
+            <div class="game-content game-split">
+                <!-- Current Item Card (Left/Top) -->
+                <div class="current-item-panel">
+                    <div class="current-item-sticky">
+                        <div id="current-item" class="current-item">
+                            <div class="item-card">
+                                <div class="item-emoji" id="item-emoji"></div>
+                                <div class="item-card-text">
+                                    <h3 id="item-name" class="item-name"></h3>
+                                    <p id="item-hint" class="item-hint"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="instruction">Where does this rank?</p>
+                    </div>
+                </div>
+
+                <!-- Ranking Slots (Right/Bottom) -->
+                <div class="ranking-panel">
+                    <div class="ranking-panel-header">
+                        <span class="ranking-title">Your Ranking</span>
+                    </div>
+                    <div id="ranking-slots" class="ranking-slots">
+                        <!-- Slots generated dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Re-Rank Screen -->
+        <section id="rerank-screen" class="screen">
+            <div class="rerank-content">
+                <h2>Now Re-Rank Them!</h2>
+                <p class="rerank-subtitle">You've seen all the options. Drag to reorder how you'd actually rank them.</p>
+
+                <div id="rerank-list" class="rerank-list">
+                    <!-- Draggable items here -->
+                </div>
+
+                <p class="rerank-hint">Drag items up or down, or tap two items to swap</p>
+
+                <button id="confirm-rerank-btn" class="primary-btn">Confirm My Ranking</button>
+            </div>
+        </section>
+
+        <!-- Results Screen -->
+        <section id="results-screen" class="screen">
+            <div class="results-content">
+                <h2>Your Results</h2>
+
+                <div class="score-section">
+                    <div class="score-display">
+                        <span class="score-label">Vibe Check</span>
+                        <span id="score" class="score">0%</span>
+                    </div>
+                    <p id="score-message" class="score-message"></p>
+                    <p class="score-explanation">How well your blind picks matched the crowd!</p>
+                </div>
+
+                <div class="rankings-comparison">
+                    <div class="ranking-column">
+                        <h3>Blind Ranking</h3>
+                        <div id="blind-ranking" class="mini-ranking">
+                            <!-- Blind ranking here -->
+                        </div>
+                    </div>
+                    <div class="ranking-column">
+                        <h3>Your True Ranking</h3>
+                        <div id="true-ranking" class="mini-ranking">
+                            <!-- True ranking here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="community-score-section" id="community-score-section" style="display: none;">
+                    <div class="community-score-display">
+                        <span class="score-label">Community Alignment</span>
+                        <span id="community-score" class="score secondary">0%</span>
+                    </div>
+                    <p class="score-explanation">How your ranking compares to the community average</p>
+                </div>
+
+                <div class="share-section">
+                    <button id="share-btn" class="share-btn">📋 Share Results</button>
+                    <div id="share-preview" class="share-preview"></div>
+                </div>
+
+                <div class="results-actions">
+                    <button id="play-again-btn" class="primary-btn">Play Same Category</button>
+                    <button id="new-category-btn" class="secondary-btn">New Category</button>
+                </div>
+
+                <button id="flag-category-btn" class="flag-btn" style="display: none;">
+                    🚩 Report this category
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Flag Modal -->
+    <div id="flag-modal" class="modal">
+        <div class="modal-content modal-small">
+            <div class="modal-header">
+                <h2>Report Category</h2>
+                <button class="close-btn" data-close="flag-modal">×</button>
+            </div>
+            <p class="flag-description">Why are you reporting this category?</p>
+            <div class="flag-options">
+                <button class="flag-option" data-reason="inappropriate">
+                    🔞 Inappropriate/NSFW content in wrong rating
+                </button>
+                <button class="flag-option" data-reason="offensive">
+                    💢 Offensive or hateful content
+                </button>
+                <button class="flag-option" data-reason="spam">
+                    📧 Spam or low quality
+                </button>
+                <button class="flag-option" data-reason="illegal">
+                    ⚠️ Illegal content
+                </button>
+                <button class="flag-option" data-reason="other">
+                    ❓ Other
+                </button>
+            </div>
+            <p class="flag-note">Categories with multiple reports will be reviewed and may be removed.</p>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Settings</h2>
+                <button class="close-btn" data-close="settings-modal">×</button>
+            </div>
+            <div class="settings-list">
+                <div class="setting-item">
+                    <label>Content Rating</label>
+                    <select id="setting-rating">
+                        <option value="kids">Kids (All ages)</option>
+                        <option value="teen">Teen (13+)</option>
+                        <option value="mature">Mature (17+)</option>
+                        <option value="explicit">Explicit (18+)</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label>Theme</label>
+                    <select id="setting-theme">
+                        <option value="dark">Dark</option>
+                        <option value="light">Light</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label>Animations</label>
+                    <select id="setting-animations">
+                        <option value="on">On</option>
+                        <option value="off">Off</option>
+                    </select>
+                </div>
+            </div>
+            <button id="clear-data-btn" class="danger-btn">Clear All Data</button>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

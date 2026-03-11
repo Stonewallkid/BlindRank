@@ -1,0 +1,33 @@
+{
+  "id": "pizza-toppings",
+  "name": "Best Pizza Toppings",
+  "description": "Rank these pizza toppings!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Pepperoni", "emoji": "🍕", "hint": "The classic, slightly spicy"},
+    {"id": 2, "name": "Extra Cheese", "emoji": "🧀", "hint": "Stretchy, gooey goodness"},
+    {"id": 3, "name": "Mushrooms", "emoji": "🍄", "hint": "Earthy, savory"},
+    {"id": 4, "name": "Italian Sausage", "emoji": "🌭", "hint": "Chunky, herby meat"},
+    {"id": 5, "name": "Bacon", "emoji": "🥓", "hint": "Crispy pork perfection"},
+    {"id": 6, "name": "Ham", "emoji": "🐷", "hint": "Hawaiian essential"},
+    {"id": 7, "name": "Pineapple", "emoji": "🍍", "hint": "Fight me, it's delicious"},
+    {"id": 8, "name": "Black Olives", "emoji": "🫒", "hint": "Salty, briny"},
+    {"id": 9, "name": "Onions", "emoji": "🧅", "hint": "Caramelized or raw"},
+    {"id": 10, "name": "Bell Peppers", "emoji": "🫑", "hint": "Colorful crunch"},
+    {"id": 11, "name": "Jalapeños", "emoji": "🌶️", "hint": "Spicy kick"},
+    {"id": 12, "name": "Chicken", "emoji": "🍗", "hint": "BBQ or buffalo style"},
+    {"id": 13, "name": "Anchovies", "emoji": "🐟", "hint": "Salty, divisive fish"},
+    {"id": 14, "name": "Fresh Basil", "emoji": "🌿", "hint": "Aromatic herb"},
+    {"id": 15, "name": "Spinach", "emoji": "🥬", "hint": "Pretend it's healthy"},
+    {"id": 16, "name": "Sun-Dried Tomatoes", "emoji": "🍅", "hint": "Intense tomato flavor"},
+    {"id": 17, "name": "Garlic", "emoji": "🧄", "hint": "Roasted cloves, ward off vampires"},
+    {"id": 18, "name": "Banana Peppers", "emoji": "🌶️", "hint": "Tangy and mild"},
+    {"id": 19, "name": "Ground Beef", "emoji": "🥩", "hint": "Taco pizza vibes"},
+    {"id": 20, "name": "Ricotta", "emoji": "🥛", "hint": "Creamy white cheese dollops"},
+    {"id": 21, "name": "Artichoke Hearts", "emoji": "💚", "hint": "Fancy veggie"},
+    {"id": 22, "name": "Prosciutto", "emoji": "🍖", "hint": "Thin, salty Italian ham"},
+    {"id": 23, "name": "Hot Honey", "emoji": "🍯", "hint": "Sweet heat drizzle"},
+    {"id": 24, "name": "Corn", "emoji": "🌽", "hint": "Weird but some people love it"},
+    {"id": 25, "name": "Egg", "emoji": "🍳", "hint": "Runny yolk in the middle"}
+  ]
+}

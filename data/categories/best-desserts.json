@@ -1,0 +1,33 @@
+{
+  "id": "best-desserts",
+  "name": "Best Desserts",
+  "description": "Rank these sweet treats!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Chocolate Cake", "emoji": "🍫", "hint": "Rich, fudgy layers"},
+    {"id": 2, "name": "Ice Cream", "emoji": "🍦", "hint": "Cold creamy perfection"},
+    {"id": 3, "name": "Chocolate Chip Cookies", "emoji": "🍪", "hint": "Warm from the oven"},
+    {"id": 4, "name": "Cheesecake", "emoji": "🧀", "hint": "Creamy, tangy, heavenly"},
+    {"id": 5, "name": "Brownies", "emoji": "🍫", "hint": "Fudgy chocolate squares"},
+    {"id": 6, "name": "Donuts", "emoji": "🍩", "hint": "Glazed, sprinkled, filled"},
+    {"id": 7, "name": "Apple Pie", "emoji": "🥧", "hint": "Warm with vanilla ice cream"},
+    {"id": 8, "name": "Cupcakes", "emoji": "🧁", "hint": "Personal cakes with frosting"},
+    {"id": 9, "name": "Macarons", "emoji": "🌈", "hint": "French, colorful, delicate"},
+    {"id": 10, "name": "Tiramisu", "emoji": "☕", "hint": "Coffee-soaked Italian clouds"},
+    {"id": 11, "name": "Waffles", "emoji": "🧇", "hint": "Crispy squares with syrup"},
+    {"id": 12, "name": "Churros", "emoji": "🥖", "hint": "Fried dough, cinnamon sugar"},
+    {"id": 13, "name": "Crème Brûlée", "emoji": "🥄", "hint": "Crack that caramel top"},
+    {"id": 14, "name": "Red Velvet Cake", "emoji": "❤️", "hint": "Red, creamy frosting"},
+    {"id": 15, "name": "Banana Split", "emoji": "🍌", "hint": "Boat of ice cream toppings"},
+    {"id": 16, "name": "S'mores", "emoji": "🔥", "hint": "Campfire classic"},
+    {"id": 17, "name": "Molten Lava Cake", "emoji": "🌋", "hint": "Chocolate oozes out"},
+    {"id": 18, "name": "Panna Cotta", "emoji": "🍮", "hint": "Silky Italian custard"},
+    {"id": 19, "name": "Cinnamon Rolls", "emoji": "🌀", "hint": "Gooey, cream cheese frosting"},
+    {"id": 20, "name": "Funnel Cake", "emoji": "🎡", "hint": "Carnival fried deliciousness"},
+    {"id": 21, "name": "Bread Pudding", "emoji": "🍞", "hint": "Warm, custardy comfort"},
+    {"id": 22, "name": "Key Lime Pie", "emoji": "🍋", "hint": "Tangy, creamy, Florida vibes"},
+    {"id": 23, "name": "Profiteroles", "emoji": "🍨", "hint": "Cream puffs with chocolate"},
+    {"id": 24, "name": "Mochi Ice Cream", "emoji": "🍡", "hint": "Chewy Japanese treat"},
+    {"id": 25, "name": "Baklava", "emoji": "🥮", "hint": "Honey, nuts, flaky layers"}
+  ]
+}

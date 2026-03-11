@@ -1,0 +1,33 @@
+{
+  "id": "pickup-lines",
+  "name": "Worst Pickup Lines",
+  "description": "Rank these cringeworthy attempts!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Did it hurt when you fell from heaven?", "emoji": "😇", "hint": "Classic cringe"},
+    {"id": 2, "name": "Are you a parking ticket? You've got fine written all over you", "emoji": "🎫", "hint": "Dad joke energy"},
+    {"id": 3, "name": "Is your dad a boxer? Because you're a knockout", "emoji": "🥊", "hint": "Violence adjacent"},
+    {"id": 4, "name": "Do you have a map? I keep getting lost in your eyes", "emoji": "🗺️", "hint": "Directionally challenged"},
+    {"id": 5, "name": "Are you a magician? Everyone else disappears when I see you", "emoji": "🎩", "hint": "Tunnel vision confession"},
+    {"id": 6, "name": "Is there an airport nearby or is that my heart taking off?", "emoji": "✈️", "hint": "TSA approved"},
+    {"id": 7, "name": "I must be a snowflake because I've fallen for you", "emoji": "❄️", "hint": "Seasonal desperation"},
+    {"id": 8, "name": "Are you Wi-Fi? Because I'm feeling a connection", "emoji": "📶", "hint": "Tech bro special"},
+    {"id": 9, "name": "Do you believe in love at first sight, or should I walk by again?", "emoji": "🚶", "hint": "Second chance cringe"},
+    {"id": 10, "name": "Are you a campfire? Because you're hot and I want s'more", "emoji": "🔥", "hint": "Camping themed despair"},
+    {"id": 11, "name": "I'm not a photographer, but I can picture us together", "emoji": "📸", "hint": "Unsolicited imaging"},
+    {"id": 12, "name": "Is your name Google? Because you have everything I've been searching for", "emoji": "🔍", "hint": "Data mining romance"},
+    {"id": 13, "name": "If beauty were time, you'd be an eternity", "emoji": "⏰", "hint": "Philosophically confused"},
+    {"id": 14, "name": "Are you made of copper and tellurium? Because you're Cu-Te", "emoji": "⚗️", "hint": "Periodic table pickup"},
+    {"id": 15, "name": "Do you have a Band-Aid? I just scraped my knee falling for you", "emoji": "🩹", "hint": "Medical emergency flirting"},
+    {"id": 16, "name": "Is your dad a thief? He stole the stars and put them in your eyes", "emoji": "⭐", "hint": "Criminal family implications"},
+    {"id": 17, "name": "I seem to have lost my number, can I have yours?", "emoji": "📱", "hint": "Memory loss excuse"},
+    {"id": 18, "name": "Are you a bank loan? Because you've got my interest", "emoji": "💰", "hint": "Financially motivated"},
+    {"id": 19, "name": "Do you have a sunburn, or are you always this hot?", "emoji": "☀️", "hint": "Skin condition flirting"},
+    {"id": 20, "name": "I must be a light switch because you turn me on", "emoji": "💡", "hint": "Electrical hazard"},
+    {"id": 21, "name": "Are you from Tennessee? Because you're the only ten I see", "emoji": "🎸", "hint": "Geographic rating system"},
+    {"id": 22, "name": "If you were a vegetable, you'd be a cute-cumber", "emoji": "🥒", "hint": "Produce aisle poetry"},
+    {"id": 23, "name": "Do you have a mirror in your pocket? I see myself in your pants", "emoji": "🪞", "hint": "Immediately too far"},
+    {"id": 24, "name": "I'd say God bless you, but it looks like he already did", "emoji": "🙏", "hint": "Religious involvement"},
+    {"id": 25, "name": "Are you a 45-degree angle? Because you're a-cute", "emoji": "📐", "hint": "Geometry teacher energy"}
+  ]
+}

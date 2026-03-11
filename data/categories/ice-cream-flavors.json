@@ -1,0 +1,33 @@
+{
+  "id": "ice-cream-flavors",
+  "name": "Ice Cream Flavors",
+  "description": "Rank these frozen treats!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Chocolate", "emoji": "🍫", "hint": "The classic dark stuff"},
+    {"id": 2, "name": "Vanilla", "emoji": "🍦", "hint": "Basic but perfect"},
+    {"id": 3, "name": "Strawberry", "emoji": "🍓", "hint": "Pink and fruity"},
+    {"id": 4, "name": "Mint Chocolate Chip", "emoji": "🌿", "hint": "Fresh with chocolate bits"},
+    {"id": 5, "name": "Cookie Dough", "emoji": "🍪", "hint": "Raw dough chunks, don't tell mom"},
+    {"id": 6, "name": "Cookies and Cream", "emoji": "🥛", "hint": "Oreo explosion"},
+    {"id": 7, "name": "Rocky Road", "emoji": "🍫", "hint": "Nuts, marshmallows, chocolate"},
+    {"id": 8, "name": "Butter Pecan", "emoji": "🥜", "hint": "Nutty, buttery, grandma's favorite"},
+    {"id": 9, "name": "Salted Caramel", "emoji": "🧂", "hint": "Sweet meets salty"},
+    {"id": 10, "name": "Birthday Cake", "emoji": "🎂", "hint": "Sprinkles and cake pieces"},
+    {"id": 11, "name": "Pistachio", "emoji": "🥜", "hint": "Green and nutty"},
+    {"id": 12, "name": "Coffee", "emoji": "☕", "hint": "Caffeine in dessert form"},
+    {"id": 13, "name": "Peanut Butter Cup", "emoji": "🥜", "hint": "Reese's vibes"},
+    {"id": 14, "name": "Cherry Garcia", "emoji": "🍒", "hint": "Cherries and chocolate chunks"},
+    {"id": 15, "name": "Dulce de Leche", "emoji": "🥛", "hint": "Caramel but fancier"},
+    {"id": 16, "name": "Neapolitan", "emoji": "🍨", "hint": "Three flavors, can't decide"},
+    {"id": 17, "name": "Mango", "emoji": "🥭", "hint": "Tropical sweetness"},
+    {"id": 18, "name": "Black Cherry", "emoji": "🍒", "hint": "Deep purple, sophisticated"},
+    {"id": 19, "name": "Cotton Candy", "emoji": "🎀", "hint": "Pure sugar, bright blue/pink"},
+    {"id": 20, "name": "Brownie Batter", "emoji": "🟫", "hint": "Fudgy brownie chunks"},
+    {"id": 21, "name": "Maple Walnut", "emoji": "🍁", "hint": "Canadian vibes"},
+    {"id": 22, "name": "Banana", "emoji": "🍌", "hint": "Actually tastes like banana"},
+    {"id": 23, "name": "Matcha", "emoji": "🍵", "hint": "Green tea flavor, trendy"},
+    {"id": 24, "name": "Blue Moon", "emoji": "🔵", "hint": "Mystery flavor, bright blue"},
+    {"id": 25, "name": "Superman", "emoji": "🦸", "hint": "Red, blue, yellow swirl"}
+  ]
+}

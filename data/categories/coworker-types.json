@@ -1,0 +1,33 @@
+{
+  "id": "coworker-types",
+  "name": "Annoying Coworker Types",
+  "description": "Rank these workplace nightmares by how much they haunt you!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Reply-All Enthusiast", "emoji": "📧", "hint": "Thanks! (sent to 500 people)"},
+    {"id": 2, "name": "Loud Phone Talker", "emoji": "📱", "hint": "We all know about their divorce now"},
+    {"id": 3, "name": "Microwave Fish Person", "emoji": "🐟", "hint": "Geneva Convention violation"},
+    {"id": 4, "name": "Meeting That Should Be Email", "emoji": "📅", "hint": "Let's circle back and align"},
+    {"id": 5, "name": "Credit Stealer", "emoji": "🏆", "hint": "Actually, that was MY idea"},
+    {"id": 6, "name": "Kitchen Mess Leaver", "emoji": "🍽️", "hint": "Your mother doesn't work here"},
+    {"id": 7, "name": "Passive-Aggressive Emailer", "emoji": "💢", "hint": "Per my LAST email..."},
+    {"id": 8, "name": "Always Late to Meetings", "emoji": "⏰", "hint": "Can you repeat everything?"},
+    {"id": 9, "name": "Thermostat Warrior", "emoji": "🌡️", "hint": "Constant AC battle"},
+    {"id": 10, "name": "Won't Stop Talking", "emoji": "🗣️", "hint": "ANYWAY, about my weekend..."},
+    {"id": 11, "name": "Obvious LinkedIn Guy", "emoji": "💼", "hint": "Excited to announce..."},
+    {"id": 12, "name": "Loud Eater", "emoji": "🍎", "hint": "Crunching through the silence"},
+    {"id": 13, "name": "Reply Guy", "emoji": "💬", "hint": "Actually, well, technically..."},
+    {"id": 14, "name": "Fragrance Cloud", "emoji": "💨", "hint": "Can smell them three desks away"},
+    {"id": 15, "name": "Speakerphone in Open Office", "emoji": "🔊", "hint": "We're all in this call now"},
+    {"id": 16, "name": "Clip-Clop Walker", "emoji": "👠", "hint": "Here they come, everyone knows"},
+    {"id": 17, "name": "Pet Photo Oversharer", "emoji": "🐕", "hint": "Here's another 47 photos"},
+    {"id": 18, "name": "Vague Sick Days", "emoji": "🤧", "hint": "Under the weather (hungover)"},
+    {"id": 19, "name": "Diet Evangelist", "emoji": "🥗", "hint": "Have you heard about keto?"},
+    {"id": 20, "name": "Scheduling Nightmare", "emoji": "📆", "hint": "I'm free never, actually"},
+    {"id": 21, "name": "Constant Complainer", "emoji": "😤", "hint": "Everything is terrible always"},
+    {"id": 22, "name": "Birthday Police", "emoji": "🎂", "hint": "Sign the card. NOW."},
+    {"id": 23, "name": "Sick But At Work", "emoji": "🤒", "hint": "Sharing the illness with all"},
+    {"id": 24, "name": "Printer Jammer", "emoji": "🖨️", "hint": "Breaks it and walks away"},
+    {"id": 25, "name": "Work Martyr", "emoji": "⚰️", "hint": "I haven't taken PTO in 3 years"}
+  ]
+}

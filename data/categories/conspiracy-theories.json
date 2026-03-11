@@ -1,0 +1,33 @@
+{
+  "id": "conspiracy-theories",
+  "name": "Wildest Conspiracy Theories",
+  "description": "Rank these tin foil hat favorites!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Moon Landing Was Fake", "emoji": "🌙", "hint": "Hollywood production, allegedly"},
+    {"id": 2, "name": "Flat Earth", "emoji": "🌍", "hint": "Globe is a lie"},
+    {"id": 3, "name": "Area 51 Aliens", "emoji": "👽", "hint": "What are they hiding?"},
+    {"id": 4, "name": "Illuminati Controls Everything", "emoji": "👁️", "hint": "Triangle hand signs"},
+    {"id": 5, "name": "Birds Aren't Real", "emoji": "🐦", "hint": "Government drones (satire)"},
+    {"id": 6, "name": "JFK Multiple Shooters", "emoji": "🎯", "hint": "Magic bullet doubts"},
+    {"id": 7, "name": "Simulation Theory", "emoji": "🎮", "hint": "We're all in a game"},
+    {"id": 8, "name": "Reptilian World Leaders", "emoji": "🦎", "hint": "Shapeshifters among us"},
+    {"id": 9, "name": "Chemtrails", "emoji": "✈️", "hint": "Mind control from planes"},
+    {"id": 10, "name": "Paul McCartney Died in 1966", "emoji": "🎸", "hint": "Replaced by lookalike"},
+    {"id": 11, "name": "Elvis Still Alive", "emoji": "🕺", "hint": "Seen at gas stations"},
+    {"id": 12, "name": "Bigfoot", "emoji": "🦶", "hint": "Hiding in the woods"},
+    {"id": 13, "name": "9/11 Inside Job", "emoji": "🏢", "hint": "Jet fuel can't melt steel beams"},
+    {"id": 14, "name": "Denver Airport Bunkers", "emoji": "✈️", "hint": "Underground illuminati HQ"},
+    {"id": 15, "name": "Mattress Firm Money Laundering", "emoji": "🛏️", "hint": "Why so many stores?"},
+    {"id": 16, "name": "Finland Doesn't Exist", "emoji": "🇫🇮", "hint": "Made up by Japan and USSR"},
+    {"id": 17, "name": "Mandela Effect", "emoji": "🫙", "hint": "Berenstain Bears timeline shift"},
+    {"id": 18, "name": "Avril Lavigne Was Replaced", "emoji": "🎤", "hint": "Melissa is the clone"},
+    {"id": 19, "name": "New World Order", "emoji": "🌐", "hint": "Global government coming"},
+    {"id": 20, "name": "5G Causes Everything Bad", "emoji": "📶", "hint": "Towers of doom"},
+    {"id": 21, "name": "Hollow Earth", "emoji": "🌍", "hint": "Civilization inside"},
+    {"id": 22, "name": "Time Travel Cover-Ups", "emoji": "⏰", "hint": "John Titor was real"},
+    {"id": 23, "name": "Tupac in Cuba", "emoji": "🎤", "hint": "Faked his death"},
+    {"id": 24, "name": "Phantom Time Hypothesis", "emoji": "📅", "hint": "Middle Ages didn't happen"},
+    {"id": 25, "name": "Roswell Cover-Up", "emoji": "🛸", "hint": "Weather balloon, sure"}
+  ]
+}

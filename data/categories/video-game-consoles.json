@@ -1,0 +1,33 @@
+{
+  "id": "video-game-consoles",
+  "name": "Best Video Game Consoles",
+  "description": "Rank these gaming machines!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "PlayStation 2", "emoji": "🎮", "hint": "Best-selling console ever"},
+    {"id": 2, "name": "Nintendo Switch", "emoji": "🕹️", "hint": "Handheld and TV hybrid"},
+    {"id": 3, "name": "PlayStation 5", "emoji": "🎮", "hint": "Still hard to find"},
+    {"id": 4, "name": "Xbox Series X", "emoji": "🟢", "hint": "Fridge memes"},
+    {"id": 5, "name": "Nintendo 64", "emoji": "🕹️", "hint": "Goldeneye, Mario 64, memories"},
+    {"id": 6, "name": "PlayStation 4", "emoji": "🎮", "hint": "God of War, Spider-Man"},
+    {"id": 7, "name": "Super Nintendo", "emoji": "🎮", "hint": "16-bit perfection"},
+    {"id": 8, "name": "Xbox 360", "emoji": "🔴", "hint": "Red ring of death era"},
+    {"id": 9, "name": "Nintendo Wii", "emoji": "🎾", "hint": "Motion controls for everyone"},
+    {"id": 10, "name": "Game Boy", "emoji": "🎮", "hint": "Pokémon on the go"},
+    {"id": 11, "name": "PlayStation 1", "emoji": "🎮", "hint": "CD-ROM gaming revolution"},
+    {"id": 12, "name": "NES", "emoji": "🕹️", "hint": "Saved the video game industry"},
+    {"id": 13, "name": "GameCube", "emoji": "🟣", "hint": "Handle on top, Melee forever"},
+    {"id": 14, "name": "Xbox One", "emoji": "🟢", "hint": "Always online fiasco"},
+    {"id": 15, "name": "Nintendo DS", "emoji": "📱", "hint": "Two screens, touch gaming"},
+    {"id": 16, "name": "Sega Genesis", "emoji": "🔵", "hint": "Sonic's home, SEGA!"},
+    {"id": 17, "name": "PlayStation 3", "emoji": "🎮", "hint": "$599 at launch"},
+    {"id": 18, "name": "Steam Deck", "emoji": "💨", "hint": "PC gaming portable"},
+    {"id": 19, "name": "Game Boy Advance", "emoji": "🎮", "hint": "32-bit handheld"},
+    {"id": 20, "name": "Nintendo 3DS", "emoji": "👀", "hint": "3D without glasses"},
+    {"id": 21, "name": "Wii U", "emoji": "📺", "hint": "Underrated, poor marketing"},
+    {"id": 22, "name": "PSP", "emoji": "📱", "hint": "PlayStation Portable dreams"},
+    {"id": 23, "name": "Sega Dreamcast", "emoji": "🌀", "hint": "Ahead of its time, RIP"},
+    {"id": 24, "name": "Atari 2600", "emoji": "🕹️", "hint": "OG home console"},
+    {"id": 25, "name": "PS Vita", "emoji": "📱", "hint": "Great hardware, no support"}
+  ]
+}

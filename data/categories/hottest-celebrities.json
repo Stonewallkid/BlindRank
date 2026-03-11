@@ -1,0 +1,33 @@
+{
+  "id": "hottest-celebrities",
+  "name": "Hottest Celebrities",
+  "description": "Rank these unfairly attractive famous people!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Margot Robbie", "emoji": "🎬", "hint": "Harley Quinn energy, Australian perfection"},
+    {"id": 2, "name": "Ryan Gosling", "emoji": "🎸", "hint": "Ken energy, literally him"},
+    {"id": 3, "name": "Zendaya", "emoji": "🕷️", "hint": "MJ'd her way into everyone's heart"},
+    {"id": 4, "name": "Chris Hemsworth", "emoji": "⚡", "hint": "Thor bod, Australian accent combo"},
+    {"id": 5, "name": "Ana de Armas", "emoji": "🔫", "hint": "Bond girl that stole the movie"},
+    {"id": 6, "name": "Henry Cavill", "emoji": "🦸", "hint": "Superman/Witcher/nerd thirst trap"},
+    {"id": 7, "name": "Sydney Sweeney", "emoji": "📺", "hint": "Euphoria breakout, internet's favorite"},
+    {"id": 8, "name": "Michael B. Jordan", "emoji": "🥊", "hint": "Killmonger could get it"},
+    {"id": 9, "name": "Florence Pugh", "emoji": "🖤", "hint": "Chaotic hot energy"},
+    {"id": 10, "name": "Timothée Chalamet", "emoji": "🏜️", "hint": "Cheekbones that could cut glass"},
+    {"id": 11, "name": "Scarlett Johansson", "emoji": "🕷️", "hint": "Black Widow supremacy"},
+    {"id": 12, "name": "Jason Momoa", "emoji": "🔱", "hint": "Aquaman plus that laugh"},
+    {"id": 13, "name": "Rihanna", "emoji": "💎", "hint": "Bad Gal, business mogul, icon"},
+    {"id": 14, "name": "Oscar Isaac", "emoji": "🌙", "hint": "Internet's daddy, Moon Knight era"},
+    {"id": 15, "name": "Beyoncé", "emoji": "🐝", "hint": "Queen Bey, that's it, that's the hint"},
+    {"id": 16, "name": "Pedro Pascal", "emoji": "🪖", "hint": "Daddy? Sorry. Daddy? Sorry."},
+    {"id": 17, "name": "Taylor Swift", "emoji": "🎤", "hint": "Eras tour broke the economy"},
+    {"id": 18, "name": "Idris Elba", "emoji": "🎩", "hint": "Should've been Bond, still fine"},
+    {"id": 19, "name": "Dua Lipa", "emoji": "🪩", "hint": "Levitating into your dreams"},
+    {"id": 20, "name": "Tom Hardy", "emoji": "🎭", "hint": "Venom voice, dog dad energy"},
+    {"id": 21, "name": "Megan Fox", "emoji": "🔥", "hint": "Transformers era nostalgia"},
+    {"id": 22, "name": "Jacob Elordi", "emoji": "📏", "hint": "6'5\" of Australian chaos"},
+    {"id": 23, "name": "Jennifer Lawrence", "emoji": "🏹", "hint": "Katniss but make it relatable"},
+    {"id": 24, "name": "Bad Bunny", "emoji": "🐰", "hint": "Reggaeton zaddy"},
+    {"id": 25, "name": "Gal Gadot", "emoji": "⚔️", "hint": "Wonder Woman, obviously"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "breakfast-foods",
+  "name": "Best Breakfast Foods",
+  "description": "Rank these morning munchies!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Pancakes", "emoji": "🥞", "hint": "Stack 'em high with syrup"},
+    {"id": 2, "name": "Bacon", "emoji": "🥓", "hint": "Crispy perfection"},
+    {"id": 3, "name": "Waffles", "emoji": "🧇", "hint": "Little syrup pockets"},
+    {"id": 4, "name": "Scrambled Eggs", "emoji": "🥚", "hint": "Fluffy and buttery"},
+    {"id": 5, "name": "French Toast", "emoji": "🍞", "hint": "Eggy bread goodness"},
+    {"id": 6, "name": "Cereal", "emoji": "🥣", "hint": "The milk at the end though"},
+    {"id": 7, "name": "Hash Browns", "emoji": "🥔", "hint": "Crispy shredded potatoes"},
+    {"id": 8, "name": "Donuts", "emoji": "🍩", "hint": "Breakfast dessert"},
+    {"id": 9, "name": "Bagel with Cream Cheese", "emoji": "🥯", "hint": "New York classic"},
+    {"id": 10, "name": "Breakfast Burrito", "emoji": "🌯", "hint": "Everything wrapped up"},
+    {"id": 11, "name": "Oatmeal", "emoji": "🥣", "hint": "Healthy but boring?"},
+    {"id": 12, "name": "Cinnamon Rolls", "emoji": "🥐", "hint": "Gooey center is the best"},
+    {"id": 13, "name": "Smoothie Bowl", "emoji": "🫐", "hint": "Instagram breakfast"},
+    {"id": 14, "name": "Eggs Benedict", "emoji": "🍳", "hint": "Fancy hollandaise vibes"},
+    {"id": 15, "name": "Toast with Butter", "emoji": "🧈", "hint": "Simple but satisfying"},
+    {"id": 16, "name": "Sausage Links", "emoji": "🌭", "hint": "Breakfast meat tubes"},
+    {"id": 17, "name": "Fruit Salad", "emoji": "🍓", "hint": "The healthy option"},
+    {"id": 18, "name": "Pop-Tarts", "emoji": "🍪", "hint": "Toasted or raw?"},
+    {"id": 19, "name": "Biscuits and Gravy", "emoji": "🥖", "hint": "Southern comfort"},
+    {"id": 20, "name": "Yogurt Parfait", "emoji": "🍨", "hint": "Layers of goodness"},
+    {"id": 21, "name": "Avocado Toast", "emoji": "🥑", "hint": "Millennial stereotype"},
+    {"id": 22, "name": "Croissant", "emoji": "🥐", "hint": "Flaky French pastry"},
+    {"id": 23, "name": "Breakfast Sandwich", "emoji": "🥪", "hint": "Egg, cheese, meat combo"},
+    {"id": 24, "name": "Muffins", "emoji": "🧁", "hint": "Cake for breakfast"},
+    {"id": 25, "name": "Chocolate Chip Pancakes", "emoji": "🍫", "hint": "Regular pancakes upgraded"}
+  ]
+}

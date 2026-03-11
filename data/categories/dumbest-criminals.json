@@ -1,0 +1,33 @@
+{
+  "id": "dumbest-criminals",
+  "name": "Dumbest Criminals",
+  "description": "Rank these impressively stupid lawbreakers!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Lemon Juice Invisible Man", "emoji": "🍋", "hint": "Thought lemon juice made him invisible to cameras"},
+    {"id": 2, "name": "Facebook Live Robbers", "emoji": "📱", "hint": "Streamed their own crime live"},
+    {"id": 3, "name": "Pants-Down Burglar", "emoji": "👖", "hint": "Sagging pants made him trip and get caught"},
+    {"id": 4, "name": "Name Tag Robber", "emoji": "📛", "hint": "Forgot to remove work name tag"},
+    {"id": 5, "name": "GPS Stolen Car Guy", "emoji": "📍", "hint": "Stole car with active GPS tracker"},
+    {"id": 6, "name": "Return Address Drug Mailer", "emoji": "📦", "hint": "Put real return address on drug package"},
+    {"id": 7, "name": "Google Search Killer", "emoji": "🔍", "hint": "Searched 'how to kill' before murdering"},
+    {"id": 8, "name": "Selfie With Victim's Phone", "emoji": "🤳", "hint": "Photos auto-uploaded to cloud"},
+    {"id": 9, "name": "Bank Robber Resume", "emoji": "📄", "hint": "Used back of own resume as holdup note"},
+    {"id": 10, "name": "Called 911 on Himself", "emoji": "📞", "hint": "Accidentally called cops during robbery"},
+    {"id": 11, "name": "Returned to Crime Scene", "emoji": "🏠", "hint": "Went back to see the police investigation"},
+    {"id": 12, "name": "Tattoo Face ID", "emoji": "🎨", "hint": "Unique face tattoos made ID easy"},
+    {"id": 13, "name": "Escaped Then Posted Location", "emoji": "📍", "hint": "Fugitive posted on social media"},
+    {"id": 14, "name": "Stole Marked Bills", "emoji": "💵", "hint": "Spent bait money at same store"},
+    {"id": 15, "name": "Uber Getaway Driver", "emoji": "🚗", "hint": "Used Uber as escape car, driver called cops"},
+    {"id": 16, "name": "Left Phone at Scene", "emoji": "📱", "hint": "Phone unlocked, full of evidence"},
+    {"id": 17, "name": "Broke Into Jail", "emoji": "🔒", "hint": "Tried to break friend OUT, broke IN"},
+    {"id": 18, "name": "Complained to Police", "emoji": "🚔", "hint": "Called cops to complain about bad drugs"},
+    {"id": 19, "name": "Disguise Was Just Sharpie", "emoji": "✏️", "hint": "Drew mask on face with marker"},
+    {"id": 20, "name": "Applied for Job He Robbed", "emoji": "💼", "hint": "Returned to apply after robbing store"},
+    {"id": 21, "name": "DNA Left Everywhere", "emoji": "🧬", "hint": "Licked envelopes, left blood, hair"},
+    {"id": 22, "name": "Stole Police Car", "emoji": "🚓", "hint": "With officer still inside"},
+    {"id": 23, "name": "Posted Stolen Goods", "emoji": "🛒", "hint": "Sold items on Facebook Marketplace"},
+    {"id": 24, "name": "Took Mugshot With Stolen Shirt", "emoji": "👕", "hint": "Wearing victim's clothes at arrest"},
+    {"id": 25, "name": "Forgot to Wear Mask (COVID Era)", "emoji": "😷", "hint": "Only time someone SHOULD have masked"}
+  ]
+}

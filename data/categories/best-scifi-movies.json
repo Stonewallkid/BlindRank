@@ -1,0 +1,33 @@
+{
+  "id": "best-scifi-movies",
+  "name": "Best Sci-Fi Movies",
+  "description": "Rank these mind-bending films!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Blade Runner", "emoji": "🌧️", "hint": "Tears in rain, replicants"},
+    {"id": 2, "name": "The Matrix", "emoji": "💊", "hint": "Red pill or blue pill"},
+    {"id": 3, "name": "Interstellar", "emoji": "🌌", "hint": "Murph! Time dilation tears"},
+    {"id": 4, "name": "Inception", "emoji": "🌀", "hint": "Dream within a dream"},
+    {"id": 5, "name": "Alien", "emoji": "👽", "hint": "In space no one can hear you scream"},
+    {"id": 6, "name": "2001: A Space Odyssey", "emoji": "🛸", "hint": "HAL 9000, open the pod bay doors"},
+    {"id": 7, "name": "Terminator 2", "emoji": "🤖", "hint": "I'll be back, thumbs up"},
+    {"id": 8, "name": "Star Wars: A New Hope", "emoji": "⭐", "hint": "Started it all"},
+    {"id": 9, "name": "Arrival", "emoji": "🛸", "hint": "Learning alien language, time twist"},
+    {"id": 10, "name": "The Empire Strikes Back", "emoji": "⚔️", "hint": "I am your father"},
+    {"id": 11, "name": "Dune", "emoji": "🏜️", "hint": "The spice must flow"},
+    {"id": 12, "name": "Back to the Future", "emoji": "🚗", "hint": "1.21 gigawatts!"},
+    {"id": 13, "name": "E.T.", "emoji": "🚲", "hint": "Phone home, bike flying"},
+    {"id": 14, "name": "Jurassic Park", "emoji": "🦖", "hint": "Life finds a way"},
+    {"id": 15, "name": "District 9", "emoji": "🦐", "hint": "Prawns, apartheid allegory"},
+    {"id": 16, "name": "Ex Machina", "emoji": "🤖", "hint": "Is she conscious?"},
+    {"id": 17, "name": "The Martian", "emoji": "🥔", "hint": "Science the sh*t out of this"},
+    {"id": 18, "name": "Edge of Tomorrow", "emoji": "🔄", "hint": "Live, die, repeat"},
+    {"id": 19, "name": "Blade Runner 2049", "emoji": "🌆", "hint": "Worthy sequel"},
+    {"id": 20, "name": "Gravity", "emoji": "🌍", "hint": "Lost in space, terrifying"},
+    {"id": 21, "name": "Close Encounters", "emoji": "🛸", "hint": "The five-note tune"},
+    {"id": 22, "name": "Minority Report", "emoji": "👁️", "hint": "Precrime future"},
+    {"id": 23, "name": "Annihilation", "emoji": "🌈", "hint": "The shimmer, weird bear"},
+    {"id": 24, "name": "Everything Everywhere All at Once", "emoji": "🥯", "hint": "Multiverse bagel chaos"},
+    {"id": 25, "name": "Moon", "emoji": "🌙", "hint": "Sam Rockwell alone, twist"}
+  ]
+}

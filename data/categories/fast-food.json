@@ -1,0 +1,33 @@
+{
+  "id": "fast-food",
+  "name": "Best Fast Food Chains",
+  "description": "Rank these greasy guilty pleasures!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "McDonald's", "emoji": "🍟", "hint": "Golden arches, broken ice cream machine"},
+    {"id": 2, "name": "Chick-fil-A", "emoji": "🐔", "hint": "My pleasure, closed Sundays"},
+    {"id": 3, "name": "In-N-Out", "emoji": "🍔", "hint": "Animal style or you're wrong"},
+    {"id": 4, "name": "Wendy's", "emoji": "👧", "hint": "Twitter roasts, square patties"},
+    {"id": 5, "name": "Taco Bell", "emoji": "🌮", "hint": "Live Mas, 2am regrets"},
+    {"id": 6, "name": "Five Guys", "emoji": "🥜", "hint": "Bag of fries, expensive but worth it"},
+    {"id": 7, "name": "Burger King", "emoji": "👑", "hint": "Flame grilled, whopper jr"},
+    {"id": 8, "name": "Chipotle", "emoji": "🌯", "hint": "Guac is extra, double meat"},
+    {"id": 9, "name": "Popeyes", "emoji": "🍗", "hint": "Chicken sandwich wars winner"},
+    {"id": 10, "name": "KFC", "emoji": "🪣", "hint": "11 herbs and spices"},
+    {"id": 11, "name": "Subway", "emoji": "🥪", "hint": "Eat fresh, footlong drama"},
+    {"id": 12, "name": "Panda Express", "emoji": "🐼", "hint": "Orange chicken addiction"},
+    {"id": 13, "name": "Shake Shack", "emoji": "🍔", "hint": "East coast In-N-Out vibes"},
+    {"id": 14, "name": "Wingstop", "emoji": "🍗", "hint": "Lemon pepper wet"},
+    {"id": 15, "name": "Whataburger", "emoji": "🍔", "hint": "Texas only, honey butter biscuits"},
+    {"id": 16, "name": "Culver's", "emoji": "🧈", "hint": "Butterburgers, cheese curds"},
+    {"id": 17, "name": "Raising Cane's", "emoji": "🐔", "hint": "Chicken fingers, Cane's sauce"},
+    {"id": 18, "name": "Arby's", "emoji": "🥩", "hint": "We have the meats"},
+    {"id": 19, "name": "Jack in the Box", "emoji": "📦", "hint": "Tacos at 3am, no judgment"},
+    {"id": 20, "name": "Sonic", "emoji": "🚗", "hint": "Drive-in, cherry limeade"},
+    {"id": 21, "name": "Carl's Jr / Hardee's", "emoji": "⭐", "hint": "Messy burgers, weird ads"},
+    {"id": 22, "name": "Zaxby's", "emoji": "🐔", "hint": "Southern chicken, Zax sauce"},
+    {"id": 23, "name": "Little Caesars", "emoji": "🍕", "hint": "Hot and ready, $5 desperation"},
+    {"id": 24, "name": "Domino's", "emoji": "🍕", "hint": "Tracker addiction, lava cakes"},
+    {"id": 25, "name": "Dairy Queen", "emoji": "🍦", "hint": "Blizzards, upside down test"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "superheroes",
+  "name": "Best Superheroes",
+  "description": "Rank these heroic legends!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Spider-Man", "emoji": "🕷️", "hint": "Friendly neighborhood hero"},
+    {"id": 2, "name": "Batman", "emoji": "🦇", "hint": "Rich guy with issues"},
+    {"id": 3, "name": "Superman", "emoji": "💪", "hint": "Man of Steel"},
+    {"id": 4, "name": "Wonder Woman", "emoji": "⭐", "hint": "Amazon warrior princess"},
+    {"id": 5, "name": "Iron Man", "emoji": "🤖", "hint": "Genius billionaire playboy"},
+    {"id": 6, "name": "Captain America", "emoji": "🛡️", "hint": "America's... well, you know"},
+    {"id": 7, "name": "Thor", "emoji": "⚡", "hint": "God of Thunder"},
+    {"id": 8, "name": "Black Panther", "emoji": "🐆", "hint": "Wakanda Forever"},
+    {"id": 9, "name": "Hulk", "emoji": "💚", "hint": "Always angry"},
+    {"id": 10, "name": "Wolverine", "emoji": "🔪", "hint": "Adamantium claws"},
+    {"id": 11, "name": "The Flash", "emoji": "⚡", "hint": "Fastest man alive"},
+    {"id": 12, "name": "Aquaman", "emoji": "🔱", "hint": "Talks to fish"},
+    {"id": 13, "name": "Deadpool", "emoji": "💀", "hint": "Merc with a mouth"},
+    {"id": 14, "name": "Doctor Strange", "emoji": "🔮", "hint": "Sorcerer Supreme"},
+    {"id": 15, "name": "Black Widow", "emoji": "🕷️", "hint": "Russian super spy"},
+    {"id": 16, "name": "Green Lantern", "emoji": "💚", "hint": "Willpower ring"},
+    {"id": 17, "name": "Captain Marvel", "emoji": "⭐", "hint": "Most powerful Avenger?"},
+    {"id": 18, "name": "Nightwing", "emoji": "🦅", "hint": "Former Robin grew up"},
+    {"id": 19, "name": "Storm", "emoji": "🌩️", "hint": "Weather goddess"},
+    {"id": 20, "name": "Ant-Man", "emoji": "🐜", "hint": "Small but mighty"},
+    {"id": 21, "name": "Hawkeye", "emoji": "🏹", "hint": "Guy with arrows"},
+    {"id": 22, "name": "Shazam", "emoji": "⚡", "hint": "Kid says magic word"},
+    {"id": 23, "name": "Scarlet Witch", "emoji": "🔴", "hint": "Reality warper"},
+    {"id": 24, "name": "Vision", "emoji": "💎", "hint": "Android with a soul"},
+    {"id": 25, "name": "Miles Morales", "emoji": "🕷️", "hint": "Into the Spider-Verse"}
+  ]
+}

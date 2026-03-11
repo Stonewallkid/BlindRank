@@ -1,0 +1,33 @@
+{
+  "id": "raunchy-shows",
+  "name": "Raunchiest TV Shows",
+  "description": "Rank these shows you can't watch with parents!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Game of Thrones", "emoji": "🐉", "hint": "Incest, murder, incest murder"},
+    {"id": 2, "name": "Euphoria", "emoji": "💊", "hint": "Zendaya's Emmy, everyone's trauma"},
+    {"id": 3, "name": "Spartacus", "emoji": "⚔️", "hint": "Gladiators + orgies = Starz"},
+    {"id": 4, "name": "Big Mouth", "emoji": "🫦", "hint": "Hormone monsters and shame wizards"},
+    {"id": 5, "name": "The Boys", "emoji": "🦸", "hint": "Homelander's milk thing"},
+    {"id": 6, "name": "True Blood", "emoji": "🧛", "hint": "Everyone sleeps with everyone, with fangs"},
+    {"id": 7, "name": "Californication", "emoji": "✍️", "hint": "Hank Moody's infinite bad decisions"},
+    {"id": 8, "name": "Sex Education", "emoji": "📚", "hint": "British kids being very honest"},
+    {"id": 9, "name": "Shameless", "emoji": "🍺", "hint": "Gallaghers have no limits"},
+    {"id": 10, "name": "House of the Dragon", "emoji": "🔥", "hint": "More Targaryens, more incest"},
+    {"id": 11, "name": "American Horror Story", "emoji": "👻", "hint": "Each season finds new ways to shock"},
+    {"id": 12, "name": "Bridgerton", "emoji": "💘", "hint": "Regency-era spice is still spice"},
+    {"id": 13, "name": "Oz", "emoji": "🔒", "hint": "Prison show that started prestige TV raunch"},
+    {"id": 14, "name": "Nip/Tuck", "emoji": "🔪", "hint": "Plastic surgeons, horrible people"},
+    {"id": 15, "name": "Skins (UK)", "emoji": "🇬🇧", "hint": "British teens behaving terribly"},
+    {"id": 16, "name": "Queer as Folk", "emoji": "🏳️‍🌈", "hint": "Groundbreaking LGBTQ+ content, explicit"},
+    {"id": 17, "name": "Rome", "emoji": "🏛️", "hint": "HBO does historical debauchery"},
+    {"id": 18, "name": "Banshee", "emoji": "🦹", "hint": "Cinemax after dark energy"},
+    {"id": 19, "name": "The Deuce", "emoji": "📹", "hint": "1970s porn industry drama"},
+    {"id": 20, "name": "Secret Diary of a Call Girl", "emoji": "📔", "hint": "Billie Piper's other role"},
+    {"id": 21, "name": "Weeds", "emoji": "🌿", "hint": "Suburban mom, drug deals, chaos"},
+    {"id": 22, "name": "The White Lotus", "emoji": "🏝️", "hint": "Rich people being awful, sexually"},
+    {"id": 23, "name": "You", "emoji": "📚", "hint": "Hot stalker murder show"},
+    {"id": 24, "name": "Love Island", "emoji": "🏝️", "hint": "Reality show, hideaway room"},
+    {"id": 25, "name": "Sense8", "emoji": "🧠", "hint": "Psychic orgies, literally"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "annoying-things",
+  "name": "Most Annoying Things",
+  "description": "Rank these daily irritations!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Slow WiFi", "emoji": "📶", "hint": "Buffering... buffering..."},
+    {"id": 2, "name": "People Who Don't Use Turn Signals", "emoji": "🚗", "hint": "Mind readers only"},
+    {"id": 3, "name": "Loud Chewing", "emoji": "😤", "hint": "Close your mouth please"},
+    {"id": 4, "name": "Unskippable Ads", "emoji": "📺", "hint": "5... 4... 3..."},
+    {"id": 5, "name": "Reply All Emails", "emoji": "📧", "hint": "Thanks! Thanks! Thanks!"},
+    {"id": 6, "name": "People Who Walk Slow in Hallways", "emoji": "🚶", "hint": "Move to the side"},
+    {"id": 7, "name": "Tangled Headphones", "emoji": "🎧", "hint": "Every single time"},
+    {"id": 8, "name": "Spoilers", "emoji": "🤫", "hint": "Haven't watched it yet!"},
+    {"id": 9, "name": "Auto-Playing Videos", "emoji": "▶️", "hint": "Where's that sound coming from"},
+    {"id": 10, "name": "Low Phone Battery", "emoji": "🔋", "hint": "1% anxiety"},
+    {"id": 11, "name": "People Who Are Late", "emoji": "⏰", "hint": "On my way (still in bed)"},
+    {"id": 12, "name": "Wet Socks", "emoji": "🧦", "hint": "Stepped in something"},
+    {"id": 13, "name": "Leaving Read on Read", "emoji": "👀", "hint": "Seen 2 hours ago"},
+    {"id": 14, "name": "Mosquitoes", "emoji": "🦟", "hint": "The buzzing at night"},
+    {"id": 15, "name": "Captchas", "emoji": "🤖", "hint": "Select all traffic lights"},
+    {"id": 16, "name": "Loud Keyboard Typers", "emoji": "⌨️", "hint": "CLACK CLACK CLACK"},
+    {"id": 17, "name": "One-Uppers", "emoji": "☝️", "hint": "That's nothing, I once..."},
+    {"id": 18, "name": "Forgetting Why You Walked Into a Room", "emoji": "🚪", "hint": "What was I doing?"},
+    {"id": 19, "name": "Paper Cuts", "emoji": "📄", "hint": "Tiny but deadly"},
+    {"id": 20, "name": "When Charger Only Works at One Angle", "emoji": "🔌", "hint": "Don't move it"},
+    {"id": 21, "name": "People Who Say 'Actually...'", "emoji": "🤓", "hint": "Well actually..."},
+    {"id": 22, "name": "Subscription Cancellation Processes", "emoji": "❌", "hint": "Click here, then here, then call us"},
+    {"id": 23, "name": "Printer Problems", "emoji": "🖨️", "hint": "PC Load Letter??"},
+    {"id": 24, "name": "Getting Rick Rolled", "emoji": "🎵", "hint": "Never gonna give you up"},
+    {"id": 25, "name": "Stepping on Legos", "emoji": "🧱", "hint": "Pain level: maximum"}
+  ]
+}

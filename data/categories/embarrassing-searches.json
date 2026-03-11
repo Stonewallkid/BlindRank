@@ -1,0 +1,33 @@
+{
+  "id": "embarrassing-searches",
+  "name": "Most Embarrassing Things to Google",
+  "description": "Rank these search bar shame moments!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Is my poop normal?", "emoji": "💩", "hint": "Color chart consultation"},
+    {"id": 2, "name": "Why is my pee that color?", "emoji": "🚽", "hint": "Hydration check"},
+    {"id": 3, "name": "Am I pregnant? (when male)", "emoji": "🤰", "hint": "Biology confusion"},
+    {"id": 4, "name": "How to tell if I'm ugly", "emoji": "🪞", "hint": "Fishing for algorithms"},
+    {"id": 5, "name": "Ex's social media stalking", "emoji": "👀", "hint": "Who are they with now"},
+    {"id": 6, "name": "How to make friends as an adult", "emoji": "🤝", "hint": "Loneliness admission"},
+    {"id": 7, "name": "WebMD symptom spiral", "emoji": "🏥", "hint": "I definitely have this rare disease"},
+    {"id": 8, "name": "What is that smell?", "emoji": "👃", "hint": "Body odor detective"},
+    {"id": 9, "name": "How to know if they like me", "emoji": "💕", "hint": "Middle school energy"},
+    {"id": 10, "name": "Is it normal to have a crush on...", "emoji": "😳", "hint": "Fictional character probably"},
+    {"id": 11, "name": "Song lyrics you've been singing wrong", "emoji": "🎵", "hint": "Excuse me while I kiss this guy"},
+    {"id": 12, "name": "How to spell [easy word]", "emoji": "📝", "hint": "Definitely vs definately"},
+    {"id": 13, "name": "Celebrity net worth", "emoji": "💰", "hint": "Comparing yourself to rich people"},
+    {"id": 14, "name": "How to get out of plans", "emoji": "🏠", "hint": "Excuse generator"},
+    {"id": 15, "name": "Do I have ADHD quiz", "emoji": "🧠", "hint": "Self-diagnosis journey"},
+    {"id": 16, "name": "My own name", "emoji": "🔍", "hint": "Ego search"},
+    {"id": 17, "name": "How to kiss", "emoji": "💋", "hint": "Pre-date research"},
+    {"id": 18, "name": "Is this mole cancer?", "emoji": "🩺", "hint": "Skin anxiety"},
+    {"id": 19, "name": "How to talk to women/men", "emoji": "💬", "hint": "Basic interaction confusion"},
+    {"id": 20, "name": "Fanfiction about...", "emoji": "📖", "hint": "We don't talk about this"},
+    {"id": 21, "name": "Can I eat this food I dropped?", "emoji": "🍕", "hint": "5 second rule research"},
+    {"id": 22, "name": "Why am I like this?", "emoji": "😩", "hint": "Existential crisis search"},
+    {"id": 23, "name": "Is it illegal to...", "emoji": "👮", "hint": "Pre-crime research"},
+    {"id": 24, "name": "How to hide a body (for writing)", "emoji": "✍️", "hint": "Sure, for writing..."},
+    {"id": 25, "name": "Do dogs judge you?", "emoji": "🐕", "hint": "Seeking canine approval"}
+  ]
+}

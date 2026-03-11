@@ -1,0 +1,33 @@
+{
+  "id": "internet-trends",
+  "name": "Internet Trends",
+  "description": "Rank these viral moments that broke the internet!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Ice Bucket Challenge", "emoji": "🧊", "hint": "Actually raised money, we peaked"},
+    {"id": 2, "name": "Harlem Shake", "emoji": "💃", "hint": "30 seconds of workplace chaos"},
+    {"id": 3, "name": "Planking", "emoji": "🪵", "hint": "Lying down became content"},
+    {"id": 4, "name": "Mannequin Challenge", "emoji": "🧍", "hint": "Black Beatles playing forever"},
+    {"id": 5, "name": "Bottle Flip", "emoji": "🍾", "hint": "Simple yet impossibly satisfying"},
+    {"id": 6, "name": "Tide Pod Challenge", "emoji": "🧺", "hint": "Natural selection enters chat"},
+    {"id": 7, "name": "Gangnam Style", "emoji": "🐴", "hint": "Broke YouTube's view counter"},
+    {"id": 8, "name": "Doge", "emoji": "🐕", "hint": "Much wow, very currency"},
+    {"id": 9, "name": "Rickrolling", "emoji": "🎵", "hint": "The rickroll that keeps on giving"},
+    {"id": 10, "name": "Area 51 Raid", "emoji": "👽", "hint": "1 million said yes, 150 showed up"},
+    {"id": 11, "name": "Bernie Sanders Mittens", "emoji": "🧤", "hint": "Photoshopped everywhere, anywhere"},
+    {"id": 12, "name": "Sea Shanties", "emoji": "⛵", "hint": "Quarantine made us pirates"},
+    {"id": 13, "name": "Dress Color Debate", "emoji": "👗", "hint": "Blue/black or white/gold, friendships ended"},
+    {"id": 14, "name": "Yanny vs Laurel", "emoji": "👂", "hint": "We're hearing different things?!"},
+    {"id": 15, "name": "Fidget Spinners", "emoji": "🌀", "hint": "Teachers' worst nightmare of 2017"},
+    {"id": 16, "name": "Pokemon Go Summer", "emoji": "📱", "hint": "Outside? For Pokemon? Deal."},
+    {"id": 17, "name": "Flappy Bird", "emoji": "🐤", "hint": "Rage quits heard worldwide"},
+    {"id": 18, "name": "What Color Is This", "emoji": "🎨", "hint": "Sneakers/jacket color wars"},
+    {"id": 19, "name": "Damn Daniel", "emoji": "👟", "hint": "Back at it again with the white Vans"},
+    {"id": 20, "name": "Cash Me Outside", "emoji": "💁", "hint": "How bow dah? (She's rich now)"},
+    {"id": 21, "name": "Wordle", "emoji": "🟩", "hint": "Everyone posting their scores"},
+    {"id": 22, "name": "Slime ASMR", "emoji": "💚", "hint": "Satisfying or deeply unsettling"},
+    {"id": 23, "name": "Baby Yoda", "emoji": "💚", "hint": "Merchandised within hours"},
+    {"id": 24, "name": "Cinnamon Challenge", "emoji": "🫚", "hint": "Spice-induced coughing fits"},
+    {"id": 25, "name": "Corn Kid", "emoji": "🌽", "hint": "It's corn! A big lump with knobs"}
+  ]
+}

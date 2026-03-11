@@ -1,0 +1,33 @@
+{
+  "id": "movie-tropes",
+  "name": "Most Overused Movie Tropes",
+  "description": "Rank these tired cliches!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Villain Explains Plan", "emoji": "🦹", "hint": "Let me tell you everything"},
+    {"id": 2, "name": "Hero Walks Away From Explosion", "emoji": "💥", "hint": "Cool guys don't look back"},
+    {"id": 3, "name": "Wilhelm Scream", "emoji": "😱", "hint": "That one sound effect"},
+    {"id": 4, "name": "Love Interest Trips", "emoji": "🤕", "hint": "Suddenly clumsy"},
+    {"id": 5, "name": "Hacking = Typing Fast", "emoji": "⌨️", "hint": "I'm in"},
+    {"id": 6, "name": "Fruit Cart Destruction", "emoji": "🍎", "hint": "My cabbages equivalent"},
+    {"id": 7, "name": "Just a Cat", "emoji": "🐱", "hint": "Jump scare fake-out"},
+    {"id": 8, "name": "One Day Until Retirement", "emoji": "👴", "hint": "Guaranteed death"},
+    {"id": 9, "name": "Enhance the Image", "emoji": "🔍", "hint": "Zoom in on that pixel"},
+    {"id": 10, "name": "Convenient Parking", "emoji": "🅿️", "hint": "Right in front, always"},
+    {"id": 11, "name": "Phone Rings at Perfect Moment", "emoji": "📞", "hint": "About to confess love..."},
+    {"id": 12, "name": "Dramatic Mirror Punch", "emoji": "🪞", "hint": "I hate who I've become"},
+    {"id": 13, "name": "Third Act Breakup", "emoji": "💔", "hint": "We need time apart before finale"},
+    {"id": 14, "name": "It Was All a Dream", "emoji": "💭", "hint": "Lazy writing escape"},
+    {"id": 15, "name": "Awkward Morning After", "emoji": "🌅", "hint": "Wrapped in sheets, making coffee"},
+    {"id": 16, "name": "Chosen One", "emoji": "⭐", "hint": "You're special for no reason"},
+    {"id": 17, "name": "Air Vent Escape", "emoji": "🔧", "hint": "Always human-sized"},
+    {"id": 18, "name": "CPR Brings Back Dead", "emoji": "💓", "hint": "Two pumps and you're alive"},
+    {"id": 19, "name": "Hold Breath Indefinitely", "emoji": "🫁", "hint": "5 minutes underwater, no problem"},
+    {"id": 20, "name": "Nerdy Girl Removes Glasses", "emoji": "👓", "hint": "She was beautiful all along"},
+    {"id": 21, "name": "Dead Mentor", "emoji": "📖", "hint": "Obi-Wan had to go"},
+    {"id": 22, "name": "Split Up to Cover Ground", "emoji": "👥", "hint": "Horror movie death wish"},
+    {"id": 23, "name": "Ticking Time Bomb", "emoji": "⏱️", "hint": "Which wire to cut?"},
+    {"id": 24, "name": "Slow Clap Starts", "emoji": "👏", "hint": "One person, then everyone"},
+    {"id": 25, "name": "It's Not What It Looks Like", "emoji": "😰", "hint": "It's exactly what it looks like"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "vegas-stories",
+  "name": "Craziest Vegas Stories",
+  "description": "Rank these Sin City legends!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Woke Up Married to Stranger", "emoji": "💒", "hint": "Elvis officiated"},
+    {"id": 2, "name": "Lost Everything at Blackjack", "emoji": "🃏", "hint": "Double down disaster"},
+    {"id": 3, "name": "Won Big Then Lost It All Back", "emoji": "🎰", "hint": "Should've walked away"},
+    {"id": 4, "name": "Accidentally Went to Wrong Hotel Room", "emoji": "🔑", "hint": "Key cards are confusing"},
+    {"id": 5, "name": "Pool Party That Lasted 3 Days", "emoji": "🏊", "hint": "What year is it?"},
+    {"id": 6, "name": "Got Matching Tattoos With Strangers", "emoji": "🎲", "hint": "Best friends for 4 hours"},
+    {"id": 7, "name": "Mistook Performer for Regular Person", "emoji": "👯", "hint": "Why are you dressed like that?"},
+    {"id": 8, "name": "Tried to Count Cards, Got Caught", "emoji": "🧮", "hint": "MIT this is not"},
+    {"id": 9, "name": "Bachelor Party Memory Loss", "emoji": "🤵", "hint": "What happens in Vegas..."},
+    {"id": 10, "name": "Buffet All-You-Can-Eat Challenge Gone Wrong", "emoji": "🍽️", "hint": "26th plate regret"},
+    {"id": 11, "name": "Bought a Timeshare at 4am", "emoji": "🏢", "hint": "Seemed like a good deal"},
+    {"id": 12, "name": "Met Celebrity, Embarrassed Self", "emoji": "⭐", "hint": "They were NOT impressed"},
+    {"id": 13, "name": "Spent Rent Money, Had to Call Parents", "emoji": "📞", "hint": "Hi Mom, don't be mad..."},
+    {"id": 14, "name": "Magic Show Volunteered, Humiliated", "emoji": "🎩", "hint": "Sawed in half emotionally"},
+    {"id": 15, "name": "EDC Festival Survival Story", "emoji": "🎧", "hint": "Three days no sleep"},
+    {"id": 16, "name": "Strip Club ATM Receipt Horror", "emoji": "💳", "hint": "How much did I withdraw??"},
+    {"id": 17, "name": "Accidentally in Someone's Wedding Photos", "emoji": "📸", "hint": "Background drunk guy forever"},
+    {"id": 18, "name": "Thought Fountain Show Was Real Fire", "emoji": "⛲", "hint": "Called 911, embarrassing"},
+    {"id": 19, "name": "Drove to Vegas, Flew Home Broke", "emoji": "✈️", "hint": "Car still there somewhere"},
+    {"id": 20, "name": "Penn & Teller Talked to Me After", "emoji": "🎭", "hint": "Highlight of my life"},
+    {"id": 21, "name": "Fremont Street Zipline While Hammered", "emoji": "🦅", "hint": "Lost a shoe mid-flight"},
+    {"id": 22, "name": "Helicopter Tour Hangover Vomit", "emoji": "🚁", "hint": "Grand Canyon regrets"},
+    {"id": 23, "name": "High Roller Wheel Proposal Gone Wrong", "emoji": "🎡", "hint": "She said no, 30 min to go"},
+    {"id": 24, "name": "Cage Fight Bet Won Big", "emoji": "🥊", "hint": "Put it all on the underdog"},
+    {"id": 25, "name": "Convinced Hotel I Was a VIP", "emoji": "👑", "hint": "Worked until it didn't"}
+  ]
+}

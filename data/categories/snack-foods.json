@@ -1,0 +1,33 @@
+{
+  "id": "snack-foods",
+  "name": "Best Snack Foods",
+  "description": "Rank these munchies!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Doritos", "emoji": "🔺", "hint": "Nacho cheese fingers"},
+    {"id": 2, "name": "Oreos", "emoji": "🍪", "hint": "Twist, lick, dunk"},
+    {"id": 3, "name": "Hot Cheetos", "emoji": "🔥", "hint": "Red fingers for days"},
+    {"id": 4, "name": "Goldfish", "emoji": "🐟", "hint": "The snack that smiles back"},
+    {"id": 5, "name": "Pringles", "emoji": "🥔", "hint": "Once you pop..."},
+    {"id": 6, "name": "Cheez-Its", "emoji": "🧀", "hint": "Baked cheese squares"},
+    {"id": 7, "name": "Takis", "emoji": "🌀", "hint": "Rolled up spicy corn"},
+    {"id": 8, "name": "Chips and Salsa", "emoji": "🫓", "hint": "Restaurant basket life"},
+    {"id": 9, "name": "Popcorn", "emoji": "🍿", "hint": "Movie essential"},
+    {"id": 10, "name": "Cheese Puffs", "emoji": "🧀", "hint": "Dangerously cheesy"},
+    {"id": 11, "name": "Pretzels", "emoji": "🥨", "hint": "Salty twisted bread"},
+    {"id": 12, "name": "Fruit Snacks", "emoji": "🍇", "hint": "Gummy vitamin imposters"},
+    {"id": 13, "name": "Trail Mix", "emoji": "🥜", "hint": "Pick out the M&Ms"},
+    {"id": 14, "name": "Ritz Crackers", "emoji": "🍘", "hint": "Buttery rounds"},
+    {"id": 15, "name": "Beef Jerky", "emoji": "🥩", "hint": "Expensive dried meat"},
+    {"id": 16, "name": "Chips and Guac", "emoji": "🥑", "hint": "Yes I know it's extra"},
+    {"id": 17, "name": "Rice Krispies Treats", "emoji": "🍚", "hint": "Snap, crackle, sticky"},
+    {"id": 18, "name": "Chex Mix", "emoji": "🥣", "hint": "The rye chips are best"},
+    {"id": 19, "name": "String Cheese", "emoji": "🧀", "hint": "Peel it properly"},
+    {"id": 20, "name": "Tortilla Chips and Queso", "emoji": "🫕", "hint": "Liquid gold"},
+    {"id": 21, "name": "Cheese and Crackers", "emoji": "🧀", "hint": "Fancy snack platter"},
+    {"id": 22, "name": "Veggie Straws", "emoji": "🥕", "hint": "Pretending to be healthy"},
+    {"id": 23, "name": "Funyuns", "emoji": "🧅", "hint": "Onion ring chips"},
+    {"id": 24, "name": "Pop Tarts", "emoji": "🍓", "hint": "Frosted or unfrosted debate"},
+    {"id": 25, "name": "Pizza Rolls", "emoji": "🍕", "hint": "Lava pockets"}
+  ]
+}

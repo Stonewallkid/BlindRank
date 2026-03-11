@@ -1,0 +1,33 @@
+{
+  "id": "ocean-animals",
+  "name": "Coolest Ocean Animals",
+  "description": "Rank these sea creatures!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Great White Shark", "emoji": "🦈", "hint": "Apex predator vibes"},
+    {"id": 2, "name": "Orca (Killer Whale)", "emoji": "🐋", "hint": "Actually a dolphin"},
+    {"id": 3, "name": "Octopus", "emoji": "🐙", "hint": "Eight arms, big brain"},
+    {"id": 4, "name": "Sea Turtle", "emoji": "🐢", "hint": "Duuude, crush it"},
+    {"id": 5, "name": "Dolphin", "emoji": "🐬", "hint": "Smartest swimmers"},
+    {"id": 6, "name": "Jellyfish", "emoji": "🪼", "hint": "No brain, all vibes"},
+    {"id": 7, "name": "Manta Ray", "emoji": "🦑", "hint": "Majestic ocean flyers"},
+    {"id": 8, "name": "Blue Whale", "emoji": "🐳", "hint": "Biggest animal ever"},
+    {"id": 9, "name": "Clownfish", "emoji": "🐠", "hint": "Found Nemo"},
+    {"id": 10, "name": "Seahorse", "emoji": "🐴", "hint": "Dads have the babies"},
+    {"id": 11, "name": "Giant Squid", "emoji": "🦑", "hint": "Kraken inspiration"},
+    {"id": 12, "name": "Hammerhead Shark", "emoji": "🦈", "hint": "Eyes on the sides"},
+    {"id": 13, "name": "Penguin", "emoji": "🐧", "hint": "Tuxedo birds"},
+    {"id": 14, "name": "Stingray", "emoji": "🐟", "hint": "Flat and dangerous"},
+    {"id": 15, "name": "Pufferfish", "emoji": "🐡", "hint": "Inflates when scared"},
+    {"id": 16, "name": "Anglerfish", "emoji": "🐟", "hint": "Built-in flashlight"},
+    {"id": 17, "name": "Narwhal", "emoji": "🦄", "hint": "Unicorn of the sea"},
+    {"id": 18, "name": "Starfish", "emoji": "⭐", "hint": "Regenerates arms"},
+    {"id": 19, "name": "Electric Eel", "emoji": "⚡", "hint": "Shocking personality"},
+    {"id": 20, "name": "Walrus", "emoji": "🦭", "hint": "Tusks and whiskers"},
+    {"id": 21, "name": "Beluga Whale", "emoji": "🐋", "hint": "The squishy forehead"},
+    {"id": 22, "name": "Moray Eel", "emoji": "🐍", "hint": "Hiding in the rocks"},
+    {"id": 23, "name": "Sea Otter", "emoji": "🦦", "hint": "Holds hands while sleeping"},
+    {"id": 24, "name": "Coral", "emoji": "🪸", "hint": "Actually an animal"},
+    {"id": 25, "name": "Whale Shark", "emoji": "🦈", "hint": "Gentle giant filter feeder"}
+  ]
+}

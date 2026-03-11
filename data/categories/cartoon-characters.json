@@ -1,0 +1,33 @@
+{
+  "id": "cartoon-characters",
+  "name": "Best Cartoon Characters",
+  "description": "Rank these animated legends!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "SpongeBob SquarePants", "emoji": "🧽", "hint": "I'm ready! Bikini Bottom"},
+    {"id": 2, "name": "Bugs Bunny", "emoji": "🐰", "hint": "What's up, doc?"},
+    {"id": 3, "name": "Mickey Mouse", "emoji": "🐭", "hint": "Disney's original icon"},
+    {"id": 4, "name": "Homer Simpson", "emoji": "🍩", "hint": "D'oh! Beer and donuts"},
+    {"id": 5, "name": "Scooby-Doo", "emoji": "🐕", "hint": "Ruh-roh! Scooby snacks"},
+    {"id": 6, "name": "Tom & Jerry", "emoji": "🐱", "hint": "Eternal chase"},
+    {"id": 7, "name": "Pikachu", "emoji": "⚡", "hint": "Pika pika!"},
+    {"id": 8, "name": "Shrek", "emoji": "🧅", "hint": "Layers like an onion"},
+    {"id": 9, "name": "Patrick Star", "emoji": "⭐", "hint": "No this is Patrick"},
+    {"id": 10, "name": "Goku", "emoji": "🐉", "hint": "Super Saiyan legend"},
+    {"id": 11, "name": "Bart Simpson", "emoji": "😈", "hint": "Eat my shorts"},
+    {"id": 12, "name": "Elsa", "emoji": "❄️", "hint": "Let it go!"},
+    {"id": 13, "name": "Stewie Griffin", "emoji": "👶", "hint": "Evil genius baby"},
+    {"id": 14, "name": "Finn the Human", "emoji": "🗡️", "hint": "Adventure Time!"},
+    {"id": 15, "name": "Dora the Explorer", "emoji": "🗺️", "hint": "Can you say 'map'?"},
+    {"id": 16, "name": "Courage the Cowardly Dog", "emoji": "🐕", "hint": "Terrifying show for kids"},
+    {"id": 17, "name": "Dexter", "emoji": "🔬", "hint": "Dee Dee! Get out!"},
+    {"id": 18, "name": "Timmy Turner", "emoji": "⭐", "hint": "Fairly Odd Parents"},
+    {"id": 19, "name": "Avatar Aang", "emoji": "🌊", "hint": "The Last Airbender"},
+    {"id": 20, "name": "Gumball Watterson", "emoji": "🐱", "hint": "Amazing world chaos"},
+    {"id": 21, "name": "Johnny Bravo", "emoji": "💪", "hint": "Do the monkey!"},
+    {"id": 22, "name": "Powerpuff Girls", "emoji": "💚", "hint": "Sugar, spice, Chemical X"},
+    {"id": 23, "name": "Woody", "emoji": "🤠", "hint": "There's a snake in my boot"},
+    {"id": 24, "name": "Buzz Lightyear", "emoji": "🚀", "hint": "To infinity and beyond"},
+    {"id": 25, "name": "Bluey", "emoji": "🐕", "hint": "Australian heeler, parent tears"}
+  ]
+}

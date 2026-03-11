@@ -1,0 +1,33 @@
+{
+  "id": "dumbest-social-media-fails",
+  "name": "Dumbest Social Media Fails",
+  "description": "Rank these catastrophic online blunders!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Fyre Festival Promo", "emoji": "🏝️", "hint": "Influencers sold a disaster"},
+    {"id": 2, "name": "Pepsi Kendall Jenner Ad", "emoji": "🥤", "hint": "Solved racism with soda"},
+    {"id": 3, "name": "DiGiorno #WhyIStayed", "emoji": "🍕", "hint": "Didn't read what hashtag was about"},
+    {"id": 4, "name": "US Airways Explicit Tweet", "emoji": "✈️", "hint": "Accidentally posted NSFW image"},
+    {"id": 5, "name": "Amy's Baking Company", "emoji": "🧁", "hint": "Kitchen Nightmares meltdown online"},
+    {"id": 6, "name": "Elon's Twitter Purchase", "emoji": "🐦", "hint": "Bought it, broke it, rebranded it X"},
+    {"id": 7, "name": "Ocean Spray Guy Copycat Brands", "emoji": "🛹", "hint": "Cringe corporate TikToks followed"},
+    {"id": 8, "name": "Kenneth Cole Egypt Tweet", "emoji": "👟", "hint": "Used Arab Spring to sell shoes"},
+    {"id": 9, "name": "Snapchat Rihanna Poll", "emoji": "👊", "hint": "Slap Rihanna game ad"},
+    {"id": 10, "name": "McDonald's #McDStories", "emoji": "🍟", "hint": "Became horror story sharing"},
+    {"id": 11, "name": "Burger King Women's Day Tweet", "emoji": "🍔", "hint": "'Women belong in the kitchen'"},
+    {"id": 12, "name": "Chase Bank Monday Motivation", "emoji": "🏦", "hint": "Lectured poor people on spending"},
+    {"id": 13, "name": "Bud Light Dylan Mulvaney", "emoji": "🍺", "hint": "Upset literally everyone"},
+    {"id": 14, "name": "Balenciaga Campaign", "emoji": "👜", "hint": "Kids with concerning props"},
+    {"id": 15, "name": "Gal Gadot Imagine Video", "emoji": "🎵", "hint": "Celebs singing during pandemic"},
+    {"id": 16, "name": "Millie Bobby Brown Skincare", "emoji": "🧴", "hint": "Obviously not using the product"},
+    {"id": 17, "name": "James Charles Apology Video", "emoji": "💄", "hint": "Flashback Mary memes"},
+    {"id": 18, "name": "Logan Paul Forest Video", "emoji": "🌳", "hint": "Japan, forest, very bad decision"},
+    {"id": 19, "name": "Tana Mongeau TanaCon", "emoji": "🎫", "hint": "Fyre Festival but for YouTubers"},
+    {"id": 20, "name": "Ellen Mean Tweets to Staff", "emoji": "📺", "hint": "'Be Kind' was ironic"},
+    {"id": 21, "name": "Kylie Jenner GoFundMe", "emoji": "💰", "hint": "Billionaire asked for donations"},
+    {"id": 22, "name": "Doja Cat Hotel Pool Incident", "emoji": "🏊", "hint": "Disrespected fans waiting"},
+    {"id": 23, "name": "DoorDash Tip Baiting", "emoji": "🚗", "hint": "Company caught keeping tips"},
+    {"id": 24, "name": "Netflix Qwikster Announcement", "emoji": "📀", "hint": "Social media roasted them into reversal"},
+    {"id": 25, "name": "Elon vs Cave Diver", "emoji": "🤿", "hint": "Called rescuer names, lost lawsuit"}
+  ]
+}

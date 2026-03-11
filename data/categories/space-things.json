@@ -1,0 +1,33 @@
+{
+  "id": "space-things",
+  "name": "Coolest Space Things",
+  "description": "Rank the wonders of the universe!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Black Holes", "emoji": "🕳️", "hint": "Even light can't escape"},
+    {"id": 2, "name": "The Sun", "emoji": "☀️", "hint": "Our personal star"},
+    {"id": 3, "name": "The Moon", "emoji": "🌙", "hint": "Earth's loyal companion"},
+    {"id": 4, "name": "Saturn's Rings", "emoji": "🪐", "hint": "Ice and rock circles"},
+    {"id": 5, "name": "Mars", "emoji": "🔴", "hint": "The red planet, next stop"},
+    {"id": 6, "name": "Jupiter", "emoji": "🟠", "hint": "Giant storm for centuries"},
+    {"id": 7, "name": "Milky Way Galaxy", "emoji": "🌌", "hint": "Our galactic home"},
+    {"id": 8, "name": "Shooting Stars", "emoji": "💫", "hint": "Make a wish! (meteors)"},
+    {"id": 9, "name": "Northern Lights", "emoji": "🌈", "hint": "Aurora Borealis magic"},
+    {"id": 10, "name": "Comets", "emoji": "☄️", "hint": "Icy travelers with tails"},
+    {"id": 11, "name": "Nebulae", "emoji": "🌫️", "hint": "Colorful star nurseries"},
+    {"id": 12, "name": "Asteroids", "emoji": "🪨", "hint": "Space rocks floating around"},
+    {"id": 13, "name": "International Space Station", "emoji": "🛰️", "hint": "Humans living in orbit"},
+    {"id": 14, "name": "Supernovas", "emoji": "💥", "hint": "Exploding dying stars"},
+    {"id": 15, "name": "Pluto", "emoji": "💙", "hint": "Still a planet in our hearts"},
+    {"id": 16, "name": "Venus", "emoji": "🌟", "hint": "Morning star, super hot"},
+    {"id": 17, "name": "Neptune", "emoji": "🔵", "hint": "Blue ice giant far away"},
+    {"id": 18, "name": "Astronauts", "emoji": "👨‍🚀", "hint": "Humans exploring space"},
+    {"id": 19, "name": "Galaxies Colliding", "emoji": "🌀", "hint": "Slow-motion cosmic crash"},
+    {"id": 20, "name": "Exoplanets", "emoji": "🌍", "hint": "Planets around other stars"},
+    {"id": 21, "name": "Eclipses", "emoji": "🌑", "hint": "Moon blocking sun magic"},
+    {"id": 22, "name": "Uranus", "emoji": "🟢", "hint": "Sideways spinning planet"},
+    {"id": 23, "name": "The Big Bang", "emoji": "💥", "hint": "How it all started"},
+    {"id": 24, "name": "Wormholes", "emoji": "🌀", "hint": "Theoretical space shortcuts"},
+    {"id": 25, "name": "James Webb Telescope", "emoji": "🔭", "hint": "Seeing the oldest light"}
+  ]
+}

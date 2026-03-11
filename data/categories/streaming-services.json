@@ -1,0 +1,33 @@
+{
+  "id": "streaming-services",
+  "name": "Best Streaming Services",
+  "description": "Rank these content platforms!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Netflix", "emoji": "🔴", "hint": "Are you still watching?"},
+    {"id": 2, "name": "YouTube", "emoji": "📺", "hint": "Free but ads everywhere"},
+    {"id": 3, "name": "Disney+", "emoji": "🏰", "hint": "Marvel, Star Wars, Pixar"},
+    {"id": 4, "name": "HBO Max", "emoji": "🎬", "hint": "Prestige TV home"},
+    {"id": 5, "name": "Amazon Prime Video", "emoji": "📦", "hint": "Comes with shipping"},
+    {"id": 6, "name": "Hulu", "emoji": "💚", "hint": "Next-day TV shows"},
+    {"id": 7, "name": "Spotify", "emoji": "🎵", "hint": "Music streaming king"},
+    {"id": 8, "name": "Apple TV+", "emoji": "🍎", "hint": "Quality over quantity"},
+    {"id": 9, "name": "Peacock", "emoji": "🦚", "hint": "The Office went here"},
+    {"id": 10, "name": "Paramount+", "emoji": "⛰️", "hint": "Star Trek's home"},
+    {"id": 11, "name": "Crunchyroll", "emoji": "🍥", "hint": "Anime streaming central"},
+    {"id": 12, "name": "Twitch", "emoji": "💜", "hint": "Live gaming streams"},
+    {"id": 13, "name": "Apple Music", "emoji": "🎵", "hint": "Spotify's rival"},
+    {"id": 14, "name": "YouTube Music", "emoji": "🎶", "hint": "Music videos included"},
+    {"id": 15, "name": "ESPN+", "emoji": "🏈", "hint": "Sports streaming"},
+    {"id": 16, "name": "Discovery+", "emoji": "🦈", "hint": "Reality TV and sharks"},
+    {"id": 17, "name": "Tidal", "emoji": "🌊", "hint": "Hi-fi for audiophiles"},
+    {"id": 18, "name": "Shudder", "emoji": "😱", "hint": "Horror only"},
+    {"id": 19, "name": "Funimation", "emoji": "🇯🇵", "hint": "Dubbed anime home"},
+    {"id": 20, "name": "YouTube Premium", "emoji": "🔴", "hint": "No ads, finally"},
+    {"id": 21, "name": "Dropout", "emoji": "🎭", "hint": "Game Changer, improv comedy"},
+    {"id": 22, "name": "BritBox", "emoji": "🇬🇧", "hint": "British shows streaming"},
+    {"id": 23, "name": "Criterion Channel", "emoji": "🎬", "hint": "Classic cinema nerds"},
+    {"id": 24, "name": "AMC+", "emoji": "📺", "hint": "Walking Dead network"},
+    {"id": 25, "name": "Pluto TV", "emoji": "🪐", "hint": "Free with tons of ads"}
+  ]
+}

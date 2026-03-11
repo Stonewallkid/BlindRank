@@ -1,0 +1,33 @@
+{
+  "id": "awkward-situations",
+  "name": "Most Awkward Situations",
+  "description": "Rank these cringe moments!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Waving Back at Nobody", "emoji": "👋", "hint": "They were waving past you"},
+    {"id": 2, "name": "Saying 'You Too' Wrong", "emoji": "😬", "hint": "Enjoy your meal! You too!"},
+    {"id": 3, "name": "Walking Same Direction After Goodbye", "emoji": "🚶", "hint": "So we meet again"},
+    {"id": 4, "name": "Forgetting Someone's Name", "emoji": "🤔", "hint": "Hey... buddy... champ"},
+    {"id": 5, "name": "Pulled Push Door", "emoji": "🚪", "hint": "It clearly says PUSH"},
+    {"id": 6, "name": "Accidental Read Receipt", "emoji": "👀", "hint": "Now they know you're ignoring"},
+    {"id": 7, "name": "Wrong Chat Message", "emoji": "📱", "hint": "Sent to the group by accident"},
+    {"id": 8, "name": "Liking Old Photo", "emoji": "❤️", "hint": "Deep scroll exposed"},
+    {"id": 9, "name": "Bathroom Break Eye Contact", "emoji": "🚽", "hint": "Through the door crack"},
+    {"id": 10, "name": "Premature Goodbye Hug", "emoji": "🤗", "hint": "They went for handshake"},
+    {"id": 11, "name": "Earbuds Weren't Plugged In", "emoji": "🎧", "hint": "Everyone heard that"},
+    {"id": 12, "name": "Reply-All Mistake", "emoji": "📧", "hint": "Company-wide complaint"},
+    {"id": 13, "name": "Walking Into Glass Door", "emoji": "🚪", "hint": "Everyone saw that"},
+    {"id": 14, "name": "Food In Teeth Discovery", "emoji": "🦷", "hint": "After the whole meeting"},
+    {"id": 15, "name": "Unmuted on Zoom", "emoji": "🎤", "hint": "Background chaos exposed"},
+    {"id": 16, "name": "Wrong Person Callback", "emoji": "📞", "hint": "Called them someone else's name"},
+    {"id": 17, "name": "Laughing at Wrong Moment", "emoji": "😂", "hint": "It wasn't a joke"},
+    {"id": 18, "name": "Elevator Same Floor", "emoji": "🛗", "hint": "Going up? Same floor..."},
+    {"id": 19, "name": "Confident Wrong Answer", "emoji": "✋", "hint": "Said it loud and proud"},
+    {"id": 20, "name": "Pocket Dial While Venting", "emoji": "📱", "hint": "They heard everything"},
+    {"id": 21, "name": "Song Playing on Speaker", "emoji": "🔊", "hint": "Bluetooth connected to wrong device"},
+    {"id": 22, "name": "Waving at Wrong Person", "emoji": "👋", "hint": "Committed, can't back down"},
+    {"id": 23, "name": "Asking When Baby Due", "emoji": "🤰", "hint": "They weren't pregnant"},
+    {"id": 24, "name": "Crying at Wrong Part", "emoji": "😢", "hint": "Everyone looked at you"},
+    {"id": 25, "name": "Screen Share Wrong Tab", "emoji": "🖥️", "hint": "Everyone saw your shopping"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "best-plot-twists",
+  "name": "Best Movie Plot Twists",
+  "description": "Rank these jaw-dropping reveals! (SPOILERS)",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "The Sixth Sense", "emoji": "👻", "hint": "He was dead the whole time"},
+    {"id": 2, "name": "Fight Club", "emoji": "🧼", "hint": "They're the same person"},
+    {"id": 3, "name": "The Usual Suspects", "emoji": "☕", "hint": "Keyser Söze is..."},
+    {"id": 4, "name": "Star Wars: Empire", "emoji": "⚔️", "hint": "I am your father"},
+    {"id": 5, "name": "Psycho", "emoji": "🔪", "hint": "Mother was dead all along"},
+    {"id": 6, "name": "Planet of the Apes", "emoji": "🗽", "hint": "It was Earth all along"},
+    {"id": 7, "name": "Se7en", "emoji": "📦", "hint": "What's in the box?!"},
+    {"id": 8, "name": "Gone Girl", "emoji": "📰", "hint": "She faked everything"},
+    {"id": 9, "name": "The Prestige", "emoji": "🎩", "hint": "Twin brother magic trick"},
+    {"id": 10, "name": "Oldboy", "emoji": "🔨", "hint": "It was his daughter"},
+    {"id": 11, "name": "Saw", "emoji": "🧩", "hint": "Dead guy stands up"},
+    {"id": 12, "name": "Shutter Island", "emoji": "🏝️", "hint": "He was a patient"},
+    {"id": 13, "name": "The Others", "emoji": "👻", "hint": "They were the ghosts"},
+    {"id": 14, "name": "Memento", "emoji": "📷", "hint": "He killed his wife"},
+    {"id": 15, "name": "Get Out", "emoji": "🧠", "hint": "The sunken place, body theft"},
+    {"id": 16, "name": "Primal Fear", "emoji": "⚖️", "hint": "Aaron was faking it"},
+    {"id": 17, "name": "No Way Home", "emoji": "🕷️", "hint": "Three Spider-Men"},
+    {"id": 18, "name": "Chinatown", "emoji": "🔍", "hint": "She's my sister AND daughter"},
+    {"id": 19, "name": "The Crying Game", "emoji": "💔", "hint": "Dil's secret reveal"},
+    {"id": 20, "name": "Orphan", "emoji": "👧", "hint": "She's actually 33"},
+    {"id": 21, "name": "Unbreakable", "emoji": "🦴", "hint": "Mr. Glass caused everything"},
+    {"id": 22, "name": "Arrival", "emoji": "🛸", "hint": "Flash-forwards not flashbacks"},
+    {"id": 23, "name": "Us", "emoji": "✂️", "hint": "They switched as kids"},
+    {"id": 24, "name": "Parasite", "emoji": "🏠", "hint": "Basement man reveal"},
+    {"id": 25, "name": "The Village", "emoji": "🌳", "hint": "It's modern day"}
+  ]
+}

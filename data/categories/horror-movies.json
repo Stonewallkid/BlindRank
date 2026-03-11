@@ -1,0 +1,33 @@
+{
+  "id": "horror-movies",
+  "name": "Best Horror Movies",
+  "description": "Rank these films that ruined your sleep!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "The Shining", "emoji": "🪓", "hint": "Redrum, redrum, REDRUM"},
+    {"id": 2, "name": "Get Out", "emoji": "🧠", "hint": "The Sunken Place got too real"},
+    {"id": 3, "name": "Hereditary", "emoji": "👑", "hint": "That car scene. You know the one."},
+    {"id": 4, "name": "The Exorcist", "emoji": "✝️", "hint": "Pea soup will never be the same"},
+    {"id": 5, "name": "A Quiet Place", "emoji": "🤫", "hint": "Popcorn crunching anxiety"},
+    {"id": 6, "name": "IT", "emoji": "🎈", "hint": "Clowns were already scary enough"},
+    {"id": 7, "name": "The Conjuring", "emoji": "👻", "hint": "Based on true events (allegedly)"},
+    {"id": 8, "name": "Halloween", "emoji": "🎃", "hint": "That mask is just a Shatner face"},
+    {"id": 9, "name": "Scream", "emoji": "📞", "hint": "Do you like scary movies?"},
+    {"id": 10, "name": "The Ring", "emoji": "📺", "hint": "Why I don't answer unknown calls"},
+    {"id": 11, "name": "Midsommar", "emoji": "🌸", "hint": "Sweden ruined, relationship ended"},
+    {"id": 12, "name": "Paranormal Activity", "emoji": "📹", "hint": "We recorded ourselves sleeping why"},
+    {"id": 13, "name": "A Nightmare on Elm Street", "emoji": "😴", "hint": "No sleep gang, Freddy edition"},
+    {"id": 14, "name": "The Babadook", "emoji": "📖", "hint": "LGBTQ icon, somehow"},
+    {"id": 15, "name": "Us", "emoji": "✂️", "hint": "Meet the worst version of yourself"},
+    {"id": 16, "name": "The Texas Chainsaw Massacre", "emoji": "🪚", "hint": "Based on Ed Gein, yikes"},
+    {"id": 17, "name": "Saw", "emoji": "🧩", "hint": "I want to play a game"},
+    {"id": 18, "name": "The Blair Witch Project", "emoji": "🧭", "hint": "Found footage that started it all"},
+    {"id": 19, "name": "Sinister", "emoji": "🎥", "hint": "Home movies from hell"},
+    {"id": 20, "name": "The Descent", "emoji": "🦇", "hint": "Caves and crawlers, claustrophobia"},
+    {"id": 21, "name": "Alien", "emoji": "👽", "hint": "In space no one can hear you scream"},
+    {"id": 22, "name": "The Thing", "emoji": "🥶", "hint": "Trust nobody, not even yourself"},
+    {"id": 23, "name": "Insidious", "emoji": "🚪", "hint": "Tip toe through the tulips"},
+    {"id": 24, "name": "28 Days Later", "emoji": "🧟", "hint": "Fast zombies changed everything"},
+    {"id": 25, "name": "Evil Dead", "emoji": "📕", "hint": "Groovy, also terrifying"}
+  ]
+}

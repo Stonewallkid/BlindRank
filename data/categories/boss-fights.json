@@ -1,0 +1,33 @@
+{
+  "id": "boss-fights",
+  "name": "Hardest Video Game Bosses",
+  "description": "Rank these controller-breaking nightmares!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Malenia (Elden Ring)", "emoji": "🦋", "hint": "I am Malenia, and you died again"},
+    {"id": 2, "name": "Ornstein & Smough", "emoji": "⚡", "hint": "Fat and fast tag team from hell"},
+    {"id": 3, "name": "Sigrun (God of War)", "emoji": "👸", "hint": "VALHALLA as she one-shots you"},
+    {"id": 4, "name": "Nameless King", "emoji": "🌩️", "hint": "Dragon phase was the easy part"},
+    {"id": 5, "name": "Sans (Undertale)", "emoji": "💀", "hint": "You're gonna have a bad time x50"},
+    {"id": 6, "name": "Mike Tyson", "emoji": "🥊", "hint": "One hit and you're done"},
+    {"id": 7, "name": "Isshin, Sword Saint", "emoji": "⚔️", "hint": "Hesitation is defeat (1000 times)"},
+    {"id": 8, "name": "Absolute Radiance", "emoji": "☀️", "hint": "5 pantheons just for this BS"},
+    {"id": 9, "name": "Sephiroth", "emoji": "🌟", "hint": "One-Winged Angel = PTSD trigger"},
+    {"id": 10, "name": "Psycho Mantis", "emoji": "🎮", "hint": "Plug controller into port 2"},
+    {"id": 11, "name": "Ludwig", "emoji": "🐴", "hint": "Horse screaming at 2am"},
+    {"id": 12, "name": "Dancer of the Boreal Valley", "emoji": "💃", "hint": "Worst dance partner ever"},
+    {"id": 13, "name": "Orphan of Kos", "emoji": "👶", "hint": "Screaming placenta boss"},
+    {"id": 14, "name": "Sister Friede", "emoji": "❄️", "hint": "Phase 3?! There's a phase 3?!"},
+    {"id": 15, "name": "Demon of Hatred", "emoji": "👹", "hint": "This isn't even Sekiro anymore"},
+    {"id": 16, "name": "Fume Knight", "emoji": "🗡️", "hint": "DS2's rage machine"},
+    {"id": 17, "name": "Slave Knight Gael", "emoji": "🩸", "hint": "Grandpa hits different"},
+    {"id": 18, "name": "Radagon/Elden Beast", "emoji": "🌌", "hint": "Marathon final boss"},
+    {"id": 19, "name": "Vergil (DMC3)", "emoji": "⚔️", "hint": "Motivated to destroy you"},
+    {"id": 20, "name": "Nightmare King Grimm", "emoji": "🔥", "hint": "Panic rolling intensifies"},
+    {"id": 21, "name": "Alma (Ninja Gaiden)", "emoji": "👻", "hint": "Old school brutal"},
+    {"id": 22, "name": "Fatalis (Monster Hunter)", "emoji": "🐉", "hint": "30 min timer, bring friends"},
+    {"id": 23, "name": "Lingering Will", "emoji": "🗝️", "hint": "Kingdom Hearts secret superboss"},
+    {"id": 24, "name": "Bed of Chaos", "emoji": "🛏️", "hint": "Not hard, just bad design"},
+    {"id": 25, "name": "Capra Demon", "emoji": "🐐", "hint": "Small room + dogs = pure evil"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "gory-games",
+  "name": "Goriest Video Games",
+  "description": "Rank these blood-soaked digital nightmares!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Mortal Kombat 11", "emoji": "💀", "hint": "X-ray bone shattering in 4K"},
+    {"id": 2, "name": "DOOM Eternal", "emoji": "😈", "hint": "Glory kills: rip and tear forever"},
+    {"id": 3, "name": "Dead Space", "emoji": "🚀", "hint": "Strategic dismemberment is the game"},
+    {"id": 4, "name": "God of War III", "emoji": "⚔️", "hint": "Kratos pulls Helios' head off"},
+    {"id": 5, "name": "Manhunt", "emoji": "📹", "hint": "Rockstar almost got banned for this"},
+    {"id": 6, "name": "The Last of Us Part II", "emoji": "🍄", "hint": "Every death feels personal"},
+    {"id": 7, "name": "Resident Evil Village", "emoji": "🏰", "hint": "Lady Dimitrescu's daughters shred you"},
+    {"id": 8, "name": "Gears of War", "emoji": "⚙️", "hint": "Chainsaw bayonet to the face"},
+    {"id": 9, "name": "Outlast", "emoji": "📷", "hint": "Psychiatric hospital documentary gone wrong"},
+    {"id": 10, "name": "Postal 2", "emoji": "✉️", "hint": "Urinate on corpses, use cats as silencers"},
+    {"id": 11, "name": "Soldier of Fortune", "emoji": "🎯", "hint": "GHOUL system = 26 hit zones"},
+    {"id": 12, "name": "Left 4 Dead 2", "emoji": "🧟", "hint": "Zombie limbs everywhere"},
+    {"id": 13, "name": "Sniper Elite 4", "emoji": "🎯", "hint": "Slow-mo testicle shots"},
+    {"id": 14, "name": "Killing Floor 2", "emoji": "🔪", "hint": "Zed-time dismemberment party"},
+    {"id": 15, "name": "Hatred", "emoji": "🖤", "hint": "Mass shooter simulator, banned everywhere"},
+    {"id": 16, "name": "The Punisher (2005)", "emoji": "💀", "hint": "Creative interrogation kills"},
+    {"id": 17, "name": "Alien: Isolation", "emoji": "👽", "hint": "Face-hugger jump scares, chest bursting"},
+    {"id": 18, "name": "Scorn", "emoji": "🫀", "hint": "Giger-inspired body horror puzzle game"},
+    {"id": 19, "name": "Agony", "emoji": "🔥", "hint": "Hell simulator, deeply disturbing"},
+    {"id": 20, "name": "Splatterhouse", "emoji": "🎃", "hint": "Jason Voorhees-mask beat 'em up"},
+    {"id": 21, "name": "Condemned: Criminal Origins", "emoji": "🪓", "hint": "Homeless people with pipes"},
+    {"id": 22, "name": "The Forest", "emoji": "🌲", "hint": "Cannibals build with your friends' limbs"},
+    {"id": 23, "name": "Tormented Souls", "emoji": "🏥", "hint": "Classic survival horror, sawblade deaths"},
+    {"id": 24, "name": "Carrion", "emoji": "🦑", "hint": "You ARE the monster, eating everyone"},
+    {"id": 25, "name": "Mortal Kombat 1 (2023)", "emoji": "🐉", "hint": "Even gorier fatalities, somehow"}
+  ]
+}

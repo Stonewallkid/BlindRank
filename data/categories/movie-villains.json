@@ -1,0 +1,33 @@
+{
+  "id": "movie-villains",
+  "name": "Greatest Movie Villains",
+  "description": "Rank these magnificent bastards!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Darth Vader", "emoji": "⚫", "hint": "Heavy breathing intensifies"},
+    {"id": 2, "name": "The Joker", "emoji": "🃏", "hint": "Society made him this way"},
+    {"id": 3, "name": "Hannibal Lecter", "emoji": "🍽️", "hint": "Ate a census taker's liver"},
+    {"id": 4, "name": "Thanos", "emoji": "💎", "hint": "Did nothing wrong (hot take)"},
+    {"id": 5, "name": "Voldemort", "emoji": "🐍", "hint": "No nose having dark lord"},
+    {"id": 6, "name": "Hans Gruber", "emoji": "🏢", "hint": "Now I have a machine gun, ho ho ho"},
+    {"id": 7, "name": "Anton Chigurh", "emoji": "🪙", "hint": "Worst haircut, scariest man"},
+    {"id": 8, "name": "Norman Bates", "emoji": "🚿", "hint": "Mommy issues personified"},
+    {"id": 9, "name": "Pennywise", "emoji": "🎈", "hint": "Ruined clowns for everyone"},
+    {"id": 10, "name": "Loki", "emoji": "🦎", "hint": "Became an antihero anyway"},
+    {"id": 11, "name": "Agent Smith", "emoji": "🕶️", "hint": "Humanity is a virus, apparently"},
+    {"id": 12, "name": "Nurse Ratched", "emoji": "💊", "hint": "Healthcare villain before it was trendy"},
+    {"id": 13, "name": "Freddy Krueger", "emoji": "🧤", "hint": "Sweater guy who kills in dreams"},
+    {"id": 14, "name": "Michael Myers", "emoji": "🔪", "hint": "Just standing there, menacingly"},
+    {"id": 15, "name": "Jigsaw", "emoji": "🧩", "hint": "Technically not a murderer (legally gray)"},
+    {"id": 16, "name": "Killmonger", "emoji": "🐆", "hint": "Had a point, wrong methods"},
+    {"id": 17, "name": "Dolores Umbridge", "emoji": "🐱", "hint": "More hated than Voldemort"},
+    {"id": 18, "name": "Buffalo Bill", "emoji": "🦋", "hint": "It puts the lotion..."},
+    {"id": 19, "name": "Keyser Söze", "emoji": "👿", "hint": "The greatest trick the devil pulled"},
+    {"id": 20, "name": "T-1000", "emoji": "🪞", "hint": "Liquid metal upgrade, terrifying"},
+    {"id": 21, "name": "Xenomorph Queen", "emoji": "👑", "hint": "Get away from her, you b****"},
+    {"id": 22, "name": "Amon Göth", "emoji": "⚫", "hint": "Schindler's List, real evil"},
+    {"id": 23, "name": "Commodus", "emoji": "⚔️", "hint": "Joaquin Phoenix being awful"},
+    {"id": 24, "name": "Calvin Candie", "emoji": "💀", "hint": "DiCaprio's most hateable role"},
+    {"id": 25, "name": "Green Goblin", "emoji": "🎃", "hint": "Willem Dafoe going absolutely insane"}
+  ]
+}

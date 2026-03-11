@@ -1,0 +1,33 @@
+{
+  "id": "fashion-fails",
+  "name": "Worst Fashion Trends",
+  "description": "Rank these style disasters!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Crocs with Socks", "emoji": "🐊", "hint": "Comfort over style"},
+    {"id": 2, "name": "Low Rise Jeans", "emoji": "👖", "hint": "Whale tail era"},
+    {"id": 3, "name": "Mullet", "emoji": "💇", "hint": "Business front, party back"},
+    {"id": 4, "name": "Frosted Tips", "emoji": "🧊", "hint": "90s boy band essential"},
+    {"id": 5, "name": "Ed Hardy Everything", "emoji": "🐯", "hint": "Bedazzled tiger shirts"},
+    {"id": 6, "name": "Sagging Pants", "emoji": "👖", "hint": "Belt, please"},
+    {"id": 7, "name": "Fedoras", "emoji": "🎩", "hint": "M'lady vibes"},
+    {"id": 8, "name": "Uggs with Shorts", "emoji": "👢", "hint": "Hot or cold, pick one"},
+    {"id": 9, "name": "Jean on Jean", "emoji": "👖", "hint": "Canadian tuxedo"},
+    {"id": 10, "name": "Visible Thongs", "emoji": "🩲", "hint": "Early 2000s nightmare"},
+    {"id": 11, "name": "Shoulder Pads", "emoji": "🏈", "hint": "80s power suits"},
+    {"id": 12, "name": "Platform Flip Flops", "emoji": "🩴", "hint": "Sprained ankle waiting"},
+    {"id": 13, "name": "Trucker Hats", "emoji": "🧢", "hint": "Ashton Kutcher era"},
+    {"id": 14, "name": "Velour Tracksuits", "emoji": "👗", "hint": "Juicy across the butt"},
+    {"id": 15, "name": "Popped Collars", "emoji": "👔", "hint": "Double popped, even worse"},
+    {"id": 16, "name": "JNCO Jeans", "emoji": "👖", "hint": "Could fit a family inside"},
+    {"id": 17, "name": "Toe Shoes", "emoji": "🦶", "hint": "Vibram Five Fingers"},
+    {"id": 18, "name": "Man Buns", "emoji": "👨", "hint": "Divisive hairstyle"},
+    {"id": 19, "name": "Rompers for Men", "emoji": "👕", "hint": "RompHim happened"},
+    {"id": 20, "name": "Puka Shell Necklaces", "emoji": "🐚", "hint": "Beach bro vibes"},
+    {"id": 21, "name": "Hammer Pants", "emoji": "👖", "hint": "Can't touch this"},
+    {"id": 22, "name": "Tiny Sunglasses", "emoji": "🕶️", "hint": "Matrix cosplay"},
+    {"id": 23, "name": "Pants with Words on Butt", "emoji": "👖", "hint": "Pink, Juicy, etc."},
+    {"id": 24, "name": "Oversized Everything", "emoji": "👚", "hint": "Wearing a tent"},
+    {"id": 25, "name": "Jorts", "emoji": "🩳", "hint": "Jean shorts comeback"}
+  ]
+}

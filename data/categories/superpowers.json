@@ -1,0 +1,33 @@
+{
+  "id": "superpowers",
+  "name": "Best Superpowers",
+  "description": "Which power would you want most?",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Flight", "emoji": "🦅", "hint": "No more traffic, ever"},
+    {"id": 2, "name": "Super Strength", "emoji": "💪", "hint": "Open any jar"},
+    {"id": 3, "name": "Invisibility", "emoji": "👻", "hint": "Ultimate hide and seek"},
+    {"id": 4, "name": "Teleportation", "emoji": "✨", "hint": "Anywhere, instantly"},
+    {"id": 5, "name": "Time Control", "emoji": "⏰", "hint": "Pause, rewind, fix mistakes"},
+    {"id": 6, "name": "Mind Reading", "emoji": "🧠", "hint": "Know what everyone thinks"},
+    {"id": 7, "name": "Super Speed", "emoji": "⚡", "hint": "Faster than light"},
+    {"id": 8, "name": "Shape Shifting", "emoji": "🔄", "hint": "Be anyone or anything"},
+    {"id": 9, "name": "Healing Factor", "emoji": "💚", "hint": "Never get sick, live forever"},
+    {"id": 10, "name": "Telekinesis", "emoji": "🖐️", "hint": "Move stuff with your mind"},
+    {"id": 11, "name": "Fire Control", "emoji": "🔥", "hint": "Never cold, free BBQ"},
+    {"id": 12, "name": "Ice Powers", "emoji": "❄️", "hint": "Free AC, frozen drinks"},
+    {"id": 13, "name": "X-Ray Vision", "emoji": "👀", "hint": "See through walls"},
+    {"id": 14, "name": "Talk to Animals", "emoji": "🐕", "hint": "Finally know what they want"},
+    {"id": 15, "name": "Elasticity", "emoji": "🤸", "hint": "Stretch like rubber"},
+    {"id": 16, "name": "Super Intelligence", "emoji": "🎓", "hint": "Know everything instantly"},
+    {"id": 17, "name": "Laser Eyes", "emoji": "👁️", "hint": "Pew pew from your face"},
+    {"id": 18, "name": "Cloning", "emoji": "👯", "hint": "Send clone to work"},
+    {"id": 19, "name": "Weather Control", "emoji": "🌦️", "hint": "Perfect day, always"},
+    {"id": 20, "name": "Underwater Breathing", "emoji": "🐠", "hint": "Explore the ocean"},
+    {"id": 21, "name": "Wall Crawling", "emoji": "🕷️", "hint": "Spider-Man vibes"},
+    {"id": 22, "name": "Super Luck", "emoji": "🍀", "hint": "Everything just works out"},
+    {"id": 23, "name": "Memory Manipulation", "emoji": "🧹", "hint": "Make people forget things"},
+    {"id": 24, "name": "Gravity Control", "emoji": "🌍", "hint": "Make things float or crush"},
+    {"id": 25, "name": "Portal Creation", "emoji": "🚪", "hint": "Doorways anywhere"}
+  ]
+}

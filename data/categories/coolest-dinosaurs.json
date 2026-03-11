@@ -1,0 +1,33 @@
+{
+  "id": "coolest-dinosaurs",
+  "name": "Coolest Dinosaurs",
+  "description": "Rank these prehistoric beasts!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "T-Rex", "emoji": "🦖", "hint": "King of dinosaurs, tiny arms"},
+    {"id": 2, "name": "Velociraptor", "emoji": "🦖", "hint": "Clever girl... pack hunter"},
+    {"id": 3, "name": "Triceratops", "emoji": "🦏", "hint": "Three horns, neck frill shield"},
+    {"id": 4, "name": "Pterodactyl", "emoji": "🦇", "hint": "Flying terror from above"},
+    {"id": 5, "name": "Stegosaurus", "emoji": "🦕", "hint": "Plates on back, spiked tail"},
+    {"id": 6, "name": "Brachiosaurus", "emoji": "🦕", "hint": "Looong neck, gentle giant"},
+    {"id": 7, "name": "Spinosaurus", "emoji": "🦖", "hint": "Bigger than T-Rex, had a sail"},
+    {"id": 8, "name": "Ankylosaurus", "emoji": "🛡️", "hint": "Living tank with club tail"},
+    {"id": 9, "name": "Diplodocus", "emoji": "📏", "hint": "Super long, whip-like tail"},
+    {"id": 10, "name": "Mosasaurus", "emoji": "🐋", "hint": "Sea monster, ate sharks"},
+    {"id": 11, "name": "Parasaurolophus", "emoji": "📯", "hint": "Trumpet head crest"},
+    {"id": 12, "name": "Carnotaurus", "emoji": "🐂", "hint": "Bull horns, even tinier arms"},
+    {"id": 13, "name": "Allosaurus", "emoji": "🦖", "hint": "T-Rex's older cousin"},
+    {"id": 14, "name": "Pachycephalosaurus", "emoji": "🦴", "hint": "Headbutt champion"},
+    {"id": 15, "name": "Giganotosaurus", "emoji": "🦖", "hint": "South American mega-predator"},
+    {"id": 16, "name": "Therizinosaurus", "emoji": "✂️", "hint": "Wolverine claws, 3 feet long"},
+    {"id": 17, "name": "Quetzalcoatlus", "emoji": "✈️", "hint": "Largest flying animal EVER"},
+    {"id": 18, "name": "Dilophosaurus", "emoji": "💦", "hint": "Double crested, spits venom (in movies)"},
+    {"id": 19, "name": "Iguanodon", "emoji": "👍", "hint": "Thumb spike weapon"},
+    {"id": 20, "name": "Microraptor", "emoji": "🐦", "hint": "Four wings, could glide"},
+    {"id": 21, "name": "Deinonychus", "emoji": "🦅", "hint": "Velociraptor's bigger cousin"},
+    {"id": 22, "name": "Plesiosaur", "emoji": "🦕", "hint": "Long neck sea creature"},
+    {"id": 23, "name": "Utahraptor", "emoji": "🦖", "hint": "Size of a polar bear, deadly"},
+    {"id": 24, "name": "Archaeopteryx", "emoji": "🐦", "hint": "First bird-dinosaur hybrid"},
+    {"id": 25, "name": "Megalodon", "emoji": "🦈", "hint": "60ft shark, ate whales"}
+  ]
+}

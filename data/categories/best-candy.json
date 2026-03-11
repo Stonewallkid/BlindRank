@@ -1,0 +1,33 @@
+{
+  "id": "best-candy",
+  "name": "Best Candy",
+  "description": "Rank these sweet treats!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Reese's Peanut Butter Cups", "emoji": "🥜", "hint": "Chocolate + peanut butter perfection"},
+    {"id": 2, "name": "Snickers", "emoji": "🍫", "hint": "You're not you when you're hungry"},
+    {"id": 3, "name": "M&M's", "emoji": "🟤", "hint": "Melts in your mouth, not hands"},
+    {"id": 4, "name": "Skittles", "emoji": "🌈", "hint": "Taste the rainbow"},
+    {"id": 5, "name": "Kit Kat", "emoji": "🍫", "hint": "Gimme a break"},
+    {"id": 6, "name": "Twix", "emoji": "🍪", "hint": "Left or right? Cookie crunch"},
+    {"id": 7, "name": "Sour Patch Kids", "emoji": "😝", "hint": "First sour, then sweet"},
+    {"id": 8, "name": "Starburst", "emoji": "⭐", "hint": "Unexplainably juicy"},
+    {"id": 9, "name": "Nerds", "emoji": "🤓", "hint": "Tiny crunchy flavor pebbles"},
+    {"id": 10, "name": "Jolly Ranchers", "emoji": "🍬", "hint": "Hard candy, intense flavor"},
+    {"id": 11, "name": "Twizzlers", "emoji": "🍭", "hint": "Red licorice ropes"},
+    {"id": 12, "name": "Swedish Fish", "emoji": "🐟", "hint": "Chewy red fish"},
+    {"id": 13, "name": "Milky Way", "emoji": "🌌", "hint": "Nougat and caramel"},
+    {"id": 14, "name": "3 Musketeers", "emoji": "⚔️", "hint": "Fluffy whipped center"},
+    {"id": 15, "name": "Butterfinger", "emoji": "🧈", "hint": "Crispety, crunchety"},
+    {"id": 16, "name": "Gummy Bears", "emoji": "🐻", "hint": "Haribo makes dreams come true"},
+    {"id": 17, "name": "Airheads", "emoji": "🎈", "hint": "Stretchy taffy strips"},
+    {"id": 18, "name": "Ring Pops", "emoji": "💍", "hint": "Wearable candy jewelry"},
+    {"id": 19, "name": "Fun Dip", "emoji": "👅", "hint": "Stick + powder = fun"},
+    {"id": 20, "name": "Warheads", "emoji": "💣", "hint": "Extreme sour challenge"},
+    {"id": 21, "name": "Laffy Taffy", "emoji": "😂", "hint": "Jokes on the wrapper"},
+    {"id": 22, "name": "Candy Corn", "emoji": "🌽", "hint": "Love it or hate it, no middle"},
+    {"id": 23, "name": "Pop Rocks", "emoji": "💥", "hint": "Exploding candy sensation"},
+    {"id": 24, "name": "Blow Pops", "emoji": "🍭", "hint": "Lollipop with gum inside"},
+    {"id": 25, "name": "Tootsie Roll", "emoji": "🟤", "hint": "Chewy chocolate classic"}
+  ]
+}

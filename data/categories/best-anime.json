@@ -1,0 +1,33 @@
+{
+  "id": "best-anime",
+  "name": "Best Anime Series",
+  "description": "Rank these legendary anime!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Attack on Titan", "emoji": "⚔️", "hint": "EREN! Titans everywhere"},
+    {"id": 2, "name": "Naruto", "emoji": "🍥", "hint": "Believe it! Shadow clones"},
+    {"id": 3, "name": "Death Note", "emoji": "📓", "hint": "Write name, person dies"},
+    {"id": 4, "name": "One Piece", "emoji": "🏴‍☠️", "hint": "1000+ episodes, still going"},
+    {"id": 5, "name": "Dragon Ball Z", "emoji": "🐉", "hint": "KAMEHAMEHA, 5 episodes later"},
+    {"id": 6, "name": "Demon Slayer", "emoji": "👹", "hint": "Nezuko in a box"},
+    {"id": 7, "name": "My Hero Academia", "emoji": "🦸", "hint": "Plus Ultra! Deku cries"},
+    {"id": 8, "name": "Fullmetal Alchemist", "emoji": "⚗️", "hint": "Ed...ward? (Trauma)"},
+    {"id": 9, "name": "Jujutsu Kaisen", "emoji": "👻", "hint": "Cursed energy goes crazy"},
+    {"id": 10, "name": "One Punch Man", "emoji": "👊", "hint": "OK. (Kills everything)"},
+    {"id": 11, "name": "Hunter x Hunter", "emoji": "🎯", "hint": "Gon's dad is terrible"},
+    {"id": 12, "name": "Cowboy Bebop", "emoji": "🚀", "hint": "See you space cowboy..."},
+    {"id": 13, "name": "Spy x Family", "emoji": "🕵️", "hint": "Anya can read minds"},
+    {"id": 14, "name": "Steins;Gate", "emoji": "⏰", "hint": "El Psy Congroo, time travel"},
+    {"id": 15, "name": "Chainsaw Man", "emoji": "🔪", "hint": "Pochita! Chainsaws for arms"},
+    {"id": 16, "name": "Tokyo Ghoul", "emoji": "👁️", "hint": "Half human, half ghoul"},
+    {"id": 17, "name": "Neon Genesis Evangelion", "emoji": "🤖", "hint": "Get in the robot, Shinji"},
+    {"id": 18, "name": "Bleach", "emoji": "⚔️", "hint": "Bankai! Soul reapers"},
+    {"id": 19, "name": "Mob Psycho 100", "emoji": "💯", "hint": "100% power psychic kid"},
+    {"id": 20, "name": "Code Geass", "emoji": "👁️", "hint": "Lelouch commands you"},
+    {"id": 21, "name": "Violet Evergarden", "emoji": "💌", "hint": "Letters and tears"},
+    {"id": 22, "name": "Your Lie in April", "emoji": "🎹", "hint": "Music and maximum sadness"},
+    {"id": 23, "name": "Haikyuu!!", "emoji": "🏐", "hint": "Volleyball hype"},
+    {"id": 24, "name": "Black Clover", "emoji": "🍀", "hint": "ASTA SCREAMING"},
+    {"id": 25, "name": "Sword Art Online", "emoji": "⚔️", "hint": "Stuck in a game, Kirito OP"}
+  ]
+}

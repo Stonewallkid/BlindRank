@@ -1,0 +1,33 @@
+{
+  "id": "stoner-movies",
+  "name": "Best Stoner Movies",
+  "description": "Rank these enhanced viewing experiences!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Pineapple Express", "emoji": "🍍", "hint": "Best weed names ever"},
+    {"id": 2, "name": "The Big Lebowski", "emoji": "🎳", "hint": "The Dude abides"},
+    {"id": 3, "name": "Dazed and Confused", "emoji": "🎸", "hint": "Alright alright alright"},
+    {"id": 4, "name": "Half Baked", "emoji": "🧁", "hint": "Dave Chappelle classic"},
+    {"id": 5, "name": "Harold & Kumar", "emoji": "🍔", "hint": "Go to White Castle"},
+    {"id": 6, "name": "Friday", "emoji": "📅", "hint": "Bye Felicia"},
+    {"id": 7, "name": "Cheech & Chong: Up in Smoke", "emoji": "💨", "hint": "OG stoner comedy"},
+    {"id": 8, "name": "Superbad", "emoji": "🎓", "hint": "McLovin era"},
+    {"id": 9, "name": "This Is The End", "emoji": "😈", "hint": "Apocalypse party"},
+    {"id": 10, "name": "Fear and Loathing in Las Vegas", "emoji": "🦇", "hint": "Bat country, drugs"},
+    {"id": 11, "name": "Knocked Up", "emoji": "🤰", "hint": "Apatow stoner dad"},
+    {"id": 12, "name": "Ted", "emoji": "🧸", "hint": "Talking stoner teddy bear"},
+    {"id": 13, "name": "Bill & Ted", "emoji": "🎸", "hint": "Excellent adventure!"},
+    {"id": 14, "name": "The Hangover", "emoji": "🐯", "hint": "What happened last night?"},
+    {"id": 15, "name": "Smiley Face", "emoji": "😊", "hint": "Anna Faris very high"},
+    {"id": 16, "name": "Jay and Silent Bob", "emoji": "🚐", "hint": "Snoochie boochies"},
+    {"id": 17, "name": "How High", "emoji": "📚", "hint": "Method Man & Redman Harvard"},
+    {"id": 18, "name": "Grandma's Boy", "emoji": "👵", "hint": "Gamer stoner sleeper hit"},
+    {"id": 19, "name": "Scary Movie", "emoji": "😱", "hint": "Spoof everything"},
+    {"id": 20, "name": "Wayne's World", "emoji": "🎸", "hint": "Excellent, party on"},
+    {"id": 21, "name": "Scott Pilgrim", "emoji": "💜", "hint": "Visually enhanced"},
+    {"id": 22, "name": "Mac and Devin Go to High School", "emoji": "🎒", "hint": "Snoop Dogg + Wiz"},
+    {"id": 23, "name": "Clerks", "emoji": "🏪", "hint": "I'm not even supposed to be here"},
+    {"id": 24, "name": "Soul Plane", "emoji": "✈️", "hint": "Snoop airlines"},
+    {"id": 25, "name": "Tenacious D", "emoji": "🎸", "hint": "Pick of Destiny"}
+  ]
+}

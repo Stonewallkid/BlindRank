@@ -1,0 +1,33 @@
+{
+  "id": "hottest-athletes",
+  "name": "Hottest Athletes",
+  "description": "Rank these unfairly fit sports stars!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Cristiano Ronaldo", "emoji": "⚽", "hint": "SIUUU and abs forever"},
+    {"id": 2, "name": "Serena Williams", "emoji": "🎾", "hint": "GOAT energy, powerful queen"},
+    {"id": 3, "name": "David Beckham", "emoji": "⚽", "hint": "Still got it, always had it"},
+    {"id": 4, "name": "Alex Morgan", "emoji": "⚽", "hint": "USWNT tea-sipping legend"},
+    {"id": 5, "name": "Tom Brady", "emoji": "🏈", "hint": "QB1 with the model wife (ex)"},
+    {"id": 6, "name": "Simone Biles", "emoji": "🤸", "hint": "GOAT gymnast, powerful build"},
+    {"id": 7, "name": "Jimmy Garoppolo", "emoji": "🏈", "hint": "Jimmy G, backup QB heartthrob"},
+    {"id": 8, "name": "Paige Spiranac", "emoji": "⛳", "hint": "Golf influencer breaking the internet"},
+    {"id": 9, "name": "Odell Beckham Jr", "emoji": "🏈", "hint": "One-handed catch, two-handed thirst"},
+    {"id": 10, "name": "Sydney McLaughlin", "emoji": "🏃", "hint": "Hurdles + grace"},
+    {"id": 11, "name": "Neymar", "emoji": "⚽", "hint": "Brazilian flair on and off field"},
+    {"id": 12, "name": "Camille Leblanc-Bazinet", "emoji": "🏋️", "hint": "CrossFit champion, Canadian goddess"},
+    {"id": 13, "name": "Patrick Mahomes", "emoji": "🏈", "hint": "MVP with the voice"},
+    {"id": 14, "name": "Alica Schmidt", "emoji": "🏃", "hint": "World's sexiest athlete title holder"},
+    {"id": 15, "name": "Stephen Curry", "emoji": "🏀", "hint": "Baby face assassin with the range"},
+    {"id": 16, "name": "Olivia Dunne", "emoji": "🤸", "hint": "LSU gymnast, TikTok queen"},
+    {"id": 17, "name": "Travis Kelce", "emoji": "🏈", "hint": "Tight end dating Taylor Swift"},
+    {"id": 18, "name": "Maria Sharapova", "emoji": "🎾", "hint": "Retired but still iconic"},
+    {"id": 19, "name": "Jude Bellingham", "emoji": "⚽", "hint": "Young Madrid star, British charm"},
+    {"id": 20, "name": "Allison Stokke", "emoji": "🏃", "hint": "Viral pole vaulter moment"},
+    {"id": 21, "name": "Kylian Mbappé", "emoji": "⚽", "hint": "French speed demon"},
+    {"id": 22, "name": "Hope Solo", "emoji": "⚽", "hint": "Goalkeeper controversy queen"},
+    {"id": 23, "name": "Bryce Harper", "emoji": "⚾", "hint": "Baseball hair goals"},
+    {"id": 24, "name": "Lindsey Vonn", "emoji": "⛷️", "hint": "Skiing legend, Sports Illustrated cover"},
+    {"id": 25, "name": "Giannis Antetokounmpo", "emoji": "🏀", "hint": "Greek Freak, 7 feet of muscle"}
+  ]
+}

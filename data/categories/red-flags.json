@@ -1,0 +1,33 @@
+{
+  "id": "red-flags",
+  "name": "Biggest Dating Red Flags",
+  "description": "Rank these warning signs!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Still Lives With Ex", "emoji": "🏠", "hint": "Just roommates, promise"},
+    {"id": 2, "name": "No Photos on Profile", "emoji": "📵", "hint": "Mystery person or married"},
+    {"id": 3, "name": "Rude to Service Staff", "emoji": "🍽️", "hint": "Character revealed"},
+    {"id": 4, "name": "Talks About Ex Constantly", "emoji": "💬", "hint": "Not over them"},
+    {"id": 5, "name": "Love Bombing Day 1", "emoji": "💕", "hint": "You're my soulmate already"},
+    {"id": 6, "name": "No Friends At All", "emoji": "👤", "hint": "Loner or burned bridges?"},
+    {"id": 7, "name": "Checks Your Phone", "emoji": "📱", "hint": "Control issues starting"},
+    {"id": 8, "name": "Unemployed By Choice", "emoji": "🛋️", "hint": "Has a trust fund?"},
+    {"id": 9, "name": "Still Has Tinder", "emoji": "🔥", "hint": "Just forgot to delete it"},
+    {"id": 10, "name": "Never Their Fault", "emoji": "🙅", "hint": "All exes were crazy"},
+    {"id": 11, "name": "Baby Crazy First Date", "emoji": "👶", "hint": "How many kids do you want?"},
+    {"id": 12, "name": "Doesn't Tip", "emoji": "💵", "hint": "Cheap or terrible"},
+    {"id": 13, "name": "Brings Up Marriage Day 1", "emoji": "💍", "hint": "Slow down there"},
+    {"id": 14, "name": "Disappears Then Reappears", "emoji": "👻", "hint": "Ghosting specialist"},
+    {"id": 15, "name": "Too Close to Their Mom", "emoji": "👩", "hint": "Calls her 6 times daily"},
+    {"id": 16, "name": "Says They're 'Not Like Other Guys/Girls'", "emoji": "😏", "hint": "They're exactly like them"},
+    {"id": 17, "name": "Wants to Merge Finances Immediately", "emoji": "💳", "hint": "What's yours is mine"},
+    {"id": 18, "name": "Has a 'Work Wife/Husband'", "emoji": "💼", "hint": "Suspiciously close"},
+    {"id": 19, "name": "Only Group Photos", "emoji": "👥", "hint": "Which one are you?"},
+    {"id": 20, "name": "Still Has Ex's Stuff Everywhere", "emoji": "📦", "hint": "Shrine to the past"},
+    {"id": 21, "name": "Insists on Paying Then Mentions It", "emoji": "🧾", "hint": "I paid, so you owe me"},
+    {"id": 22, "name": "Catfish Vibes", "emoji": "🐟", "hint": "Photos from 10 years ago"},
+    {"id": 23, "name": "Too Much Too Fast Texting", "emoji": "📲", "hint": "47 messages before response"},
+    {"id": 24, "name": "Hates All Their Coworkers", "emoji": "🏢", "hint": "Maybe they're the problem"},
+    {"id": 25, "name": "Only Has Exes From Apps", "emoji": "📱", "hint": "Never met anyone naturally"}
+  ]
+}

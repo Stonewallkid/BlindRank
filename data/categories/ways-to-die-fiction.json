@@ -1,0 +1,33 @@
+{
+  "id": "ways-to-die-fiction",
+  "name": "Worst Fictional Deaths",
+  "description": "Rank these brutal ways to go out in fiction!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Red Wedding Style", "emoji": "💒", "hint": "Betrayed at a party, multiple stabs"},
+    {"id": 2, "name": "Sarlacc Pit", "emoji": "🕳️", "hint": "Digested for 1000 years, alive"},
+    {"id": 3, "name": "Snapped by Thanos", "emoji": "💨", "hint": "Mr. Stark I don't feel so good"},
+    {"id": 4, "name": "Raptor Buffet", "emoji": "🦖", "hint": "Clever girl, then eaten"},
+    {"id": 5, "name": "Dementor's Kiss", "emoji": "😱", "hint": "Alive but soulless forever"},
+    {"id": 6, "name": "Dracarys'd", "emoji": "🔥", "hint": "Dragon breath, instant crisp"},
+    {"id": 7, "name": "Chestburster", "emoji": "👽", "hint": "Surprise alien baby, fatal"},
+    {"id": 8, "name": "Crushed by AT-AT", "emoji": "🦿", "hint": "Giant robot walker squish"},
+    {"id": 9, "name": "Dissolved in Acid", "emoji": "⚗️", "hint": "Breaking Bad style cleanup"},
+    {"id": 10, "name": "Upside Down'd", "emoji": "🙃", "hint": "Tentacle dimension death"},
+    {"id": 11, "name": "Order 66", "emoji": "🔫", "hint": "Your own troops turn on you"},
+    {"id": 12, "name": "Ark Face Melt", "emoji": "😵", "hint": "Looked at the wrong box"},
+    {"id": 13, "name": "Woodchipper", "emoji": "🪵", "hint": "Fargo style exit"},
+    {"id": 14, "name": "Frozen in Carbonite", "emoji": "🧊", "hint": "Stuck in a wall, aware"},
+    {"id": 15, "name": "Eaten by Sandworm", "emoji": "🪱", "hint": "Dune desert doom"},
+    {"id": 16, "name": "The Mountain's Special", "emoji": "👀", "hint": "Eyes and skull crushed"},
+    {"id": 17, "name": "T-Rex Toilet Death", "emoji": "🦖", "hint": "Jurassic Park's saddest lawyer"},
+    {"id": 18, "name": "Headless Horseman'd", "emoji": "🎃", "hint": "Decapitation via thrown pumpkin"},
+    {"id": 19, "name": "Bolton Flayed", "emoji": "🔪", "hint": "Tortured, skinned, horrifying"},
+    {"id": 20, "name": "Piranha Pool", "emoji": "🐟", "hint": "James Bond villain classic"},
+    {"id": 21, "name": "Crushed by Trash Compactor", "emoji": "🗑️", "hint": "Almost happened to Luke"},
+    {"id": 22, "name": "Lava Pit", "emoji": "🌋", "hint": "Anakin knows the feeling"},
+    {"id": 23, "name": "Alien Acid Blood", "emoji": "🩸", "hint": "Kill it but it kills you back"},
+    {"id": 24, "name": "The Mist Monsters", "emoji": "🌫️", "hint": "Tentacles from the fog"},
+    {"id": 25, "name": "Eaten by The Thing", "emoji": "🥶", "hint": "Absorbed, copied, body horror"}
+  ]
+}

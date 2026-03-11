@@ -1,0 +1,33 @@
+{
+  "id": "alcoholic-drinks",
+  "name": "Drinks That Wreck You",
+  "description": "Rank these bad decisions in liquid form!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Long Island Iced Tea", "emoji": "🍹", "hint": "5 alcohols pretending to be tea"},
+    {"id": 2, "name": "Everclear", "emoji": "🔥", "hint": "95% alcohol, 100% regret"},
+    {"id": 3, "name": "Absinthe", "emoji": "💚", "hint": "The green fairy takes no prisoners"},
+    {"id": 4, "name": "Zombie", "emoji": "🧟", "hint": "Named after what you become"},
+    {"id": 5, "name": "Death in the Afternoon", "emoji": "⚰️", "hint": "Hemingway drank this, bad sign"},
+    {"id": 6, "name": "Irish Car Bomb", "emoji": "🍀", "hint": "Chug before it curdles"},
+    {"id": 7, "name": "Jungle Juice", "emoji": "🌴", "hint": "Mystery punch of doom"},
+    {"id": 8, "name": "Four Loko", "emoji": "💀", "hint": "Banned, unbanned, still dangerous"},
+    {"id": 9, "name": "AMF (Adios MF)", "emoji": "💙", "hint": "Blue goodbye to consciousness"},
+    {"id": 10, "name": "Moonshine", "emoji": "🌙", "hint": "Might be poison, worth it"},
+    {"id": 11, "name": "Sake Bomb", "emoji": "🍶", "hint": "Drop it, chant, blackout"},
+    {"id": 12, "name": "Grain Alcohol Punch", "emoji": "🥊", "hint": "You won't taste it until too late"},
+    {"id": 13, "name": "Jägerbomb", "emoji": "🦌", "hint": "Energy + alcohol = terrible ideas"},
+    {"id": 14, "name": "151 Rum Anything", "emoji": "🔥", "hint": "75% alcohol, flammable"},
+    {"id": 15, "name": "The Scorpion Bowl", "emoji": "🦂", "hint": "Tiki bar group death"},
+    {"id": 16, "name": "Flaming Dr Pepper", "emoji": "🔥", "hint": "Yes, you light it on fire"},
+    {"id": 17, "name": "Cement Mixer", "emoji": "🥛", "hint": "It curdles in your mouth"},
+    {"id": 18, "name": "Vodka Red Bull", "emoji": "🐂", "hint": "Heart palpitations and dancing"},
+    {"id": 19, "name": "Fireball Shots", "emoji": "🔥", "hint": "Cinnamon regret everywhere"},
+    {"id": 20, "name": "Malört", "emoji": "🤢", "hint": "Chicago's revenge on tourists"},
+    {"id": 21, "name": "The Hand Grenade", "emoji": "💣", "hint": "New Orleans destroyer"},
+    {"id": 22, "name": "Trash Can Punch", "emoji": "🗑️", "hint": "Made in actual trash cans"},
+    {"id": 23, "name": "Tokyo Tea", "emoji": "🍵", "hint": "Long Island but with midori"},
+    {"id": 24, "name": "Purple Drank", "emoji": "💜", "hint": "That purple stuff"},
+    {"id": 25, "name": "The Drunk Uncle", "emoji": "👔", "hint": "Whatever's left in the bottles"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tv-finales",
+  "name": "Best TV Show Finales",
+  "description": "Rank these series endings!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Breaking Bad", "emoji": "🧪", "hint": "Baby Blue perfection"},
+    {"id": 2, "name": "The Office (US)", "emoji": "📎", "hint": "I wish there was a way to know"},
+    {"id": 3, "name": "Game of Thrones", "emoji": "👑", "hint": "Who has a better story... ugh"},
+    {"id": 4, "name": "Friends", "emoji": "☕", "hint": "One last coffee"},
+    {"id": 5, "name": "The Sopranos", "emoji": "🍝", "hint": "Don't stop believing, cut to black"},
+    {"id": 6, "name": "LOST", "emoji": "✈️", "hint": "They were dead? Or not?"},
+    {"id": 7, "name": "How I Met Your Mother", "emoji": "☂️", "hint": "And that kids is how I..."},
+    {"id": 8, "name": "The Wire", "emoji": "🔌", "hint": "Cycle continues"},
+    {"id": 9, "name": "Seinfeld", "emoji": "🥨", "hint": "Jail for being terrible people"},
+    {"id": 10, "name": "Parks and Recreation", "emoji": "🌳", "hint": "Flash forward happiness"},
+    {"id": 11, "name": "Dexter", "emoji": "🪓", "hint": "Lumberjack ending, really?"},
+    {"id": 12, "name": "Mad Men", "emoji": "🍸", "hint": "I'd like to buy the world a Coke"},
+    {"id": 13, "name": "Six Feet Under", "emoji": "⚰️", "hint": "Everyone dies, beautifully"},
+    {"id": 14, "name": "The Good Place", "emoji": "😇", "hint": "Walking through the door"},
+    {"id": 15, "name": "Schitt's Creek", "emoji": "🌹", "hint": "Simply the best"},
+    {"id": 16, "name": "Succession", "emoji": "💰", "hint": "Chasing the car, forever"},
+    {"id": 17, "name": "M*A*S*H", "emoji": "🏥", "hint": "Goodbye, farewell, amen"},
+    {"id": 18, "name": "The Americans", "emoji": "🇷🇺", "hint": "With or Without You"},
+    {"id": 19, "name": "Fleabag", "emoji": "💔", "hint": "No more fourth wall breaks"},
+    {"id": 20, "name": "Bojack Horseman", "emoji": "🐴", "hint": "View from halfway down"},
+    {"id": 21, "name": "Avatar: The Last Airbender", "emoji": "🌊", "hint": "Perfect kids show ending"},
+    {"id": 22, "name": "Buffy the Vampire Slayer", "emoji": "🧛", "hint": "Every girl a slayer"},
+    {"id": 23, "name": "The Fresh Prince", "emoji": "🏠", "hint": "Banks family moves on"},
+    {"id": 24, "name": "Community", "emoji": "🎓", "hint": "Six seasons and a movie?"},
+    {"id": 25, "name": "Better Call Saul", "emoji": "⚖️", "hint": "S'all good man"}
+  ]
+}

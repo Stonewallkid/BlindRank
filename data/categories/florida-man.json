@@ -1,0 +1,33 @@
+{
+  "id": "florida-man",
+  "name": "Craziest Florida Man Headlines",
+  "description": "Rank these real Florida Man stories!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Fought Off Bear With Bare Hands", "emoji": "🐻", "hint": "Protected his dog"},
+    {"id": 2, "name": "Stole Ambulance To Get To Hooters", "emoji": "🚑", "hint": "Priorities"},
+    {"id": 3, "name": "Threw Alligator Into Drive-Thru", "emoji": "🐊", "hint": "Wendy's wasn't ready"},
+    {"id": 4, "name": "Arrested For Shooting Hurricane", "emoji": "🌀", "hint": "That'll teach Irma"},
+    {"id": 5, "name": "Stole Forklift From Walmart", "emoji": "🏪", "hint": "For a joyride"},
+    {"id": 6, "name": "Called 911 To Complain About Pork Chops", "emoji": "🍖", "hint": "Undercooked emergency"},
+    {"id": 7, "name": "Rode Manatee", "emoji": "🦭", "hint": "Illegal but legendary"},
+    {"id": 8, "name": "Broke Into Jail To Hang Out", "emoji": "🔒", "hint": "Missed his friends"},
+    {"id": 9, "name": "Used Taco As ID", "emoji": "🌮", "hint": "At traffic stop"},
+    {"id": 10, "name": "Tried To Pay With Bag Of Weed", "emoji": "🌿", "hint": "At McDonald's"},
+    {"id": 11, "name": "Fought Iguana With Pool Noodle", "emoji": "🦎", "hint": "Iguana won"},
+    {"id": 12, "name": "Stole Golf Cart, Led Police Chase", "emoji": "🏌️", "hint": "Max speed 15mph"},
+    {"id": 13, "name": "Threw Chicken At Sister", "emoji": "🍗", "hint": "Family dispute"},
+    {"id": 14, "name": "Caught With Cocaine, Blamed Wind", "emoji": "💨", "hint": "It blew into my car"},
+    {"id": 15, "name": "Attacked Roommate With Sword", "emoji": "⚔️", "hint": "Over hot dogs"},
+    {"id": 16, "name": "Released Beehive Into Car", "emoji": "🐝", "hint": "Road rage revenge"},
+    {"id": 17, "name": "Stole Ambulance, Hit Helicopter", "emoji": "🚁", "hint": "GTA IRL"},
+    {"id": 18, "name": "Used Flamethrower On Spiders", "emoji": "🔥", "hint": "House burned down"},
+    {"id": 19, "name": "Fought People Dressed As Ninja", "emoji": "🥷", "hint": "Lost the fight"},
+    {"id": 20, "name": "Stole Ferret In Pants", "emoji": "🦡", "hint": "From pet store"},
+    {"id": 21, "name": "Rode Shopping Cart Down Highway", "emoji": "🛒", "hint": "Rush hour traffic"},
+    {"id": 22, "name": "Cooked Meth On Burger King Roof", "emoji": "🍔", "hint": "During lunch rush"},
+    {"id": 23, "name": "Stole Neighbor's Goat", "emoji": "🐐", "hint": "For company"},
+    {"id": 24, "name": "Called 911 For Kool-Aid", "emoji": "🧃", "hint": "Was thirsty"},
+    {"id": 25, "name": "Wrestled Shark At Beach", "emoji": "🦈", "hint": "Dragged it back to sea"}
+  ]
+}

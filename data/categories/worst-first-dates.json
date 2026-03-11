@@ -1,0 +1,33 @@
+{
+  "id": "worst-first-dates",
+  "name": "Worst First Date Ideas",
+  "description": "Rank these romantic disasters!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Meeting Your Parents", "emoji": "👨‍👩‍👧", "hint": "Way too soon, run"},
+    {"id": 2, "name": "Funeral", "emoji": "⚰️", "hint": "Technically a shared experience?"},
+    {"id": 3, "name": "Strip Club", "emoji": "💃", "hint": "Unless they suggested it"},
+    {"id": 4, "name": "Your Ex's Wedding", "emoji": "💒", "hint": "Bad energy everywhere"},
+    {"id": 5, "name": "All-You-Can-Eat Buffet", "emoji": "🍽️", "hint": "Watching you eat for hours"},
+    {"id": 6, "name": "Silent Movie Marathon", "emoji": "🎬", "hint": "No talking for 6 hours"},
+    {"id": 7, "name": "Escape Room", "emoji": "🔐", "hint": "Trapped arguing with stranger"},
+    {"id": 8, "name": "Gym Session", "emoji": "🏋️", "hint": "Sweaty and gross"},
+    {"id": 9, "name": "Your Work Conference", "emoji": "💼", "hint": "PowerPoints are not romantic"},
+    {"id": 10, "name": "Competitive Eating Contest", "emoji": "🌭", "hint": "One of you will puke"},
+    {"id": 11, "name": "Dentist Appointment", "emoji": "🦷", "hint": "Hold my hand during drilling"},
+    {"id": 12, "name": "Hunting Trip", "emoji": "🦌", "hint": "Unless you're both into it"},
+    {"id": 13, "name": "Your Apartment (Right Away)", "emoji": "🏠", "hint": "Too forward, stranger danger"},
+    {"id": 14, "name": "AA Meeting", "emoji": "🍷", "hint": "Hi I'm here with my date"},
+    {"id": 15, "name": "Family Reunion", "emoji": "👨‍👩‍👧‍👦", "hint": "Meet 47 relatives immediately"},
+    {"id": 16, "name": "Tax Preparation", "emoji": "📝", "hint": "Nothing says romance like deductions"},
+    {"id": 17, "name": "DMV Wait", "emoji": "🚗", "hint": "4 hours of small talk"},
+    {"id": 18, "name": "Blood Donation", "emoji": "🩸", "hint": "Bonding over needles"},
+    {"id": 19, "name": "IKEA Assembly", "emoji": "🔩", "hint": "Relationship stress test"},
+    {"id": 20, "name": "Couples Counseling", "emoji": "🛋️", "hint": "Before being a couple"},
+    {"id": 21, "name": "Your Therapist's Office", "emoji": "💭", "hint": "Let me unpack this"},
+    {"id": 22, "name": "Hot Yoga", "emoji": "🧘", "hint": "Sweating, cramping, gross"},
+    {"id": 23, "name": "Colonoscopy Prep Day", "emoji": "💊", "hint": "Can't leave the bathroom"},
+    {"id": 24, "name": "Chuck E. Cheese (No Kids)", "emoji": "🐭", "hint": "Adults surrounded by children"},
+    {"id": 25, "name": "Meet Their New Baby", "emoji": "👶", "hint": "What baby? They didn't mention..."}
+  ]
+}

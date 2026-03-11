@@ -1,0 +1,33 @@
+{
+  "id": "drinking-games",
+  "name": "Best Drinking Games",
+  "description": "Rank these party starters!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Beer Pong", "emoji": "🏓", "hint": "Bounce or direct shot"},
+    {"id": 2, "name": "Kings/Ring of Fire", "emoji": "👑", "hint": "Cards around the cup"},
+    {"id": 3, "name": "Flip Cup", "emoji": "🥤", "hint": "Drink and flip, relay race"},
+    {"id": 4, "name": "Never Have I Ever", "emoji": "✋", "hint": "Exposing everyone's secrets"},
+    {"id": 5, "name": "Drunk Jenga", "emoji": "🧱", "hint": "Dares on every block"},
+    {"id": 6, "name": "Power Hour", "emoji": "⏰", "hint": "60 shots in 60 minutes"},
+    {"id": 7, "name": "Quarters", "emoji": "🪙", "hint": "Bounce into the cup"},
+    {"id": 8, "name": "True or Drink", "emoji": "🤥", "hint": "Answer or take a shot"},
+    {"id": 9, "name": "Rage Cage", "emoji": "🏀", "hint": "Stack cups, stack chaos"},
+    {"id": 10, "name": "Thunderstruck", "emoji": "⚡", "hint": "AC/DC, drink on thunder"},
+    {"id": 11, "name": "Most Likely To", "emoji": "👆", "hint": "Who's most likely? Drink if pointed"},
+    {"id": 12, "name": "21", "emoji": "2️⃣", "hint": "Don't say 21"},
+    {"id": 13, "name": "Drunk Uno", "emoji": "🃏", "hint": "Draw 4 means 4 drinks"},
+    {"id": 14, "name": "Movie Drinking Games", "emoji": "🎬", "hint": "Drink at every trope"},
+    {"id": 15, "name": "Two Truths One Lie", "emoji": "🤞", "hint": "Guess wrong, drink"},
+    {"id": 16, "name": "Irish Poker", "emoji": "🍀", "hint": "Red or black, higher or lower"},
+    {"id": 17, "name": "Ride the Bus", "emoji": "🚌", "hint": "Longest game ending"},
+    {"id": 18, "name": "Cheers to the Governor", "emoji": "🎩", "hint": "Counting with rules"},
+    {"id": 19, "name": "Straight Face", "emoji": "😐", "hint": "Read cards, don't laugh"},
+    {"id": 20, "name": "Would You Rather", "emoji": "🤔", "hint": "Choose or drink both"},
+    {"id": 21, "name": "Piccolo App", "emoji": "📱", "hint": "Phone tells you what to do"},
+    {"id": 22, "name": "Drink or Dare", "emoji": "🎲", "hint": "Truth or dare but boozy"},
+    {"id": 23, "name": "Slap Cup", "emoji": "👋", "hint": "Aggressive rage cage"},
+    {"id": 24, "name": "F*** the Dealer", "emoji": "🃏", "hint": "Guess the card, dealer hates you"},
+    {"id": 25, "name": "Wizard Staff", "emoji": "🧙", "hint": "Tape cans into a staff"}
+  ]
+}

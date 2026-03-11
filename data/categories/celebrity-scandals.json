@@ -1,0 +1,33 @@
+{
+  "id": "celebrity-scandals",
+  "name": "Biggest Celebrity Scandals",
+  "description": "Rank these career-imploding moments!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "The Slap (Oscars 2022)", "emoji": "👋", "hint": "Will Smith's career trajectory change"},
+    {"id": 2, "name": "Janet Jackson Super Bowl", "emoji": "⭐", "hint": "Wardrobe malfunction that broke TiVo"},
+    {"id": 3, "name": "Tiger Woods Affairs", "emoji": "⛳", "hint": "15+ women, one Escalade crash"},
+    {"id": 4, "name": "Britney's Umbrella Era", "emoji": "☂️", "hint": "Head shave, car attack, conservatorship"},
+    {"id": 5, "name": "Kim K's Tape", "emoji": "📼", "hint": "Leaked, then empire built on it"},
+    {"id": 6, "name": "Hugh Grant's Arrest", "emoji": "🚔", "hint": "Divine Brown, apologize on Leno"},
+    {"id": 7, "name": "Mel Gibson Rant", "emoji": "📞", "hint": "Multiple racist recordings, unhinged"},
+    {"id": 8, "name": "Charlie Sheen Winning", "emoji": "🐯", "hint": "Tiger blood, Adonis DNA, fired"},
+    {"id": 9, "name": "Kanye Goes Full Kanye", "emoji": "🎤", "hint": "Taylor Swift, presidency, Ye era"},
+    {"id": 10, "name": "Prince Andrew Interview", "emoji": "👑", "hint": "Pizza Express alibi, can't sweat"},
+    {"id": 11, "name": "Fyre Festival", "emoji": "🏝️", "hint": "Cheese sandwiches, FEMA tents"},
+    {"id": 12, "name": "Lance Armstrong Doping", "emoji": "🚴", "hint": "7 Tour wins, all stripped"},
+    {"id": 13, "name": "Johnny Depp vs Amber Heard", "emoji": "⚖️", "hint": "The bed incident, trial by TikTok"},
+    {"id": 14, "name": "R. Kelly Trial", "emoji": "🔒", "hint": "30 years, finally accountable"},
+    {"id": 15, "name": "Harvey Weinstein", "emoji": "🎬", "hint": "Started #MeToo, prison"},
+    {"id": 16, "name": "Bill Cosby Revelations", "emoji": "💊", "hint": "America's Dad, serial predator"},
+    {"id": 17, "name": "Pete Davidson's Tattoo Saga", "emoji": "💉", "hint": "New girlfriend, new tattoos, delete"},
+    {"id": 18, "name": "Elizabeth Holmes Theranos", "emoji": "🩸", "hint": "Fake it till you get convicted"},
+    {"id": 19, "name": "Armie Hammer's DMs", "emoji": "🦴", "hint": "Cannibal fantasies leaked"},
+    {"id": 20, "name": "Jussie Smollett's Story", "emoji": "🎭", "hint": "MAGA country at 2am, in Chicago"},
+    {"id": 21, "name": "Chris Brown & Rihanna", "emoji": "👊", "hint": "That Grammy night photo"},
+    {"id": 22, "name": "Ezra Miller's... Everything", "emoji": "⚡", "hint": "Choking, burglary, grooming allegations"},
+    {"id": 23, "name": "Ellen DeGeneres Workplace", "emoji": "😬", "hint": "Be kind (except to staff)"},
+    {"id": 24, "name": "James Charles Drama", "emoji": "💄", "hint": "Influencer wars, age controversies"},
+    {"id": 25, "name": "OJ Simpson Trial", "emoji": "🧤", "hint": "If the glove doesn't fit..."}
+  ]
+}

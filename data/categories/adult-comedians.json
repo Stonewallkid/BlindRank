@@ -1,0 +1,33 @@
+{
+  "id": "adult-comedians",
+  "name": "Funniest Adult Comedians",
+  "description": "Rank these hilarious but definitely NSFW comedians!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Dave Chappelle", "emoji": "🎤", "hint": "I'm Rick James, b****"},
+    {"id": 2, "name": "Bill Burr", "emoji": "👨‍🦲", "hint": "Angry bald man yelling truths"},
+    {"id": 3, "name": "Louis C.K.", "emoji": "🎭", "hint": "Controversial, still selling out shows"},
+    {"id": 4, "name": "Sarah Silverman", "emoji": "👩", "hint": "Weaponized adorable offensiveness"},
+    {"id": 5, "name": "Anthony Jeselnik", "emoji": "😈", "hint": "Baby casket jokes, zero remorse"},
+    {"id": 6, "name": "Andrew Schulz", "emoji": "🔥", "hint": "Crowd work that ends marriages"},
+    {"id": 7, "name": "Ali Wong", "emoji": "🤰", "hint": "Pregnancy specials, filthy gold"},
+    {"id": 8, "name": "Bert Kreischer", "emoji": "🐻", "hint": "The Machine story, shirtless forever"},
+    {"id": 9, "name": "Tom Segura", "emoji": "👖", "hint": "Moms and jeans, bikes are dangerous"},
+    {"id": 10, "name": "Nikki Glaser", "emoji": "💋", "hint": "Dating trauma as comedy"},
+    {"id": 11, "name": "Bo Burnham", "emoji": "🎹", "hint": "Existential crisis set to music"},
+    {"id": 12, "name": "Daniel Sloss", "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "hint": "Jigsaw ended 50,000+ relationships"},
+    {"id": 13, "name": "George Carlin", "emoji": "🖕", "hint": "7 dirty words, legendary"},
+    {"id": 14, "name": "Richard Pryor", "emoji": "🔥", "hint": "Set himself on fire, still funny"},
+    {"id": 15, "name": "Eddie Murphy", "emoji": "🎤", "hint": "Raw and Delirious, leather suits"},
+    {"id": 16, "name": "Amy Schumer", "emoji": "🍷", "hint": "Trainwreck on and off stage"},
+    {"id": 17, "name": "Jim Jefferies", "emoji": "🇦🇺", "hint": "Aussie shock therapy"},
+    {"id": 18, "name": "Theo Von", "emoji": "🐀", "hint": "Rat king, mullet philosopher"},
+    {"id": 19, "name": "Mark Normand", "emoji": "😅", "hint": "Self-deprecation speedrun"},
+    {"id": 20, "name": "Shane Gillis", "emoji": "🍺", "hint": "Un-fired from SNL energy"},
+    {"id": 21, "name": "Tim Dillon", "emoji": "🏠", "hint": "Real estate conspiracy rants"},
+    {"id": 22, "name": "Joey Diaz", "emoji": "🌿", "hint": "Tremendous stories, edibles required"},
+    {"id": 23, "name": "Chelsea Handler", "emoji": "🍸", "hint": "Drunk aunt vibes, on purpose"},
+    {"id": 24, "name": "Whitney Cummings", "emoji": "🤖", "hint": "Made a robot of herself"},
+    {"id": 25, "name": "Patrice O'Neal", "emoji": "👑", "hint": "Gone too soon, roast god"}
+  ]
+}

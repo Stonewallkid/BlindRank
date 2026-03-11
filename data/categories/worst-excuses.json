@@ -1,0 +1,33 @@
+{
+  "id": "worst-excuses",
+  "name": "Worst Work Excuses",
+  "description": "Rank these creative lies!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Car Won't Start", "emoji": "🚗", "hint": "Classic, overused"},
+    {"id": 2, "name": "Alarm Didn't Go Off", "emoji": "⏰", "hint": "Sure it didn't"},
+    {"id": 3, "name": "Food Poisoning", "emoji": "🤢", "hint": "Can't prove it"},
+    {"id": 4, "name": "Kid is Sick", "emoji": "👶", "hint": "Works if you have kids"},
+    {"id": 5, "name": "Traffic Was Crazy", "emoji": "🚙", "hint": "Every single day"},
+    {"id": 6, "name": "Pet Emergency", "emoji": "🐕", "hint": "Fluffy needed surgery"},
+    {"id": 7, "name": "WiFi Was Down", "emoji": "📶", "hint": "WFH classic"},
+    {"id": 8, "name": "Family Emergency", "emoji": "👨‍👩‍👧", "hint": "Vague and effective"},
+    {"id": 9, "name": "Flooded Basement", "emoji": "🌊", "hint": "Home disaster card"},
+    {"id": 10, "name": "Waiting for Delivery", "emoji": "📦", "hint": "They need a signature"},
+    {"id": 11, "name": "Migraine", "emoji": "🤕", "hint": "Hard to disprove"},
+    {"id": 12, "name": "Dentist Emergency", "emoji": "🦷", "hint": "Root canal from nowhere"},
+    {"id": 13, "name": "Jury Duty", "emoji": "⚖️", "hint": "Legally can't refuse"},
+    {"id": 14, "name": "Power Outage", "emoji": "🔌", "hint": "Whole neighborhood, promise"},
+    {"id": 15, "name": "Locked Out of House", "emoji": "🔑", "hint": "Waiting for locksmith"},
+    {"id": 16, "name": "Car Accident (Minor)", "emoji": "💥", "hint": "Just a fender bender"},
+    {"id": 17, "name": "Mental Health Day", "emoji": "🧠", "hint": "Actually valid"},
+    {"id": 18, "name": "Back Problems", "emoji": "🔙", "hint": "Hard to disprove"},
+    {"id": 19, "name": "Plumber Coming", "emoji": "🔧", "hint": "Window is 8am-5pm"},
+    {"id": 20, "name": "Got Stuck in Elevator", "emoji": "🛗", "hint": "For 2 hours, really"},
+    {"id": 21, "name": "Flat Tire", "emoji": "🛞", "hint": "On the highway"},
+    {"id": 22, "name": "Dog Ate Important Document", "emoji": "🐕", "hint": "2023 version: computer crashed"},
+    {"id": 23, "name": "Religious Holiday", "emoji": "🙏", "hint": "Obscure but valid"},
+    {"id": 24, "name": "Passport Lost", "emoji": "📕", "hint": "For work travel"},
+    {"id": 25, "name": "Someone Broke Into Car", "emoji": "🚨", "hint": "Police report needed"}
+  ]
+}

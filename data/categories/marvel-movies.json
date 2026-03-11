@@ -1,0 +1,33 @@
+{
+  "id": "marvel-movies",
+  "name": "Best Marvel Movies",
+  "description": "Rank the MCU's finest!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Avengers: Endgame", "emoji": "♾️", "hint": "Whatever it takes, 3 hours of fan service"},
+    {"id": 2, "name": "Avengers: Infinity War", "emoji": "🫰", "hint": "Perfectly balanced, half the universe dies"},
+    {"id": 3, "name": "Spider-Man: No Way Home", "emoji": "🕷️", "hint": "Three Spider-Men, maximum nostalgia"},
+    {"id": 4, "name": "Black Panther", "emoji": "🐆", "hint": "Wakanda forever, iconic"},
+    {"id": 5, "name": "Guardians of the Galaxy", "emoji": "🚀", "hint": "Hooked on a feeling, talking raccoon"},
+    {"id": 6, "name": "Iron Man", "emoji": "🤖", "hint": "Started it all, RDJ is perfect"},
+    {"id": 7, "name": "Thor: Ragnarok", "emoji": "⚡", "hint": "He's a friend from work!"},
+    {"id": 8, "name": "Captain America: Civil War", "emoji": "🛡️", "hint": "Heroes fight each other, airport battle"},
+    {"id": 9, "name": "The Avengers", "emoji": "🦸", "hint": "Original team-up, shawarma"},
+    {"id": 10, "name": "Captain America: Winter Soldier", "emoji": "🦾", "hint": "Political thriller vibes, elevator fight"},
+    {"id": 11, "name": "Doctor Strange", "emoji": "🔮", "hint": "Dormammu, I've come to bargain (x1000)"},
+    {"id": 12, "name": "Shang-Chi", "emoji": "🥋", "hint": "Bus fight scene, ten rings"},
+    {"id": 13, "name": "Guardians Vol. 2", "emoji": "👶", "hint": "Baby Groot, daddy issues"},
+    {"id": 14, "name": "Thor", "emoji": "🔨", "hint": "First Thor, fish out of water"},
+    {"id": 15, "name": "Ant-Man", "emoji": "🐜", "hint": "Heist movie, quantum realm"},
+    {"id": 16, "name": "Black Widow", "emoji": "🕷️", "hint": "Finally got her movie, family drama"},
+    {"id": 17, "name": "Spider-Man: Homecoming", "emoji": "🏠", "hint": "Tom Holland debut, Vulture twist"},
+    {"id": 18, "name": "Spider-Man: Far From Home", "emoji": "✈️", "hint": "Mysterio illusions, Europe trip"},
+    {"id": 19, "name": "Iron Man 3", "emoji": "🎄", "hint": "Christmas movie, anxiety attacks"},
+    {"id": 20, "name": "Guardians Vol. 3", "emoji": "🦝", "hint": "Rocket's backstory, tissues needed"},
+    {"id": 21, "name": "Captain America: First Avenger", "emoji": "🇺🇸", "hint": "Skinny Steve, WW2 vibes"},
+    {"id": 22, "name": "Thor: Love and Thunder", "emoji": "💕", "hint": "Screaming goats, Jane Thor"},
+    {"id": 23, "name": "Avengers: Age of Ultron", "emoji": "🤖", "hint": "Party scene, Ultron quotes"},
+    {"id": 24, "name": "Doctor Strange: Multiverse", "emoji": "👁️", "hint": "Horror vibes, cameos galore"},
+    {"id": 25, "name": "Captain Marvel", "emoji": "💫", "hint": "90s nostalgia, cat steals show"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "cutest-animals",
+  "name": "Cutest Animals",
+  "description": "Rank these adorable creatures!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Cat", "emoji": "🐱", "hint": "Fluffy, judges you silently"},
+    {"id": 2, "name": "Bunny", "emoji": "🐰", "hint": "Nose twitches, hops around"},
+    {"id": 3, "name": "Puppy", "emoji": "🐶", "hint": "Wiggly, loves you unconditionally"},
+    {"id": 4, "name": "Panda", "emoji": "🐼", "hint": "Rolls around eating bamboo"},
+    {"id": 5, "name": "Koala", "emoji": "🐨", "hint": "Sleeps 22 hours a day"},
+    {"id": 6, "name": "Otter", "emoji": "🦦", "hint": "Holds hands while sleeping"},
+    {"id": 7, "name": "Hedgehog", "emoji": "🦔", "hint": "Tiny spiky potato"},
+    {"id": 8, "name": "Penguin", "emoji": "🐧", "hint": "Waddles, slides on belly"},
+    {"id": 9, "name": "Red Panda", "emoji": "🦝", "hint": "Firefox IRL, fluffy tail"},
+    {"id": 10, "name": "Hamster", "emoji": "🐹", "hint": "Stuffs cheeks with everything"},
+    {"id": 11, "name": "Fox", "emoji": "🦊", "hint": "Sly but adorable"},
+    {"id": 12, "name": "Baby Seal", "emoji": "🦭", "hint": "Big eyes, whiskers"},
+    {"id": 13, "name": "Duckling", "emoji": "🐤", "hint": "Follows mom in a line"},
+    {"id": 14, "name": "Sloth", "emoji": "🦥", "hint": "Smiles, moves in slow-mo"},
+    {"id": 15, "name": "Squirrel", "emoji": "🐿️", "hint": "Fluffy tail, hoards nuts"},
+    {"id": 16, "name": "Chinchilla", "emoji": "🐭", "hint": "Softest fur ever"},
+    {"id": 17, "name": "Baby Elephant", "emoji": "🐘", "hint": "Trips over own trunk"},
+    {"id": 18, "name": "Quokka", "emoji": "😊", "hint": "World's happiest animal"},
+    {"id": 19, "name": "Fennec Fox", "emoji": "🦊", "hint": "Huge ears, tiny body"},
+    {"id": 20, "name": "Pygmy Goat", "emoji": "🐐", "hint": "Bouncy little chaos agent"},
+    {"id": 21, "name": "Sugar Glider", "emoji": "🐿️", "hint": "Flying squirrel-like pocket pet"},
+    {"id": 22, "name": "Pomeranian", "emoji": "🐕", "hint": "Tiny floof, big attitude"},
+    {"id": 23, "name": "Capybara", "emoji": "🦫", "hint": "Chill giant hamster"},
+    {"id": 24, "name": "Baby Hippo", "emoji": "🦛", "hint": "Chunky water puppy"},
+    {"id": 25, "name": "Axolotl", "emoji": "🦎", "hint": "Smiling water dragon"}
+  ]
+}

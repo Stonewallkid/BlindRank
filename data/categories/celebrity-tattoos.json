@@ -1,0 +1,33 @@
+{
+  "id": "celebrity-tattoos",
+  "name": "Worst Celebrity Tattoos",
+  "description": "Rank these permanent regrets!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Ben Affleck's Back Phoenix", "emoji": "🔥", "hint": "Rising from the ashes, badly"},
+    {"id": 2, "name": "Ariana Grande's BBQ Grill (Japanese)", "emoji": "🍖", "hint": "Meant to say 7 Rings"},
+    {"id": 3, "name": "Steve-O's Self-Portrait Back Piece", "emoji": "🤡", "hint": "Jackass inception"},
+    {"id": 4, "name": "Mike Tyson's Face Tribal", "emoji": "🥊", "hint": "The original face tattoo"},
+    {"id": 5, "name": "Post Malone's Face Collection", "emoji": "🎵", "hint": "Always bet on black... ink"},
+    {"id": 6, "name": "Ed Sheeran's Ketchup Bottle", "emoji": "🍅", "hint": "Condiment commitment"},
+    {"id": 7, "name": "Cheryl Cole's Rose Butt Cover-Up", "emoji": "🌹", "hint": "Entire lower back garden"},
+    {"id": 8, "name": "Johnny Depp's Winona Forever/Wino", "emoji": "🍷", "hint": "Creative alteration"},
+    {"id": 9, "name": "Dennis Rodman's Everything", "emoji": "🏀", "hint": "Walking art gallery"},
+    {"id": 10, "name": "Travis Barker's Entire Body", "emoji": "🥁", "hint": "Running out of space"},
+    {"id": 11, "name": "Chris Brown's Neck Tattoo", "emoji": "😬", "hint": "Questionable choices"},
+    {"id": 12, "name": "Hayden Panettiere's Misspelled Italian", "emoji": "🇮🇹", "hint": "Vivere instead of vivere"},
+    {"id": 13, "name": "Gucci Mane's Ice Cream Face", "emoji": "🍦", "hint": "Brrr"},
+    {"id": 14, "name": "Lil Wayne's Face Teardrops", "emoji": "💧", "hint": "Forever crying"},
+    {"id": 15, "name": "Justin Bieber's Torso Collection", "emoji": "🎤", "hint": "Adding weekly"},
+    {"id": 16, "name": "Kesha's Alien Abduction Story", "emoji": "👽", "hint": "Thigh full of proof"},
+    {"id": 17, "name": "Cara Delevingne's Bacon Feet", "emoji": "🥓", "hint": "Sizzling soles"},
+    {"id": 18, "name": "Machine Gun Kelly's Blackout Coverage", "emoji": "⬛", "hint": "Just color it all in"},
+    {"id": 19, "name": "Harry Styles' Random Collection", "emoji": "🦋", "hint": "No cohesive theme"},
+    {"id": 20, "name": "Rihanna's Chest Goddess Isis", "emoji": "👑", "hint": "Unfortunate timing with name"},
+    {"id": 21, "name": "Pete Davidson's Kim Branding", "emoji": "🔥", "hint": "Now removed"},
+    {"id": 22, "name": "Tekashi 6ix9ine's Number 69 Face", "emoji": "🌈", "hint": "Rainbow controversy"},
+    {"id": 23, "name": "Angelina Jolie's Billy Bob Blood Vial Era", "emoji": "🩸", "hint": "Coordinates now"},
+    {"id": 24, "name": "Amber Rose's Forehead Kids Names", "emoji": "👶", "hint": "Face first parenting"},
+    {"id": 25, "name": "Presley Gerber's Misspelled Face Tattoo", "emoji": "😒", "hint": "Nepo baby rebellion"}
+  ]
+}

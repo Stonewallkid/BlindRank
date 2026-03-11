@@ -1,0 +1,33 @@
+{
+  "id": "tv-shows",
+  "name": "Best TV Shows",
+  "description": "Rank these binge-worthy series!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Breaking Bad", "emoji": "🧪", "hint": "I am the one who knocks"},
+    {"id": 2, "name": "Game of Thrones", "emoji": "🐉", "hint": "Great until season 8 happened"},
+    {"id": 3, "name": "Stranger Things", "emoji": "🚲", "hint": "Eleven, Eggo waffles, 80s nostalgia"},
+    {"id": 4, "name": "The Office", "emoji": "📎", "hint": "That's what she said"},
+    {"id": 5, "name": "Friends", "emoji": "☕", "hint": "Could this BE any more iconic?"},
+    {"id": 6, "name": "The Mandalorian", "emoji": "🌟", "hint": "This is the way, Baby Yoda"},
+    {"id": 7, "name": "Squid Game", "emoji": "🔴", "hint": "Red light green light, trauma"},
+    {"id": 8, "name": "Avatar: Last Airbender", "emoji": "🌊", "hint": "Iroh's wisdom, Zuko's redemption"},
+    {"id": 9, "name": "The Simpsons", "emoji": "💛", "hint": "D'oh! 35 seasons and counting"},
+    {"id": 10, "name": "Brooklyn Nine-Nine", "emoji": "👮", "hint": "Cool cool cool, no doubt"},
+    {"id": 11, "name": "Parks and Recreation", "emoji": "🌳", "hint": "Treat yo self, Ron Swanson"},
+    {"id": 12, "name": "Succession", "emoji": "💰", "hint": "Billionaire family dysfunction"},
+    {"id": 13, "name": "Ted Lasso", "emoji": "⚽", "hint": "Believe, biscuits, wholesome"},
+    {"id": 14, "name": "Better Call Saul", "emoji": "⚖️", "hint": "Breaking Bad prequel perfection"},
+    {"id": 15, "name": "The Sopranos", "emoji": "🔫", "hint": "Started prestige TV, that ending"},
+    {"id": 16, "name": "Fleabag", "emoji": "🐕", "hint": "Fourth wall breaks, hot priest"},
+    {"id": 17, "name": "It's Always Sunny", "emoji": "☀️", "hint": "The gang does something terrible"},
+    {"id": 18, "name": "The Wire", "emoji": "📡", "hint": "Best show you haven't watched"},
+    {"id": 19, "name": "Seinfeld", "emoji": "🥣", "hint": "Show about nothing, no hugging"},
+    {"id": 20, "name": "Black Mirror", "emoji": "📺", "hint": "Technology bad, cry now"},
+    {"id": 21, "name": "Arrested Development", "emoji": "🍌", "hint": "There's always money in the banana stand"},
+    {"id": 22, "name": "How I Met Your Mother", "emoji": "💛", "hint": "Wait for it... legen-DARY"},
+    {"id": 23, "name": "Community", "emoji": "🎲", "hint": "Six seasons and a movie!"},
+    {"id": 24, "name": "Peaky Blinders", "emoji": "🎩", "hint": "By order of the Peaky Blinders"},
+    {"id": 25, "name": "Arcane", "emoji": "💜", "hint": "League of Legends but actually good"}
+  ]
+}

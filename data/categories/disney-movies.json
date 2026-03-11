@@ -1,0 +1,33 @@
+{
+  "id": "disney-movies",
+  "name": "Best Disney Movies",
+  "description": "Rank these magical films!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "The Lion King", "emoji": "🦁", "hint": "Circle of life, dad dies"},
+    {"id": 2, "name": "Frozen", "emoji": "❄️", "hint": "Let it go, let it GOOO"},
+    {"id": 3, "name": "Moana", "emoji": "🌊", "hint": "The ocean chose her"},
+    {"id": 4, "name": "Aladdin", "emoji": "🧞", "hint": "A whole new world"},
+    {"id": 5, "name": "Finding Nemo", "emoji": "🐠", "hint": "Just keep swimming"},
+    {"id": 6, "name": "Toy Story", "emoji": "🤠", "hint": "To infinity and beyond"},
+    {"id": 7, "name": "The Little Mermaid", "emoji": "🧜", "hint": "Part of your world"},
+    {"id": 8, "name": "Beauty and the Beast", "emoji": "🌹", "hint": "Tale as old as time"},
+    {"id": 9, "name": "Tangled", "emoji": "💇", "hint": "75 feet of magical hair"},
+    {"id": 10, "name": "Coco", "emoji": "🎸", "hint": "Remember me, ugly cry"},
+    {"id": 11, "name": "Up", "emoji": "🎈", "hint": "First 10 min destroys you"},
+    {"id": 12, "name": "Encanto", "emoji": "✨", "hint": "We don't talk about Bruno"},
+    {"id": 13, "name": "Inside Out", "emoji": "😊", "hint": "Bing Bong... 😭"},
+    {"id": 14, "name": "Zootopia", "emoji": "🐰", "hint": "Try everything, city of animals"},
+    {"id": 15, "name": "WALL-E", "emoji": "🤖", "hint": "Lonely robot finds love"},
+    {"id": 16, "name": "Ratatouille", "emoji": "🐀", "hint": "Anyone can cook"},
+    {"id": 17, "name": "The Incredibles", "emoji": "🦸", "hint": "No capes!"},
+    {"id": 18, "name": "Mulan", "emoji": "⚔️", "hint": "I'll make a man out of you"},
+    {"id": 19, "name": "Monsters, Inc.", "emoji": "👁️", "hint": "Kitty! Boo!"},
+    {"id": 20, "name": "Lilo & Stitch", "emoji": "👽", "hint": "Ohana means family"},
+    {"id": 21, "name": "Hercules", "emoji": "💪", "hint": "Zero to hero"},
+    {"id": 22, "name": "Tarzan", "emoji": "🦍", "hint": "Phil Collins slaps"},
+    {"id": 23, "name": "The Emperor's New Groove", "emoji": "🦙", "hint": "Pull the lever, Kronk!"},
+    {"id": 24, "name": "Big Hero 6", "emoji": "🎈", "hint": "Baymax, healthcare robot"},
+    {"id": 25, "name": "Wreck-It Ralph", "emoji": "👊", "hint": "I'm gonna wreck it!"}
+  ]
+}

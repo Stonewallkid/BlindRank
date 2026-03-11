@@ -1,0 +1,33 @@
+{
+  "id": "video-games",
+  "name": "Greatest Video Games",
+  "description": "Rank the GOATs of gaming!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Minecraft", "emoji": "⛏️", "hint": "Blocks forever, infinite creativity"},
+    {"id": 2, "name": "Zelda: Breath of the Wild", "emoji": "🗡️", "hint": "Cook apples, paraglide everywhere"},
+    {"id": 3, "name": "GTA V", "emoji": "🚗", "hint": "Still getting re-released, heists"},
+    {"id": 4, "name": "Elden Ring", "emoji": "💍", "hint": "Try finger but hole"},
+    {"id": 5, "name": "Red Dead Redemption 2", "emoji": "🤠", "hint": "Arthur Morgan deserved better"},
+    {"id": 6, "name": "The Witcher 3", "emoji": "🐺", "hint": "Gwent addiction, Roach on roofs"},
+    {"id": 7, "name": "Fortnite", "emoji": "🔫", "hint": "Where we droppin? Default dance"},
+    {"id": 8, "name": "Super Mario Odyssey", "emoji": "🍄", "hint": "Possess a T-Rex, hat tricks"},
+    {"id": 9, "name": "God of War (2018)", "emoji": "⚔️", "hint": "BOY! Dad of War"},
+    {"id": 10, "name": "Portal 2", "emoji": "🔵", "hint": "The cake is a lie, co-op chaos"},
+    {"id": 11, "name": "Tetris", "emoji": "🧱", "hint": "Simple perfection since 1984"},
+    {"id": 12, "name": "Dark Souls", "emoji": "🔥", "hint": "YOU DIED x10000"},
+    {"id": 13, "name": "Halo: Combat Evolved", "emoji": "💚", "hint": "Xbox wouldn't exist without it"},
+    {"id": 14, "name": "Pokemon Red/Blue", "emoji": "⚡", "hint": "Gotta catch 151"},
+    {"id": 15, "name": "Among Us", "emoji": "🚀", "hint": "Red sus, emergency meeting"},
+    {"id": 16, "name": "Skyrim", "emoji": "🐉", "hint": "Arrow to the knee, 1000 mods"},
+    {"id": 17, "name": "Super Smash Bros Ultimate", "emoji": "👊", "hint": "Everyone is here!"},
+    {"id": 18, "name": "The Last of Us", "emoji": "🍄", "hint": "Giraffes and emotional damage"},
+    {"id": 19, "name": "Undertale", "emoji": "💀", "hint": "Megalovania, spare everyone"},
+    {"id": 20, "name": "Animal Crossing", "emoji": "🏝️", "hint": "Tom Nook owns your soul"},
+    {"id": 21, "name": "Half-Life 2", "emoji": "🔧", "hint": "Physics puzzles, no HL3 ever"},
+    {"id": 22, "name": "Stardew Valley", "emoji": "🌾", "hint": "Farm life > real life"},
+    {"id": 23, "name": "Resident Evil 4", "emoji": "🧟", "hint": "Leon Kennedy, over the shoulder"},
+    {"id": 24, "name": "Baldur's Gate 3", "emoji": "🎲", "hint": "D&D but hot, 200 hours"},
+    {"id": 25, "name": "Celeste", "emoji": "🍓", "hint": "Hard platformer, mental health themes"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mythical-creatures",
+  "name": "Coolest Mythical Creatures",
+  "description": "Rank these legendary beasts!",
+  "rating": "kids",
+  "items": [
+    {"id": 1, "name": "Dragon", "emoji": "🐉", "hint": "Fire-breathing flying lizard"},
+    {"id": 2, "name": "Phoenix", "emoji": "🔥", "hint": "Dies and rises from ashes"},
+    {"id": 3, "name": "Unicorn", "emoji": "🦄", "hint": "Magical horse with a horn"},
+    {"id": 4, "name": "Griffin", "emoji": "🦅", "hint": "Eagle head, lion body"},
+    {"id": 5, "name": "Mermaid", "emoji": "🧜", "hint": "Half human, half fish"},
+    {"id": 6, "name": "Pegasus", "emoji": "🐴", "hint": "Horse with wings"},
+    {"id": 7, "name": "Kraken", "emoji": "🦑", "hint": "Giant sea monster"},
+    {"id": 8, "name": "Cerberus", "emoji": "🐕", "hint": "Three-headed guard dog of underworld"},
+    {"id": 9, "name": "Centaur", "emoji": "🏇", "hint": "Half human, half horse"},
+    {"id": 10, "name": "Werewolf", "emoji": "🐺", "hint": "Human transforms under full moon"},
+    {"id": 11, "name": "Minotaur", "emoji": "🐂", "hint": "Bull head, human body, maze dweller"},
+    {"id": 12, "name": "Hydra", "emoji": "🐍", "hint": "Cut one head, two grow back"},
+    {"id": 13, "name": "Fairy", "emoji": "🧚", "hint": "Tiny magical winged being"},
+    {"id": 14, "name": "Yeti", "emoji": "❄️", "hint": "Abominable snowman"},
+    {"id": 15, "name": "Loch Ness Monster", "emoji": "🦕", "hint": "Scottish lake mystery"},
+    {"id": 16, "name": "Bigfoot", "emoji": "🦶", "hint": "Forest giant, blurry photos only"},
+    {"id": 17, "name": "Thunderbird", "emoji": "⚡", "hint": "Giant bird that creates storms"},
+    {"id": 18, "name": "Sphinx", "emoji": "🦁", "hint": "Lion body, human head, riddles"},
+    {"id": 19, "name": "Leprechaun", "emoji": "🍀", "hint": "Irish, gold at rainbow's end"},
+    {"id": 20, "name": "Basilisk", "emoji": "🐍", "hint": "King of serpents, deadly gaze"},
+    {"id": 21, "name": "Chimera", "emoji": "🦁", "hint": "Lion, goat, snake combo"},
+    {"id": 22, "name": "Gorgon", "emoji": "🐍", "hint": "Snake hair, turns you to stone"},
+    {"id": 23, "name": "Kitsune", "emoji": "🦊", "hint": "Japanese nine-tailed fox"},
+    {"id": 24, "name": "Vampire", "emoji": "🧛", "hint": "Blood-drinking immortal"},
+    {"id": 25, "name": "Goblin", "emoji": "👺", "hint": "Small, mischievous, troublemaker"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "best-youtubers",
+  "name": "Best YouTubers",
+  "description": "Rank these content creators!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "MrBeast", "emoji": "🦁", "hint": "Gives away millions"},
+    {"id": 2, "name": "PewDiePie", "emoji": "👊", "hint": "Bro Army OG"},
+    {"id": 3, "name": "Markiplier", "emoji": "🔴", "hint": "Hello everybody!"},
+    {"id": 4, "name": "Dream", "emoji": "😃", "hint": "Minecraft speedruns, mask"},
+    {"id": 5, "name": "Jacksepticeye", "emoji": "☘️", "hint": "TOP OF THE MORNING"},
+    {"id": 6, "name": "MKBHD", "emoji": "📱", "hint": "Tech reviews king"},
+    {"id": 7, "name": "Dude Perfect", "emoji": "🏀", "hint": "Trick shots and celebrating"},
+    {"id": 8, "name": "Linus Tech Tips", "emoji": "💻", "hint": "Drops everything"},
+    {"id": 9, "name": "Corridor Crew", "emoji": "🎬", "hint": "VFX artists react"},
+    {"id": 10, "name": "Veritasium", "emoji": "🔬", "hint": "Science explained well"},
+    {"id": 11, "name": "Kurzgesagt", "emoji": "🦆", "hint": "In a nutshell, birds"},
+    {"id": 12, "name": "Vsauce", "emoji": "🧠", "hint": "Hey Vsauce, Michael here"},
+    {"id": 13, "name": "Smosh", "emoji": "😂", "hint": "OG YouTube comedy"},
+    {"id": 14, "name": "Ninja", "emoji": "🎮", "hint": "Fortnite streaming legend"},
+    {"id": 15, "name": "Emma Chamberlain", "emoji": "☕", "hint": "Vlogs and coffee"},
+    {"id": 16, "name": "Ryan's World", "emoji": "🧸", "hint": "Kid reviewing toys, millionaire"},
+    {"id": 17, "name": "Casey Neistat", "emoji": "📹", "hint": "Daily vlog pioneer"},
+    {"id": 18, "name": "The Try Guys", "emoji": "🎯", "hint": "Try everything, drama"},
+    {"id": 19, "name": "Danny Gonzalez", "emoji": "👋", "hint": "Greg nation"},
+    {"id": 20, "name": "Technoblade", "emoji": "🐷", "hint": "Never dies, legend RIP"},
+    {"id": 21, "name": "Jenna Marbles", "emoji": "🐕", "hint": "Retired queen"},
+    {"id": 22, "name": "Philip DeFranco", "emoji": "📰", "hint": "What's up you beautiful bastards"},
+    {"id": 23, "name": "Good Mythical Morning", "emoji": "🌅", "hint": "Will it? Yes it will"},
+    {"id": 24, "name": "Sidemen", "emoji": "🇬🇧", "hint": "British YouTube group"},
+    {"id": 25, "name": "Cocomelon", "emoji": "🍉", "hint": "Baby shark's rival"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "wild-party-types",
+  "name": "Wildest Party Types",
+  "description": "Rank these legendary party scenarios by chaos level!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Vegas Bachelor Party", "emoji": "🎰", "hint": "What happens in Vegas costs $5000 minimum"},
+    {"id": 2, "name": "Spring Break Cancun", "emoji": "🏖️", "hint": "College debt + tequila = memories?"},
+    {"id": 3, "name": "New Year's Eve NYC", "emoji": "🗽", "hint": "Freezing, drunk, kissing strangers"},
+    {"id": 4, "name": "Music Festival Camping", "emoji": "🎪", "hint": "3 days no shower, worth it"},
+    {"id": 5, "name": "Ibiza Club Night", "emoji": "🌴", "hint": "6am sunrises, 6pm wake ups"},
+    {"id": 6, "name": "Rio Carnival", "emoji": "🎭", "hint": "Wearing feathers and questionable choices"},
+    {"id": 7, "name": "Full Moon Party Thailand", "emoji": "🌕", "hint": "Bucket drinks, fire ropes, no memory"},
+    {"id": 8, "name": "Mardi Gras", "emoji": "🎺", "hint": "Beads have a price"},
+    {"id": 9, "name": "Office Christmas Party", "emoji": "🎄", "hint": "HR meeting on Monday"},
+    {"id": 10, "name": "Yacht Party", "emoji": "🛥️", "hint": "Rich people problems, boat drama"},
+    {"id": 11, "name": "Burning Man", "emoji": "🔥", "hint": "Dust, drugs, radical self-reliance"},
+    {"id": 12, "name": "Oktoberfest", "emoji": "🍺", "hint": "Liters of beer, lederhosen regrets"},
+    {"id": 13, "name": "House Party (Parents Out of Town)", "emoji": "🏠", "hint": "Broke the lamp, stained the couch"},
+    {"id": 14, "name": "St. Patrick's Day (Anywhere)", "emoji": "🍀", "hint": "Green beer vomit at 2pm"},
+    {"id": 15, "name": "Halloween Party (Adult)", "emoji": "🎃", "hint": "Sexy costume contest escalation"},
+    {"id": 16, "name": "Coachella VIP", "emoji": "🌵", "hint": "Instagram > actual music"},
+    {"id": 17, "name": "EDC Las Vegas", "emoji": "🎧", "hint": "3 nights of electronic madness"},
+    {"id": 18, "name": "Super Bowl Party", "emoji": "🏈", "hint": "Wings, dip, gambling losses"},
+    {"id": 19, "name": "Bachelorette Party", "emoji": "👰", "hint": "Male strippers, matching shirts, screaming"},
+    {"id": 20, "name": "Frat Party", "emoji": "🏛️", "hint": "Jungle juice, sticky floors, bad decisions"},
+    {"id": 21, "name": "Pride Parade After-Party", "emoji": "🏳️‍🌈", "hint": "Maximum celebration, maximum glitter"},
+    {"id": 22, "name": "Tailgate Party", "emoji": "🚗", "hint": "Day drinking is a sport"},
+    {"id": 23, "name": "Divorce Party", "emoji": "💔", "hint": "Surprisingly more fun than the wedding"},
+    {"id": 24, "name": "Gender Reveal Gone Wild", "emoji": "🎈", "hint": "Started a fire, had to flee"},
+    {"id": 25, "name": "Key Party (70s Style)", "emoji": "🔑", "hint": "Retro swinging energy"}
+  ]
+}

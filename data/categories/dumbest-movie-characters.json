@@ -1,0 +1,33 @@
+{
+  "id": "dumbest-movie-characters",
+  "name": "Dumbest Movie Characters",
+  "description": "Rank these frustratingly stupid fictional people!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Every Horror Movie Victim", "emoji": "🔪", "hint": "Let's split up and investigate!"},
+    {"id": 2, "name": "Prometheus Scientists", "emoji": "👽", "hint": "Trained scientists pet alien snakes"},
+    {"id": 3, "name": "Star-Lord (Infinity War)", "emoji": "🌟", "hint": "Punched Thanos, doomed universe"},
+    {"id": 4, "name": "Upside Down Map Guy", "emoji": "🗺️", "hint": "Dumb and Dumber, drove wrong way"},
+    {"id": 5, "name": "Anakin Skywalker", "emoji": "⚔️", "hint": "Trusted obviously evil Palpatine"},
+    {"id": 6, "name": "Guy Who Opens the Box", "emoji": "📦", "hint": "Every Pandora/cursed object movie"},
+    {"id": 7, "name": "Rickon Stark", "emoji": "🏃", "hint": "Zig zag! Just zig zag!"},
+    {"id": 8, "name": "Dennis Nedry", "emoji": "🦖", "hint": "Stole dino DNA, got eaten"},
+    {"id": 9, "name": "Let's Read It Aloud Person", "emoji": "📖", "hint": "Evil Dead, always summons demons"},
+    {"id": 10, "name": "Home Alone Burglars", "emoji": "🏠", "hint": "Outsmarted by 8-year-old, twice"},
+    {"id": 11, "name": "Going Back for the Cat", "emoji": "🐱", "hint": "Dies trying to save pet in disaster"},
+    {"id": 12, "name": "Peter Pettigrew", "emoji": "🐀", "hint": "Betrayed everyone, died pathetically"},
+    {"id": 13, "name": "I'll Be Right Back Person", "emoji": "👋", "hint": "Never comes back, ever"},
+    {"id": 14, "name": "Investigates Alone in Dark", "emoji": "🔦", "hint": "Hello? Is someone there?"},
+    {"id": 15, "name": "Zack (Jurassic World)", "emoji": "🦕", "hint": "Let's go off the path!"},
+    {"id": 16, "name": "Doesn't Double Tap", "emoji": "🔫", "hint": "Zombieland rule breaker"},
+    {"id": 17, "name": "Loki (Gets Tricked)", "emoji": "🦎", "hint": "Trickster god, fell for tricks"},
+    {"id": 18, "name": "Person Who Ignores Warnings", "emoji": "⚠️", "hint": "Ancient curse? Sounds fake"},
+    {"id": 19, "name": "Runs in Straight Line", "emoji": "🏃", "hint": "From slow rolling object"},
+    {"id": 20, "name": "Cypher (Matrix)", "emoji": "🥩", "hint": "Betrayed everyone for a steak"},
+    {"id": 21, "name": "Opens Creepy Basement Door", "emoji": "🚪", "hint": "What's that noise down there?"},
+    {"id": 22, "name": "Falls for Obvious Disguise", "emoji": "🥸", "hint": "Superman glasses logic"},
+    {"id": 23, "name": "Ned Stark", "emoji": "⚔️", "hint": "Trusted Littlefinger, told Cersei"},
+    {"id": 24, "name": "Character Who Monologues", "emoji": "🗣️", "hint": "Gives hero time to escape"},
+    {"id": 25, "name": "Curious Cat Character", "emoji": "🐱", "hint": "Touches the alien egg/artifact"}
+  ]
+}

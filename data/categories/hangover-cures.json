@@ -1,0 +1,33 @@
+{
+  "id": "hangover-cures",
+  "name": "Worst Hangover Cures",
+  "description": "Rank these morning-after myths!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Hair of the Dog", "emoji": "🍺", "hint": "Just drink more, right?"},
+    {"id": 2, "name": "Raw Egg in Beer", "emoji": "🥚", "hint": "Prairie oyster nightmare"},
+    {"id": 3, "name": "Greasy Breakfast", "emoji": "🥓", "hint": "Absorb the alcohol myth"},
+    {"id": 4, "name": "Black Coffee", "emoji": "☕", "hint": "Dehydrate yourself more"},
+    {"id": 5, "name": "Pedialyte", "emoji": "🍼", "hint": "Baby drink for adults"},
+    {"id": 6, "name": "Pickle Juice", "emoji": "🥒", "hint": "Vinegar and salt"},
+    {"id": 7, "name": "Burnt Toast", "emoji": "🍞", "hint": "Carbon filters toxins?"},
+    {"id": 8, "name": "Exercise", "emoji": "🏃", "hint": "Sweat it out bro"},
+    {"id": 9, "name": "IV Drip at a Clinic", "emoji": "💉", "hint": "Rich people solutions"},
+    {"id": 10, "name": "Sprite", "emoji": "🥤", "hint": "Chinese study said so"},
+    {"id": 11, "name": "Menudo", "emoji": "🍲", "hint": "Mexican tripe soup"},
+    {"id": 12, "name": "Bloody Mary", "emoji": "🍅", "hint": "Tomato and vodka logic"},
+    {"id": 13, "name": "Coconut Water", "emoji": "🥥", "hint": "Nature's Gatorade"},
+    {"id": 14, "name": "Aspirin Before Bed", "emoji": "💊", "hint": "Stomach lining says no"},
+    {"id": 15, "name": "Cold Shower", "emoji": "🚿", "hint": "Wake up angry"},
+    {"id": 16, "name": "Activated Charcoal", "emoji": "⬛", "hint": "Too late by now"},
+    {"id": 17, "name": "Bananas", "emoji": "🍌", "hint": "Potassium replacement"},
+    {"id": 18, "name": "More Sleep", "emoji": "😴", "hint": "Actually works but who can?"},
+    {"id": 19, "name": "Kombucha", "emoji": "🫖", "hint": "Hipster gut repair"},
+    {"id": 20, "name": "Ginger Tea", "emoji": "🫚", "hint": "Settles the stomach"},
+    {"id": 21, "name": "Fast Food Run", "emoji": "🍔", "hint": "2am drive-thru regrets"},
+    {"id": 22, "name": "Hot Sauna", "emoji": "🧖", "hint": "Dangerously dehydrating"},
+    {"id": 23, "name": "Oxygen Bar", "emoji": "💨", "hint": "Vegas special"},
+    {"id": 24, "name": "Pho", "emoji": "🍜", "hint": "Vietnamese miracle soup"},
+    {"id": 25, "name": "Literally Just Time", "emoji": "⏰", "hint": "The only real cure"}
+  ]
+}

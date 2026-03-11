@@ -1,0 +1,33 @@
+{
+  "id": "best-apps",
+  "name": "Best Mobile Apps",
+  "description": "Rank these apps you can't live without!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Instagram", "emoji": "📷", "hint": "Filters and stories"},
+    {"id": 2, "name": "TikTok", "emoji": "🎵", "hint": "Endless scroll addiction"},
+    {"id": 3, "name": "Spotify", "emoji": "🎧", "hint": "Music everywhere"},
+    {"id": 4, "name": "Google Maps", "emoji": "🗺️", "hint": "Never get lost again"},
+    {"id": 5, "name": "WhatsApp", "emoji": "💬", "hint": "Messaging worldwide"},
+    {"id": 6, "name": "YouTube", "emoji": "📺", "hint": "Video for everything"},
+    {"id": 7, "name": "Snapchat", "emoji": "👻", "hint": "Disappearing pics"},
+    {"id": 8, "name": "Uber", "emoji": "🚗", "hint": "Ride anywhere"},
+    {"id": 9, "name": "DoorDash", "emoji": "🍔", "hint": "Food delivered"},
+    {"id": 10, "name": "Venmo", "emoji": "💸", "hint": "Pay friends easily"},
+    {"id": 11, "name": "Netflix", "emoji": "🎬", "hint": "Stream on the go"},
+    {"id": 12, "name": "Discord", "emoji": "🎮", "hint": "Gaming chat central"},
+    {"id": 13, "name": "Duolingo", "emoji": "🦉", "hint": "Owl threatens daily"},
+    {"id": 14, "name": "Amazon", "emoji": "📦", "hint": "Buy everything"},
+    {"id": 15, "name": "Gmail", "emoji": "📧", "hint": "Email essential"},
+    {"id": 16, "name": "Reddit", "emoji": "🤖", "hint": "Front page of internet"},
+    {"id": 17, "name": "Twitter/X", "emoji": "🐦", "hint": "Hot takes central"},
+    {"id": 18, "name": "Shazam", "emoji": "🎵", "hint": "What song is this?"},
+    {"id": 19, "name": "Waze", "emoji": "🚙", "hint": "Community traffic alerts"},
+    {"id": 20, "name": "Slack", "emoji": "💼", "hint": "Work chat never stops"},
+    {"id": 21, "name": "Tinder", "emoji": "🔥", "hint": "Swipe right"},
+    {"id": 22, "name": "Candy Crush", "emoji": "🍬", "hint": "Addictive matching"},
+    {"id": 23, "name": "Airbnb", "emoji": "🏠", "hint": "Stay anywhere"},
+    {"id": 24, "name": "Notion", "emoji": "📝", "hint": "Notes and everything"},
+    {"id": 25, "name": "BeReal", "emoji": "📸", "hint": "Time to BeReal!"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "music-genres",
+  "name": "Music Genres",
+  "description": "Rank these sounds that define us!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "Hip-Hop/Rap", "emoji": "🎤", "hint": "Mumble or lyrical, fight about it"},
+    {"id": 2, "name": "Pop", "emoji": "🎵", "hint": "Catchy hooks living rent-free"},
+    {"id": 3, "name": "Rock", "emoji": "🎸", "hint": "Dad's music that actually slaps"},
+    {"id": 4, "name": "R&B/Soul", "emoji": "💜", "hint": "Crying in the club vibes"},
+    {"id": 5, "name": "Electronic/EDM", "emoji": "🎧", "hint": "Waiting for the drop (forever)"},
+    {"id": 6, "name": "Country", "emoji": "🤠", "hint": "My truck, my dog, my ex"},
+    {"id": 7, "name": "Jazz", "emoji": "🎷", "hint": "Background music for feeling smart"},
+    {"id": 8, "name": "Classical", "emoji": "🎻", "hint": "Dead composers, eternal bangers"},
+    {"id": 9, "name": "Indie", "emoji": "🎹", "hint": "You wouldn't know them"},
+    {"id": 10, "name": "Metal", "emoji": "🤘", "hint": "Screaming as therapy"},
+    {"id": 11, "name": "K-Pop", "emoji": "🇰🇷", "hint": "Stans more powerful than armies"},
+    {"id": 12, "name": "Reggaeton", "emoji": "🌴", "hint": "Same beat, still works"},
+    {"id": 13, "name": "Punk", "emoji": "🔥", "hint": "Rebellion sold at Hot Topic"},
+    {"id": 14, "name": "Lo-Fi", "emoji": "☕", "hint": "Anime girl studying for eternity"},
+    {"id": 15, "name": "Trap", "emoji": "💎", "hint": "Hi-hats going crazy"},
+    {"id": 16, "name": "Reggae", "emoji": "🟢", "hint": "One love, chill vibes only"},
+    {"id": 17, "name": "Folk", "emoji": "🪕", "hint": "Pretending we're in a forest"},
+    {"id": 18, "name": "Blues", "emoji": "😢", "hint": "My baby left me (guitar solo)"},
+    {"id": 19, "name": "Disco", "emoji": "🪩", "hint": "Glitter and bad decisions"},
+    {"id": 20, "name": "Grunge", "emoji": "🧥", "hint": "Sad in Seattle, 90s forever"},
+    {"id": 21, "name": "Latin Pop", "emoji": "💃", "hint": "Despacito ruined 2017"},
+    {"id": 22, "name": "Dubstep", "emoji": "🔊", "hint": "Skrillex broke our speakers"},
+    {"id": 23, "name": "Gospel", "emoji": "🙏", "hint": "Sunday morning bops"},
+    {"id": 24, "name": "Hyperpop", "emoji": "🌈", "hint": "Chaotic, glitchy, somehow good"},
+    {"id": 25, "name": "Synthwave", "emoji": "🌆", "hint": "80s that never existed"}
+  ]
+}

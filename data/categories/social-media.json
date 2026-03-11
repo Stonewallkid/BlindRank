@@ -1,0 +1,33 @@
+{
+  "id": "social-media",
+  "name": "Social Media Platforms",
+  "description": "Rank these digital addiction machines!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "YouTube", "emoji": "📺", "hint": "3am rabbit holes, 'one more video'"},
+    {"id": 2, "name": "TikTok", "emoji": "🎵", "hint": "5 hours gone, brain rotted"},
+    {"id": 3, "name": "Instagram", "emoji": "📷", "hint": "Fake lives, real depression"},
+    {"id": 4, "name": "Twitter/X", "emoji": "🐦", "hint": "Main character syndrome central"},
+    {"id": 5, "name": "Reddit", "emoji": "🤖", "hint": "AITA for being right?"},
+    {"id": 6, "name": "Discord", "emoji": "💬", "hint": "Kitten, are you online?"},
+    {"id": 7, "name": "Snapchat", "emoji": "👻", "hint": "Streaks are a personality trait"},
+    {"id": 8, "name": "Facebook", "emoji": "👴", "hint": "Minion memes from your aunt"},
+    {"id": 9, "name": "LinkedIn", "emoji": "💼", "hint": "Humble brags as a career"},
+    {"id": 10, "name": "BeReal", "emoji": "📸", "hint": "Forcing authenticity since 2022"},
+    {"id": 11, "name": "Pinterest", "emoji": "📌", "hint": "Dream boards of lives you'll never have"},
+    {"id": 12, "name": "Twitch", "emoji": "🎮", "hint": "Parasocial relationships with gamers"},
+    {"id": 13, "name": "WhatsApp", "emoji": "💬", "hint": "Family group chat trauma"},
+    {"id": 14, "name": "Threads", "emoji": "🧵", "hint": "Twitter at home"},
+    {"id": 15, "name": "Tumblr", "emoji": "📝", "hint": "Somehow still alive, unhinged"},
+    {"id": 16, "name": "Telegram", "emoji": "✈️", "hint": "Crypto bros and 'news channels'"},
+    {"id": 17, "name": "Mastodon", "emoji": "🐘", "hint": "For people who say 'fediverse'"},
+    {"id": 18, "name": "Bluesky", "emoji": "🦋", "hint": "Twitter but make it invite-only"},
+    {"id": 19, "name": "Truth Social", "emoji": "🔴", "hint": "Your uncle's favorite"},
+    {"id": 20, "name": "Clubhouse", "emoji": "🎙️", "hint": "Remember when this was cool?"},
+    {"id": 21, "name": "Nextdoor", "emoji": "🏘️", "hint": "Neighbors fighting about coyotes"},
+    {"id": 22, "name": "Quora", "emoji": "❓", "hint": "As a Navy SEAL, let me answer..."},
+    {"id": 23, "name": "Yelp", "emoji": "⭐", "hint": "Karen reviews as a sport"},
+    {"id": 24, "name": "MySpace", "emoji": "💀", "hint": "Top 8 friends was peak drama"},
+    {"id": 25, "name": "Vine", "emoji": "🌿", "hint": "Gone too soon, 6 seconds of gold"}
+  ]
+}

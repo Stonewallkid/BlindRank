@@ -1,0 +1,33 @@
+{
+  "id": "hottest-politicians",
+  "name": "Hottest Politicians",
+  "description": "Rank these surprisingly attractive public servants!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Justin Trudeau", "emoji": "🇨🇦", "hint": "Canadian PM, boxing photos"},
+    {"id": 2, "name": "AOC", "emoji": "🇺🇸", "hint": "Alexandria Ocasio-Cortez, progressive icon"},
+    {"id": 3, "name": "Young Joe Biden", "emoji": "🕶️", "hint": "Those 1960s photos hit different"},
+    {"id": 4, "name": "Emmanuel Macron", "emoji": "🇫🇷", "hint": "French president, older wife energy"},
+    {"id": 5, "name": "Sanna Marin", "emoji": "🇫🇮", "hint": "Finnish PM, dancing controversy"},
+    {"id": 6, "name": "Young Bernie Sanders", "emoji": "✊", "hint": "Civil rights arrest photo era"},
+    {"id": 7, "name": "Jacinda Ardern", "emoji": "🇳🇿", "hint": "New Zealand's cool PM"},
+    {"id": 8, "name": "JFK", "emoji": "🇺🇸", "hint": "Camelot, the original hot president"},
+    {"id": 9, "name": "Pete Buttigieg", "emoji": "🚗", "hint": "Mayor Pete, Rhodes Scholar vibes"},
+    {"id": 10, "name": "Young Obama", "emoji": "🇺🇸", "hint": "College basketball Obama hits"},
+    {"id": 11, "name": "Tulsi Gabbard", "emoji": "🏄", "hint": "Surfer congresswoman"},
+    {"id": 12, "name": "Gavin Newsom", "emoji": "🇺🇸", "hint": "California hair game strong"},
+    {"id": 13, "name": "Princess Diana", "emoji": "👑", "hint": "People's princess, iconic style"},
+    {"id": 14, "name": "Young Putin (apparently)", "emoji": "🇷🇺", "hint": "KGB era photos circulate weirdly"},
+    {"id": 15, "name": "Meghan Markle", "emoji": "👑", "hint": "Suits actress turned Duchess"},
+    {"id": 16, "name": "John Fetterman", "emoji": "🏋️", "hint": "Giant tattooed senator"},
+    {"id": 17, "name": "Jon Ossoff", "emoji": "🇺🇸", "hint": "Georgia senator, young and tall"},
+    {"id": 18, "name": "Kate Middleton", "emoji": "👑", "hint": "Princess of Wales, timeless"},
+    {"id": 19, "name": "Eduardo Leite", "emoji": "🇧🇷", "hint": "Brazilian governor, openly gay icon"},
+    {"id": 20, "name": "Young Bill Clinton", "emoji": "🎷", "hint": "Saxophone playing governor era"},
+    {"id": 21, "name": "Volodymyr Zelenskyy", "emoji": "🇺🇦", "hint": "Wartime leader, actor past"},
+    {"id": 22, "name": "Paul Ryan", "emoji": "🏋️", "hint": "P90X congressman aesthetic"},
+    {"id": 23, "name": "Huma Abedin", "emoji": "📱", "hint": "Clinton aide, model-level presence"},
+    {"id": 24, "name": "Leo Varadkar", "emoji": "🇮🇪", "hint": "Irish PM, historic first"},
+    {"id": 25, "name": "Young Arnold Schwarzenegger", "emoji": "🏛️", "hint": "Governator before politics"}
+  ]
+}

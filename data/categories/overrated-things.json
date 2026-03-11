@@ -1,0 +1,33 @@
+{
+  "id": "overrated-things",
+  "name": "Most Overrated Things",
+  "description": "Rank these overhyped things!",
+  "rating": "teen",
+  "items": [
+    {"id": 1, "name": "New Year's Eve", "emoji": "🎆", "hint": "Overpay to count to midnight"},
+    {"id": 2, "name": "Diamonds", "emoji": "💎", "hint": "DeBeers marketing scam"},
+    {"id": 3, "name": "Avocado Toast", "emoji": "🥑", "hint": "Why millennials can't buy houses"},
+    {"id": 4, "name": "Coffee Culture", "emoji": "☕", "hint": "It's bean water, relax"},
+    {"id": 5, "name": "Gender Reveal Parties", "emoji": "🎈", "hint": "Started a wildfire once"},
+    {"id": 6, "name": "Influencer Life", "emoji": "📱", "hint": "It's an ad, everything is an ad"},
+    {"id": 7, "name": "Brunch", "emoji": "🥂", "hint": "Breakfast + day drinking = $40"},
+    {"id": 8, "name": "Expensive Sneakers", "emoji": "👟", "hint": "Reselling shoes is a job now"},
+    {"id": 9, "name": "Club Life", "emoji": "🪩", "hint": "Pay $15 for water, can't hear anyone"},
+    {"id": 10, "name": "Luxury Brands", "emoji": "👜", "hint": "Paying 10x for a logo"},
+    {"id": 11, "name": "Viral Trends", "emoji": "📈", "hint": "Forgotten by next Tuesday"},
+    {"id": 12, "name": "Hustle Culture", "emoji": "💼", "hint": "Sleep is for losers, apparently"},
+    {"id": 13, "name": "Bacon on Everything", "emoji": "🥓", "hint": "We get it, you like bacon"},
+    {"id": 14, "name": "Truffle Oil", "emoji": "🍄", "hint": "Usually synthetic, overused"},
+    {"id": 15, "name": "Pumpkin Spice", "emoji": "🎃", "hint": "Fall doesn't need a flavor"},
+    {"id": 16, "name": "Cryptocurrency", "emoji": "🪙", "hint": "To the moon! (it crashed)"},
+    {"id": 17, "name": "Baby Shark", "emoji": "🦈", "hint": "Doo doo doo doo, make it stop"},
+    {"id": 18, "name": "Being an Adult", "emoji": "👔", "hint": "It's just bills and back pain"},
+    {"id": 19, "name": "AI Everything", "emoji": "🤖", "hint": "Not everything needs AI"},
+    {"id": 20, "name": "Working From Home", "emoji": "🏠", "hint": "My bed is right there though"},
+    {"id": 21, "name": "Disney Adults", "emoji": "🏰", "hint": "It's for kids, you're 35"},
+    {"id": 22, "name": "Sushi Burritos", "emoji": "🌯", "hint": "Pick a lane, food"},
+    {"id": 23, "name": "Subscription Services", "emoji": "📦", "hint": "Monthly fee for everything now"},
+    {"id": 24, "name": "Hot Takes", "emoji": "🔥", "hint": "Controversial for attention"},
+    {"id": 25, "name": "FOMO", "emoji": "😰", "hint": "Fear of missing overrated things"}
+  ]
+}

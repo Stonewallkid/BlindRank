@@ -1,0 +1,33 @@
+{
+  "id": "war-movies",
+  "name": "Best War Movies",
+  "description": "Rank these battle epics!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "Saving Private Ryan", "emoji": "🏖️", "hint": "D-Day beach scene"},
+    {"id": 2, "name": "Apocalypse Now", "emoji": "🚁", "hint": "I love the smell of napalm"},
+    {"id": 3, "name": "Full Metal Jacket", "emoji": "🎖️", "hint": "This is my rifle"},
+    {"id": 4, "name": "Dunkirk", "emoji": "⛵", "hint": "Nolan's ticking clock"},
+    {"id": 5, "name": "1917", "emoji": "🏃", "hint": "One continuous shot feel"},
+    {"id": 6, "name": "Platoon", "emoji": "🌴", "hint": "Vietnam chaos"},
+    {"id": 7, "name": "Schindler's List", "emoji": "📋", "hint": "The list is life"},
+    {"id": 8, "name": "Black Hawk Down", "emoji": "🚁", "hint": "Mogadishu nightmare"},
+    {"id": 9, "name": "The Hurt Locker", "emoji": "💣", "hint": "Bomb squad tension"},
+    {"id": 10, "name": "Hacksaw Ridge", "emoji": "🏥", "hint": "One more Lord"},
+    {"id": 11, "name": "Letters from Iwo Jima", "emoji": "✉️", "hint": "Japanese perspective"},
+    {"id": 12, "name": "Inglourious Basterds", "emoji": "🔥", "hint": "Tarantino Nazi hunters"},
+    {"id": 13, "name": "The Thin Red Line", "emoji": "🌿", "hint": "Philosophical Malick war"},
+    {"id": 14, "name": "We Were Soldiers", "emoji": "🇻🇳", "hint": "Mel Gibson in Vietnam"},
+    {"id": 15, "name": "American Sniper", "emoji": "🎯", "hint": "Chris Kyle story"},
+    {"id": 16, "name": "Fury", "emoji": "🛡️", "hint": "Tank crew WWII"},
+    {"id": 17, "name": "Das Boot", "emoji": "🚢", "hint": "Submarine claustrophobia"},
+    {"id": 18, "name": "The Bridge on the River Kwai", "emoji": "🌉", "hint": "Madness! Madness!"},
+    {"id": 19, "name": "Paths of Glory", "emoji": "⚔️", "hint": "Kubrick WWI tragedy"},
+    {"id": 20, "name": "All Quiet on the Western Front", "emoji": "🦋", "hint": "Butterfly scene"},
+    {"id": 21, "name": "Jarhead", "emoji": "🏜️", "hint": "Desert Storm waiting"},
+    {"id": 22, "name": "The Deer Hunter", "emoji": "🦌", "hint": "Russian roulette"},
+    {"id": 23, "name": "Glory", "emoji": "🏴", "hint": "54th Massachusetts"},
+    {"id": 24, "name": "Lone Survivor", "emoji": "⛰️", "hint": "Operation Red Wings"},
+    {"id": 25, "name": "Dunkirk", "emoji": "🌊", "hint": "Three timelines converge"}
+  ]
+}

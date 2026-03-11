@@ -1,0 +1,33 @@
+{
+  "id": "disturbing-movies",
+  "name": "Most Disturbing Films",
+  "description": "Rank these films that scar you permanently!",
+  "rating": "explicit",
+  "items": [
+    {"id": 1, "name": "Requiem for a Dream", "emoji": "💉", "hint": "Refrigerator scene haunts forever"},
+    {"id": 2, "name": "A Serbian Film", "emoji": "🚫", "hint": "The one people dare you to watch"},
+    {"id": 3, "name": "Human Centipede", "emoji": "🐛", "hint": "German surgeon's vision"},
+    {"id": 4, "name": "Cannibal Holocaust", "emoji": "🎬", "hint": "Director arrested, thought it was real"},
+    {"id": 5, "name": "Martyrs", "emoji": "😱", "hint": "French extremity, the skinning scene"},
+    {"id": 6, "name": "Irreversible", "emoji": "⏪", "hint": "9-minute single take. You know which."},
+    {"id": 7, "name": "The House That Jack Built", "emoji": "🏠", "hint": "Lars von Trier is not okay"},
+    {"id": 8, "name": "Salò", "emoji": "🏛️", "hint": "Pasolini's final, banned masterpiece"},
+    {"id": 9, "name": "Antichrist", "emoji": "🦊", "hint": "Chaos reigns + genital destruction"},
+    {"id": 10, "name": "Audition", "emoji": "🪡", "hint": "Deeper, deeper, deeper..."},
+    {"id": 11, "name": "Hostel", "emoji": "🏨", "hint": "Torture porn tourism"},
+    {"id": 12, "name": "Saw (franchise)", "emoji": "🧩", "hint": "8 movies of creative traps"},
+    {"id": 13, "name": "I Spit on Your Grave", "emoji": "🔪", "hint": "Revenge exploitation classic"},
+    {"id": 14, "name": "The Green Inferno", "emoji": "🌴", "hint": "Eli Roth vs cannibals"},
+    {"id": 15, "name": "Raw", "emoji": "🥩", "hint": "French vegetarian eats her finger"},
+    {"id": 16, "name": "Ichi the Killer", "emoji": "🇯🇵", "hint": "Yakuza extreme violence fest"},
+    {"id": 17, "name": "August Underground", "emoji": "📹", "hint": "Found footage snuff film aesthetic"},
+    {"id": 18, "name": "Men Behind the Sun", "emoji": "☀️", "hint": "Unit 731 war crimes dramatized"},
+    {"id": 19, "name": "Nekromantik", "emoji": "💀", "hint": "German necrophilia film, somehow legal"},
+    {"id": 20, "name": "Terrifier 2", "emoji": "🤡", "hint": "Art the Clown's 2-hour rampage"},
+    {"id": 21, "name": "Tusk", "emoji": "🦭", "hint": "Kevin Smith's body horror phase"},
+    {"id": 22, "name": "Bone Tomahawk", "emoji": "🪓", "hint": "That cave scene... you'll know"},
+    {"id": 23, "name": "Eden Lake", "emoji": "🏕️", "hint": "Vacation ruined by teenagers"},
+    {"id": 24, "name": "Inside (À l'intérieur)", "emoji": "🤰", "hint": "French home invasion pregnancy horror"},
+    {"id": 25, "name": "Megan Is Missing", "emoji": "📱", "hint": "Last 22 minutes destroyed me"}
+  ]
+}

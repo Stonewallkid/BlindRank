@@ -1,0 +1,33 @@
+{
+  "id": "action-oneliners",
+  "name": "Best Action One-Liners",
+  "description": "Rank these legendary movie quotes that live rent-free!",
+  "rating": "mature",
+  "items": [
+    {"id": 1, "name": "I'll be back", "emoji": "🤖", "hint": "Arnold's eternal promise"},
+    {"id": 2, "name": "Yippee-ki-yay, motherf***er", "emoji": "🏢", "hint": "Christmas movie, fight me"},
+    {"id": 3, "name": "Hasta la vista, baby", "emoji": "❄️", "hint": "Freezing then shooting"},
+    {"id": 4, "name": "Say hello to my little friend", "emoji": "🔫", "hint": "Tony Montana goes loud"},
+    {"id": 5, "name": "I'm gonna make him an offer he can't refuse", "emoji": "🐴", "hint": "Horse head delivery service"},
+    {"id": 6, "name": "You talking to me?", "emoji": "🚕", "hint": "Mirror practice gone wrong"},
+    {"id": 7, "name": "Here's Johnny!", "emoji": "🪓", "hint": "Door destruction enthusiasm"},
+    {"id": 8, "name": "Get to the chopper!", "emoji": "🚁", "hint": "Arnold yelling, again"},
+    {"id": 9, "name": "I am Groot", "emoji": "🌳", "hint": "Says everything, literally"},
+    {"id": 10, "name": "Frankly my dear, I don't give a damn", "emoji": "💔", "hint": "OG mic drop"},
+    {"id": 11, "name": "Go ahead, make my day", "emoji": "🔫", "hint": "Clint Eastwood daring you"},
+    {"id": 12, "name": "You can't handle the truth!", "emoji": "⚖️", "hint": "Courtroom explosion"},
+    {"id": 13, "name": "I'll have what she's having", "emoji": "🍽️", "hint": "Diner scene aftermath"},
+    {"id": 14, "name": "Why so serious?", "emoji": "🃏", "hint": "Joker's smile inquiry"},
+    {"id": 15, "name": "I am inevitable / I am Iron Man", "emoji": "🫰", "hint": "Snap battle finale"},
+    {"id": 16, "name": "Do you feel lucky, punk?", "emoji": "🔫", "hint": "Six shots or only five?"},
+    {"id": 17, "name": "English, motherf***er, do you speak it?", "emoji": "📖", "hint": "Pulp Fiction interrogation"},
+    {"id": 18, "name": "Avengers, assemble", "emoji": "🦸", "hint": "10 years of buildup"},
+    {"id": 19, "name": "I'm the king of the world!", "emoji": "🚢", "hint": "Before the iceberg"},
+    {"id": 20, "name": "You shall not pass!", "emoji": "🧙", "hint": "Gandalf draws the line"},
+    {"id": 21, "name": "With great power comes great responsibility", "emoji": "🕷️", "hint": "Uncle Ben's wisdom"},
+    {"id": 22, "name": "I'm too old for this s**t", "emoji": "👴", "hint": "Lethal Weapon exhaustion"},
+    {"id": 23, "name": "Roads? Where we're going we don't need roads", "emoji": "🚗", "hint": "Doc Brown's exit"},
+    {"id": 24, "name": "I drink your milkshake!", "emoji": "🥤", "hint": "There Will Be Blood, unhinged"},
+    {"id": 25, "name": "Bond. James Bond.", "emoji": "🍸", "hint": "Coolest introduction ever"}
+  ]
+}
