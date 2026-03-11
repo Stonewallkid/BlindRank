@@ -3,8 +3,8 @@
 // Then update the config below with your project URL and anon key
 
 const SUPABASE_CONFIG = {
-    url: 'YOUR_SUPABASE_URL',  // e.g., 'https://xxxxx.supabase.co'
-    anonKey: 'YOUR_ANON_KEY'   // Found in Project Settings > API
+    url: 'https://chwlhvlnadgblyovmhxz.supabase.co',
+    anonKey: 'sb_publishable_T3kxoZCVMTk7Dn_AjYFTSQ_AhYJORfu'
 };
 
 // Simple Supabase client (no npm required)
