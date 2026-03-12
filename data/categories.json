@@ -29,6 +29,7 @@
     {"id": "dumbest-movie-characters", "name": "Dumbest Movie Characters", "emoji": "🤦", "rating": "teen", "itemCount": 25},
     {"id": "dumbest-social-media-fails", "name": "Dumbest Social Media Fails", "emoji": "💀", "rating": "teen", "itemCount": 25},
     {"id": "best-anime", "name": "Best Anime Series", "emoji": "🍥", "rating": "teen", "itemCount": 25},
+    {"id": "demon-slayer", "name": "Best Demon Slayer Characters", "emoji": "🗡️", "rating": "teen", "itemCount": 25},
     {"id": "video-game-consoles", "name": "Best Video Game Consoles", "emoji": "🕹️", "rating": "teen", "itemCount": 25},
     {"id": "streaming-services", "name": "Best Streaming Services", "emoji": "🎬", "rating": "teen", "itemCount": 25},
     {"id": "best-apps", "name": "Best Mobile Apps", "emoji": "📲", "rating": "teen", "itemCount": 25},
