@@ -1,0 +1,19 @@
+{
+  "id": "best-sister",
+  "name": "Best Sister",
+  "emoji": "👧",
+  "description": "Who's the best sister of all time?",
+  "rating": "kids",
+  "items": [
+    {"name": "Suri", "emoji": "⭐", "hint": "A truly amazing sister"},
+    {"name": "Aki", "emoji": "🌟", "hint": "One of the greats"},
+    {"name": "Vivian", "emoji": "✨", "hint": "Sister extraordinaire"},
+    {"name": "Juno", "emoji": "💫", "hint": "Top tier sister material"},
+    {"name": "Jane Doe", "emoji": "❓", "hint": "Just some random sister"},
+    {"name": "Jane Doe", "emoji": "❓", "hint": "Another random sister"},
+    {"name": "Jane Doe", "emoji": "❓", "hint": "Yet another one"},
+    {"name": "Jane Doe", "emoji": "❓", "hint": "Who even is this"},
+    {"name": "Jane Doe", "emoji": "❓", "hint": "Nobody special"},
+    {"name": "Jane Doe", "emoji": "❓", "hint": "Just filling space"}
+  ]
+}

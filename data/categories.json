@@ -17,6 +17,7 @@
     {"id": "breakfast-foods", "name": "Best Breakfast Foods", "emoji": "🥞", "rating": "kids", "itemCount": 25},
     {"id": "ocean-animals", "name": "Coolest Ocean Animals", "emoji": "🦈", "rating": "kids", "itemCount": 25},
     {"id": "superheroes", "name": "Best Superheroes", "emoji": "🦸", "rating": "kids", "itemCount": 25},
+    {"id": "best-sister", "name": "Best Sister", "emoji": "👧", "rating": "kids", "itemCount": 10},
 
     {"id": "marvel-movies", "name": "Best Marvel Movies", "emoji": "🦸", "rating": "teen", "itemCount": 25},
     {"id": "video-games", "name": "Greatest Video Games", "emoji": "🎮", "rating": "teen", "itemCount": 25},
