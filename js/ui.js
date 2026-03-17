@@ -11,7 +11,8 @@ class UIManager {
         this.modals = {
             age: document.getElementById('age-modal'),
             settings: document.getElementById('settings-modal'),
-            flag: document.getElementById('flag-modal')
+            flag: document.getElementById('flag-modal'),
+            shop: document.getElementById('shop-modal')
         };
         this.toast = document.getElementById('toast');
         this.toastTimeout = null;
@@ -65,18 +66,20 @@ class UIManager {
         const statsEl = document.getElementById('player-stats');
         if (!statsEl) return;
 
-        const gamesText = `🎮 ${player.gamesPlayed} games played`;
-        const tokensText = player.swapTokens > 0 ? ` | 🎁 ${player.swapTokens} swap token${player.swapTokens > 1 ? 's' : ''}` : '';
-        const nextToken = 20 - (player.gamesPlayed % 20);
-        const nextTokenText = nextToken < 20 ? ` | ${nextToken} to next 🎁` : '';
+        const gamesText = `🎮 ${player.gamesPlayed}`;
+        const tokensText = ` | 🎁 ${player.swapTokens}`;
 
-        // Show Top 15 unlock progress or unlocked status
-        let unlockText = '';
+        // Category unlock progress
+        const unlockedCount = player.allCategoriesUnlocked ? '∞' : (6 + Math.floor(player.gamesPlayed / 5));
+        const unlockText = player.allCategoriesUnlocked ? '' : ` | 🔓 ${unlockedCount} categories`;
+
+        // Top 15 unlock progress
+        let top15Text = '';
         if (player.gamesPlayed < 15) {
-            unlockText = ` | 🔒 ${15 - player.gamesPlayed} to unlock Top 15`;
+            top15Text = ` | ${15 - player.gamesPlayed} to Top 15`;
         }
 
-        statsEl.innerHTML = `<span class="stats-text">${gamesText}${tokensText}${nextTokenText}${unlockText}</span>`;
+        statsEl.innerHTML = `<span class="stats-text">${gamesText}${tokensText}${unlockText}${top15Text}</span>`;
         statsEl.style.display = 'block';
 
         // Show/hide Top 15 button
@@ -89,6 +92,12 @@ class UIManager {
                 top15Btn.style.display = 'none';
             }
         }
+
+        // Update Create tab lock indicator
+        const createTab = document.querySelector('.source-tab[data-source="create"]');
+        if (createTab) {
+            createTab.textContent = player.customCategoriesUnlocked ? '+ Create' : '🔒 Create';
+        }
     }
 
     // Swap Button on Game screen (for swapping current item)
@@ -96,8 +105,14 @@ class UIManager {
         const btn = document.getElementById('swap-item-btn');
         if (!btn) return;
 
-        if (tokens > 0 && poolSize > 0) {
-            btn.textContent = `🎁 Swap for random (${tokens} left)`;
+        if (poolSize > 0) {
+            if (tokens > 0) {
+                btn.textContent = `🎁 Swap for random (${tokens} left)`;
+                btn.className = 'swap-item-btn';
+            } else {
+                btn.textContent = `🎁 Get Swap Tokens`;
+                btn.className = 'swap-item-btn needs-tokens';
+            }
             btn.style.display = 'block';
         } else {
             btn.style.display = 'none';
@@ -114,7 +129,7 @@ class UIManager {
     }
 
     // Category Grid
-    renderCategoryGrid(categories, container, onSelect) {
+    renderCategoryGrid(categories, container, onSelect, unlockedCount = Infinity) {
         container.innerHTML = '';
 
         if (categories.length === 0) {
@@ -127,17 +142,30 @@ class UIManager {
             return;
         }
 
-        categories.forEach((category) => {
+        categories.forEach((category, index) => {
+            const isLocked = index >= unlockedCount;
             const card = document.createElement('div');
-            card.className = 'category-card';
+            card.className = 'category-card' + (isLocked ? ' locked' : '');
             card.dataset.id = category.id;
-            card.innerHTML = `
-                <div class="category-emoji">${category.emoji}</div>
-                <div class="category-title">${category.name}</div>
-                <div class="category-count">${category.itemCount} items</div>
-                <span class="category-rating ${category.rating}">${category.rating}</span>
-            `;
-            card.addEventListener('click', () => onSelect(category));
+
+            if (isLocked) {
+                card.innerHTML = `
+                    <div class="lock-overlay">🔒</div>
+                    <div class="category-emoji">${category.emoji}</div>
+                    <div class="category-title">${category.name}</div>
+                    <div class="category-count">Play to unlock</div>
+                    <span class="category-rating ${category.rating}">${category.rating}</span>
+                `;
+            } else {
+                card.innerHTML = `
+                    <div class="category-emoji">${category.emoji}</div>
+                    <div class="category-title">${category.name}</div>
+                    <div class="category-count">${category.itemCount} items</div>
+                    <span class="category-rating ${category.rating}">${category.rating}</span>
+                `;
+            }
+
+            card.addEventListener('click', () => onSelect(category, index));
             container.appendChild(card);
         });
     }

@@ -33,7 +33,8 @@ const state = {
     player: {
         gamesPlayed: 0,
         swapTokens: 0,
-        unlockedAll: false
+        allCategoriesUnlocked: false,
+        customCategoriesUnlocked: false
     }
 };
 
@@ -49,8 +50,57 @@ function loadPlayerStats() {
     const stats = JSON.parse(localStorage.getItem(STORAGE_KEYS.stats) || '{}');
     state.player.gamesPlayed = stats.gamesPlayed || 0;
     state.player.swapTokens = stats.swapTokens || 0;
-    state.player.unlockedAll = state.player.gamesPlayed >= 15;
+    state.player.allCategoriesUnlocked = stats.allCategoriesUnlocked || false;
+    state.player.customCategoriesUnlocked = stats.customCategoriesUnlocked || false;
 }
+
+// Calculate how many categories are unlocked
+function getUnlockedCategoryCount() {
+    if (state.player.allCategoriesUnlocked) return Infinity;
+    // Start with 6, unlock 1 more every 5 games
+    return 6 + Math.floor(state.player.gamesPlayed / 5);
+}
+
+// Check if a category index is unlocked
+function isCategoryUnlocked(index) {
+    return index < getUnlockedCategoryCount();
+}
+
+// Add swap tokens (from purchase)
+function addSwapTokens(count) {
+    state.player.swapTokens += count;
+    const stats = JSON.parse(localStorage.getItem(STORAGE_KEYS.stats) || '{}');
+    stats.swapTokens = state.player.swapTokens;
+    localStorage.setItem(STORAGE_KEYS.stats, JSON.stringify(stats));
+    ui.updatePlayerStats(state.player);
+    ui.showToast(`🎁 +${count} Swap Tokens added!`);
+}
+
+// Unlock all categories (from purchase)
+function unlockAllCategories() {
+    state.player.allCategoriesUnlocked = true;
+    const stats = JSON.parse(localStorage.getItem(STORAGE_KEYS.stats) || '{}');
+    stats.allCategoriesUnlocked = true;
+    localStorage.setItem(STORAGE_KEYS.stats, JSON.stringify(stats));
+    renderCategories();
+    ui.showToast('🔓 All categories unlocked!');
+}
+
+// Unlock custom categories (from purchase)
+function unlockCustomCategories() {
+    state.player.customCategoriesUnlocked = true;
+    const stats = JSON.parse(localStorage.getItem(STORAGE_KEYS.stats) || '{}');
+    stats.customCategoriesUnlocked = true;
+    localStorage.setItem(STORAGE_KEYS.stats, JSON.stringify(stats));
+    ui.showToast('🎨 Custom categories unlocked!');
+}
+
+// Expose purchase functions globally for Stripe callback
+window.blindrankPurchase = {
+    addSwapTokens,
+    unlockAllCategories,
+    unlockCustomCategories
+};
 
 // Check if GOAT should appear this game (every 5th game)
 function shouldShowGoat() {
@@ -158,6 +208,12 @@ function setupEventListeners() {
     // Source tabs (Official/Community/Create)
     document.querySelectorAll('.source-tab').forEach(tab => {
         tab.addEventListener('click', () => {
+            // Check if Create tab requires unlock
+            if (tab.dataset.source === 'create' && !state.player.customCategoriesUnlocked) {
+                ui.showModal('shop');
+                return;
+            }
+
             state.source = tab.dataset.source;
             ui.setActiveSourceTab(state.source);
 
@@ -279,13 +335,47 @@ function setupEventListeners() {
 
     // Confirm re-rank button
     document.getElementById('confirm-rerank-btn').addEventListener('click', confirmRerank);
+
+    // Shop buttons
+    document.querySelectorAll('.shop-buy-btn').forEach(btn => {
+        btn.addEventListener('click', () => handlePurchase(btn.dataset.product));
+    });
+}
+
+// Handle purchase (placeholder for Stripe integration)
+function handlePurchase(product) {
+    // Check if Stripe is configured
+    if (typeof Stripe === 'undefined' || !window.STRIPE_CONFIG) {
+        // For now, show coming soon message
+        ui.showToast('Payment coming soon! Check back later.');
+        return;
+    }
+
+    // Stripe checkout will be handled here
+    const priceIds = {
+        swaps: window.STRIPE_CONFIG.swapsPriceId,
+        categories: window.STRIPE_CONFIG.categoriesPriceId,
+        create: window.STRIPE_CONFIG.createPriceId
+    };
+
+    // Redirect to Stripe Checkout
+    if (priceIds[product]) {
+        window.location.href = `${window.STRIPE_CONFIG.checkoutUrl}?price=${priceIds[product]}`;
+    }
 }
 
 // Render official categories
 function renderCategories() {
     const filtered = categoryManager.getFilteredCategories(state.settings.rating);
     const container = document.getElementById('category-grid');
-    ui.renderCategoryGrid(filtered, container, (cat) => startGame(cat, false));
+    const unlockedCount = getUnlockedCategoryCount();
+    ui.renderCategoryGrid(filtered, container, (cat, index) => {
+        if (isCategoryUnlocked(index)) {
+            startGame(cat, false);
+        } else {
+            ui.showModal('shop');
+        }
+    }, unlockedCount);
 }
 
 // Load and render community categories
@@ -403,7 +493,7 @@ function handleSlotClick(rank) {
 function swapCurrentItem() {
     // Check if player has tokens and there are items to swap
     if (state.player.swapTokens <= 0) {
-        ui.showToast('No swap tokens! Earn one every 20 games.');
+        ui.showModal('shop');
         return;
     }
     if (state.game.swapPool.length === 0) {
@@ -589,24 +679,31 @@ function saveGameStats(score) {
         stats.highScore = score;
     }
 
-    // Award swap token every 20 games
+    // Award swap token every 50 games
     stats.swapTokens = stats.swapTokens || 0;
-    if (stats.gamesPlayed % 20 === 0) {
+    if (stats.gamesPlayed % 50 === 0) {
         stats.swapTokens += 1;
-        ui.showToast('🎁 You earned a Swap Token! Use it to swap items during re-rank.');
+        ui.showToast('🎁 You earned a Swap Token!');
     }
 
-    // Check for unlock milestone (15 games)
-    if (prevGamesPlayed < 15 && stats.gamesPlayed >= 15) {
-        ui.showToast('🔓 You unlocked 15 bonus categories!');
+    // Check for category unlock milestone (every 5 games)
+    const prevUnlocked = 6 + Math.floor(prevGamesPlayed / 5);
+    const newUnlocked = 6 + Math.floor(stats.gamesPlayed / 5);
+    if (newUnlocked > prevUnlocked && !stats.allCategoriesUnlocked) {
+        ui.showToast('🔓 New category unlocked!');
     }
+
+    // Preserve purchase states
+    stats.allCategoriesUnlocked = stats.allCategoriesUnlocked || false;
+    stats.customCategoriesUnlocked = stats.customCategoriesUnlocked || false;
 
     localStorage.setItem(STORAGE_KEYS.stats, JSON.stringify(stats));
 
     // Update local state
     state.player.gamesPlayed = stats.gamesPlayed;
     state.player.swapTokens = stats.swapTokens;
-    state.player.unlockedAll = stats.gamesPlayed >= 15;
+    state.player.allCategoriesUnlocked = stats.allCategoriesUnlocked;
+    state.player.customCategoriesUnlocked = stats.customCategoriesUnlocked;
 
     // Update UI
     ui.updatePlayerStats(state.player);

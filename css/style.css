@@ -1856,3 +1856,110 @@ button {
         max-width: 120px;
     }
 }
+
+/* ========================= */
+/* Shop Modal                */
+/* ========================= */
+
+.shop-items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.shop-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: var(--bg-card);
+    border-radius: var(--border-radius);
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.shop-item:hover {
+    border-color: var(--accent);
+}
+
+.shop-item-icon {
+    font-size: 2rem;
+    width: 50px;
+    text-align: center;
+}
+
+.shop-item-info {
+    flex: 1;
+}
+
+.shop-item-info h3 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.shop-item-info p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.shop-buy-btn {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #00b894, #00cec9);
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.shop-buy-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 184, 148, 0.4);
+}
+
+.shop-note {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    text-align: center;
+    font-style: italic;
+}
+
+/* Locked Category Cards */
+.category-card.locked {
+    position: relative;
+    opacity: 0.6;
+    filter: grayscale(30%);
+}
+
+.category-card.locked:hover {
+    transform: none;
+    box-shadow: var(--shadow);
+}
+
+.lock-overlay {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.category-card.locked .category-count {
+    color: var(--warning);
+}
+
+/* Swap button variants */
+.swap-item-btn.needs-tokens {
+    background: linear-gradient(135deg, #00b894, #00cec9);
+    animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(0, 184, 148, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(0, 184, 148, 0);
+    }
+}
