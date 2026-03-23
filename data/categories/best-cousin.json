@@ -1,0 +1,19 @@
+{
+  "id": "best-cousin",
+  "name": "Best Cousin",
+  "emoji": "👨‍👩‍👧‍👦",
+  "description": "Who's the best cousin?",
+  "rating": "kids",
+  "items": [
+    {"name": "Sam", "emoji": "⭐", "hint": "A top tier cousin"},
+    {"name": "Max", "emoji": "🌟", "hint": "One of the greats"},
+    {"name": "Max", "emoji": "✨", "hint": "Another legendary Max"},
+    {"name": "Lana", "emoji": "💫", "hint": "Cousin extraordinaire"},
+    {"name": "Leon", "emoji": "🔥", "hint": "Always brings the energy"},
+    {"name": "Carley", "emoji": "💎", "hint": "A real gem"},
+    {"name": "Jasline", "emoji": "🌸", "hint": "Sweet and awesome"},
+    {"name": "Jordan", "emoji": "🏆", "hint": "Champion cousin vibes"},
+    {"name": "Nora", "emoji": "🌈", "hint": "Brightens every gathering"},
+    {"name": "Kyree", "emoji": "👑", "hint": "Royalty status"}
+  ]
+}
