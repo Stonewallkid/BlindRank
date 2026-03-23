@@ -93,11 +93,11 @@ class UIManager {
             }
         }
 
-        // Update Create tab lock indicator
-        const createTab = document.querySelector('.source-tab[data-source="create"]');
-        if (createTab) {
-            createTab.textContent = player.customCategoriesUnlocked ? '+ Create' : '🔒 Create';
-        }
+        // TODO: Re-enable Create tab lock when Stripe is set up
+        // const createTab = document.querySelector('.source-tab[data-source="create"]');
+        // if (createTab) {
+        //     createTab.textContent = player.customCategoriesUnlocked ? '+ Create' : '🔒 Create';
+        // }
     }
 
     // Swap Button on Game screen (for swapping current item)

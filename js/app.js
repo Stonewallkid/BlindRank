@@ -56,9 +56,10 @@ function loadPlayerStats() {
 
 // Calculate how many categories are unlocked
 function getUnlockedCategoryCount() {
-    if (state.player.allCategoriesUnlocked) return Infinity;
-    // Start with 6, unlock 1 more every 5 games
-    return 6 + Math.floor(state.player.gamesPlayed / 5);
+    // TODO: Re-enable locking when Stripe is set up
+    // if (state.player.allCategoriesUnlocked) return Infinity;
+    // return 6 + Math.floor(state.player.gamesPlayed / 5);
+    return Infinity; // All unlocked for now
 }
 
 // Check if a category index is unlocked
@@ -208,11 +209,11 @@ function setupEventListeners() {
     // Source tabs (Official/Community/Create)
     document.querySelectorAll('.source-tab').forEach(tab => {
         tab.addEventListener('click', () => {
-            // Check if Create tab requires unlock
-            if (tab.dataset.source === 'create' && !state.player.customCategoriesUnlocked) {
-                ui.showModal('shop');
-                return;
-            }
+            // TODO: Re-enable Create paywall when Stripe is set up
+            // if (tab.dataset.source === 'create' && !state.player.customCategoriesUnlocked) {
+            //     ui.showModal('shop');
+            //     return;
+            // }
 
             state.source = tab.dataset.source;
             ui.setActiveSourceTab(state.source);
@@ -493,7 +494,9 @@ function handleSlotClick(rank) {
 function swapCurrentItem() {
     // Check if player has tokens and there are items to swap
     if (state.player.swapTokens <= 0) {
-        ui.showModal('shop');
+        // TODO: Re-enable shop prompt when Stripe is set up
+        // ui.showModal('shop');
+        ui.showToast('No swap tokens! Earn one every 50 games.');
         return;
     }
     if (state.game.swapPool.length === 0) {
